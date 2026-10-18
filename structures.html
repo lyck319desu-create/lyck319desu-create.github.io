@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>ショート構成集</title>
+<style>
+body{font-family:-apple-system,"Hiragino Sans",sans-serif;max-width:880px;margin:40px auto;padding:0 16px;line-height:1.7;color:#222;background:#fff}
+h1{font-size:1.5em}h2{font-size:1.15em;margin-top:2em}a{color:#0b57d0}
+.note{font-size:.9em;color:#555}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+select,input,textarea,button{font:inherit;padding:4px 8px}
+.counts{display:flex;flex-wrap:wrap;gap:6px;font-size:.85em}
+.counts span{background:#eef3fd;border-radius:12px;padding:2px 10px}
+.card{border:1px solid #ddd;border-radius:8px;padding:12px 16px;margin:12px 0}
+.card.example{border-style:dashed;color:#555}
+.meta{font-size:.85em;color:#555}
+.steps{display:grid;grid-template-columns:5.5em 1fr;gap:4px 12px;margin-top:8px}
+.steps dt{font-weight:bold}.steps dd{margin:0}
+.tag{display:inline-block;background:#f1f1f1;border-radius:4px;padding:0 6px;margin-right:6px;font-size:.85em}
+form{display:grid;grid-template-columns:8em 1fr;gap:6px 12px;align-items:center}
+form textarea{min-height:2.4em}
+pre{background:#f6f6f6;padding:12px;overflow-x:auto;white-space:pre-wrap;word-break:break-all}
+@media (max-width:560px){form{grid-template-columns:1fr}.steps{grid-template-columns:1fr}.steps dd{margin-bottom:6px}}
+</style>
+</head>
+<body>
+<h1>ショート構成集</h1>
+<p class="note">伸びているショートを「フック → 展開 → オチ → 登録誘導」に分けて、型だけを記録します。台本の文章は写さず、自分の言葉で要約してください。</p>
+
+<div class="filters">
+  <select id="f-genre"><option value="">ジャンル：すべて</option></select>
+  <select id="f-hook"><option value="">フックの型：すべて</option></select>
+  <select id="f-punch"><option value="">オチの型：すべて</option></select>
+  <select id="f-sort">
+    <option value="views">再生数が多い順</option>
+    <option value="posted">投稿日が新しい順</option>
+  </select>
+</div>
+
+<h2>型ごとの件数</h2>
+<div id="counts"></div>
+
+<h2>記録 <span id="total" class="note"></span></h2>
+<div id="list"><p class="note">読み込み中…</p></div>
+
+<h2>記録を追加する</h2>
+<p class="note">入力すると下に JSON が出ます。<code>structures.json</code> の配列の末尾に貼り付けてください（前の項目の後ろにカンマが必要です）。</p>
+<form id="add">
+  <label>動画URL</label><input name="url" type="url">
+  <label>チャンネル名</label><input name="channel">
+  <label>再生数</label><input name="views" type="number" min="0">
+  <label>投稿日</label><input name="posted" type="date">
+  <label>ジャンル</label><input name="genre" list="dl-genre">
+  <label>長さ（秒）</label><input name="length" type="number" min="1" max="180">
+  <label>フックの型</label><input name="hookType" list="dl-hook">
+  <label>フックの要約</label><textarea name="hookSummary"></textarea>
+  <label>展開の型</label><input name="bodyType" list="dl-body">
+  <label>展開の要約</label><textarea name="bodySummary"></textarea>
+  <label>オチの型</label><input name="punchType" list="dl-punch">
+  <label>オチの要約</label><textarea name="punchSummary"></textarea>
+  <label>登録誘導の型</label><input name="ctaType" list="dl-cta">
+  <label>登録誘導の要約</label><textarea name="ctaSummary"></textarea>
+  <label>応用メモ</label><textarea name="memo"></textarea>
+</form>
+<pre id="out"></pre>
+<button type="button" id="copy">JSON をコピー</button>
+
+<datalist id="dl-genre"></datalist>
+<datalist id="dl-hook"></datalist>
+<datalist id="dl-body"></datalist>
+<datalist id="dl-punch"></datalist>
+<datalist id="dl-cta"></datalist>
+
+<script>
+// よく使う型の候補。記録に新しい型が出てきたら自動で候補に加わる
+const PRESETS = {
+  hook: ["結論先出し", "質問", "意外な数字", "否定・常識破り", "ビフォー見せ", "途中から始める"],
+  body: ["リスト型", "ビフォーアフター", "ストーリー", "比較", "検証・実験", "手順"],
+  punch: ["どんでん返し", "ループ", "オチ前で切る", "答え合わせ", "ツッコミ", "感情の山"],
+  cta: ["続き予告", "オチ直後に一言", "冒頭で予告", "コメント誘導", "なし"]
+};
+
+let records = [];
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const uniq = arr => [...new Set(arr.filter(Boolean))];
+
+function fillSelect(el, values) {
+  const first = el.options[0];
+  el.innerHTML = "";
+  el.append(first);
+  values.forEach(v => el.append(new Option(v, v)));
+}
+function fillDatalist(el, values) {
+  el.innerHTML = values.map(v => `<option value="${esc(v)}">`).join("");
+}
+
+function render() {
+  const g = $("f-genre").value, h = $("f-hook").value, p = $("f-punch").value;
+  const rows = records
+    .filter(r => (!g || r.genre === g) && (!h || r.hook?.type === h) && (!p || r.punch?.type === p))
+    .sort((a, b) => $("f-sort").value === "posted"
+      ? String(b.posted).localeCompare(String(a.posted))
+      : (b.views || 0) - (a.views || 0));
+
+  const real = rows.filter(r => !r.example);
+  $("total").textContent = `（${real.length} 件）`;
+
+  const tally = key => {
+    const m = {};
+    real.forEach(r => { const t = r[key]?.type; if (t) m[t] = (m[t] || 0) + 1; });
+    return Object.entries(m).sort((a, b) => b[1] - a[1]);
+  };
+  const labels = { hook: "フック", body: "展開", punch: "オチ", cta: "登録誘導" };
+  $("counts").innerHTML = Object.keys(labels).map(k => {
+    const t = tally(k);
+    return `<p><strong>${labels[k]}</strong></p><div class="counts">${
+      t.length ? t.map(([n, c]) => `<span>${esc(n)} ${c}</span>`).join("") : '<span class="note">まだありません</span>'
+    }</div>`;
+  }).join("");
+
+  $("list").innerHTML = rows.length ? rows.map(r => `
+    <div class="card${r.example ? " example" : ""}">
+      <div><span class="tag">${esc(r.genre)}</span>${
+        r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.channel || r.url)}</a>` : esc(r.channel)
+      }</div>
+      <div class="meta">${(r.views || 0).toLocaleString()} 回再生 ・ ${esc(r.posted)}${r.length ? ` ・ ${esc(r.length)} 秒` : ""}</div>
+      <dl class="steps">
+        ${Object.keys(labels).map(k => `<dt>${labels[k]}</dt><dd><span class="tag">${esc(r[k]?.type)}</span>${esc(r[k]?.summary)}</dd>`).join("")}
+        ${r.memo ? `<dt>応用メモ</dt><dd>${esc(r.memo)}</dd>` : ""}
+      </dl>
+    </div>`).join("") : '<p class="note">条件に合う記録がありません。</p>';
+}
+
+function buildJson() {
+  const f = Object.fromEntries(new FormData($("add")));
+  const rec = {
+    id: "v-" + Date.now().toString(36),
+    url: f.url, channel: f.channel,
+    views: Number(f.views) || 0, posted: f.posted, genre: f.genre,
+    length: Number(f.length) || null,
+    hook: { type: f.hookType, summary: f.hookSummary },
+    body: { type: f.bodyType, summary: f.bodySummary },
+    punch: { type: f.punchType, summary: f.punchSummary },
+    cta: { type: f.ctaType, summary: f.ctaSummary },
+    memo: f.memo
+  };
+  $("out").textContent = JSON.stringify(rec, null, 2);
+}
+
+["f-genre", "f-hook", "f-punch", "f-sort"].forEach(id => $(id).addEventListener("change", render));
+$("add").addEventListener("input", buildJson);
+$("copy").addEventListener("click", () => {
+  navigator.clipboard?.writeText($("out").textContent).then(
+    () => { $("copy").textContent = "コピーしました"; setTimeout(() => $("copy").textContent = "JSON をコピー", 1500); },
+    () => {}
+  );
+});
+
+fetch("structures.json", { cache: "no-store" })
+  .then(r => r.json())
+  .then(data => {
+    records = Array.isArray(data) ? data : [];
+    fillSelect($("f-genre"), uniq(records.map(r => r.genre)));
+    fillSelect($("f-hook"), uniq([...PRESETS.hook, ...records.map(r => r.hook?.type)]));
+    fillSelect($("f-punch"), uniq([...PRESETS.punch, ...records.map(r => r.punch?.type)]));
+    fillDatalist($("dl-genre"), uniq(records.map(r => r.genre)));
+    ["hook", "body", "punch", "cta"].forEach(k =>
+      fillDatalist($("dl-" + k), uniq([...PRESETS[k], ...records.map(r => r[k]?.type)])));
+    render();
+  })
+  .catch(() => { $("list").innerHTML = '<p class="note">structures.json を読み込めませんでした。</p>'; });
+buildJson();
+</script>
+</body>
+</html>
