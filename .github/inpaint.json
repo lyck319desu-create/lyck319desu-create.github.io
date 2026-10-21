@@ -1,0 +1,21 @@
+{
+ "model": "cagliostrolab/animagine-xl-3.1",
+ "image": "analysis/gen/squatLine_s7.png",
+ "mask": "analysis/gen/squatLine_s7_hairmask.png",
+ "variants": [
+  {
+   "id": "hairA",
+   "prompt": "1boy, solo, faceless, blank face, short hair, black hair, spiky hair, white skin, muscular male, monochrome, greyscale, clean lineart, manga, grey background"
+  },
+  {
+   "id": "hairB",
+   "prompt": "1boy, solo, faceless, blank face, very short hair, black hair, crew cut, white skin, muscular male, monochrome, greyscale, clean lineart, manga, grey background"
+  }
+ ],
+ "negative": "eyes, nose, mouth, face, hat, cap, helmet, color, text, watermark, lowres, worst quality, low quality, blurry",
+ "seeds": [
+  3,
+  21,
+  77
+ ]
+}
