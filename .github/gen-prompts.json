@@ -2,25 +2,19 @@
  "model": "cagliostrolab/animagine-xl-3.1",
  "style": "1boy, solo, faceless, faceless male, blank face, bald, white skin, pale skin, topless, shirtless, muscular male, very muscular, abs, pectorals, detailed muscles, tight black shorts, thigh-length shorts, barefoot, red wristband, monochrome, greyscale, red wristband only colored, clean lineart, anime coloring, flat white skin, minimal grey shading, cel shading, manga, simple background, grey background, masterpiece, best quality, very aesthetic, absurdres",
  "negative": "nsfw, lowres, eyes, nose, mouth, ear, profile lines, hair, facial hair, text, watermark, signature, logo, colored skin, tan, detailed background, scenery, gym, floor pattern, shoes, socks, footwear, belt, red belt, red waistband, baggy shorts, long shorts, tank top, shirt, nipples, red outline, red glow, red edges, heavy shading, airbrush, thick outline, extra limbs, bad hands, missing fingers, cropped, worst quality, low quality, blurry, jpeg artifacts, 3d, cg, realistic, gradient shading, floor, cast shadow, shadow on floor, long fingers",
- "rev": 6,
+ "rev": 7,
  "items": [
   {
-   "id": "pushupUp",
-   "pose": "push-up, from front, facing viewer, head up, looking at viewer, arms extended, hands on floor",
+   "id": "pushupHU",
+   "pose": "push-up position, from front, upper body, head raised, face toward viewer, both arms straight, hands flat on floor, shoulders wide",
    "w": 1216,
    "h": 832
   },
   {
-   "id": "standTight",
-   "pose": "standing, hands on hips, facing viewer, front view, cowboy shot, tight black boxer briefs",
-   "w": 832,
-   "h": 1216
-  },
-  {
-   "id": "squatLine",
-   "pose": "squatting, bodyweight squat, from front, arms extended forward, full body",
-   "w": 896,
-   "h": 1152
+   "id": "pushupHU2",
+   "pose": "plank position, front view, looking at viewer, arms straight, chest above floor",
+   "w": 1216,
+   "h": 832
   }
  ]
 }

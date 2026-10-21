@@ -14,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        idx: [0, 1, 2]
+        idx: [0, 1]
         seed: [7, 42, 101, 555]
     steps:
       - uses: actions/checkout@v4
