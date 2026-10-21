@@ -1,0 +1,32 @@
+name: peek-thumbs
+# 分析用：.github/peek-thumbs.txt の動画のサムネを1枚の縮小一覧にして、ログに base64 で出す（リポジトリには保存しない）。
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['.github/peek-thumbs.txt']
+  workflow_dispatch:
+jobs:
+  peek:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q pillow
+      - run: |
+          python3 - <<'PY'
+          import urllib.request, io, base64
+          from PIL import Image
+          ids=[l.strip() for l in open('.github/peek-thumbs.txt') if l.strip() and not l.startswith('#')]
+          ims=[]
+          for v in ids:
+              for q in ['maxresdefault','hqdefault']:
+                  try:
+                      ims.append(Image.open(io.BytesIO(urllib.request.urlopen(f'https://i.ytimg.com/vi/{v}/{q}.jpg').read())).convert('RGB')); break
+                  except Exception: pass
+          W,H=480,270; cols=3; rows=(len(ims)+cols-1)//cols
+          sheet=Image.new('RGB',(W*cols,H*rows),'white')
+          for i,im in enumerate(ims): sheet.paste(im.resize((W,H)),((i%cols)*W,(i//cols)*H))
+          b=io.BytesIO(); sheet.save(b,'JPEG',quality=70); s=base64.b64encode(b.getvalue()).decode()
+          print('B64BEGIN')
+          for i in range(0,len(s),1000): print('B64:'+s[i:i+1000])
+          print('B64END', len(s))
+          PY
