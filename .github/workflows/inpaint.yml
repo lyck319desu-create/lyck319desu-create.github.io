@@ -26,9 +26,9 @@ jobs:
           c = json.load(open('.github/inpaint.json')); v = c['variants'][${{ matrix.v }}]; seed = c['seeds'][${{ matrix.seed }}]
           pipe = StableDiffusionXLInpaintPipeline.from_pretrained(c['model'], torch_dtype=torch.bfloat16, use_safetensors=True)
           torch.set_num_threads(os.cpu_count())
-          img = Image.open(c['image']).convert('RGB'); mask = Image.open(c['mask']).convert('L')
+          img = Image.open(v.get('image', c['image'])).convert('RGB'); mask = Image.open(c['mask']).convert('L')
           lat = pipe(prompt=v['prompt'], negative_prompt=c['negative'], image=img, mask_image=mask, width=img.width, height=img.height,
-                     strength=1.0, num_inference_steps=30, guidance_scale=7, generator=torch.Generator().manual_seed(seed), output_type='latent').images
+                     strength=v.get('strength', 1.0), num_inference_steps=30, guidance_scale=7, generator=torch.Generator().manual_seed(seed), output_type='latent').images
           vae = pipe.vae.to(torch.float32)
           with torch.no_grad(): x = vae.decode(lat.to(torch.float32) / vae.config.scaling_factor).sample
           out = pipe.image_processor.postprocess(x, output_type='pil')[0]
