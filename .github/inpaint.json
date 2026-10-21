@@ -4,18 +4,18 @@
  "mask": "analysis/gen/squatLine_s7_hairmask.png",
  "variants": [
   {
-   "id": "hairA",
-   "prompt": "1boy, solo, faceless, blank face, short hair, black hair, spiky hair, white skin, muscular male, monochrome, greyscale, clean lineart, manga, grey background"
+   "id": "hairC",
+   "prompt": "1boy, solo, faceless, short hair, black hair, spiked hair, hair on top of head, monochrome, greyscale, clean lineart, manga, grey background"
   },
   {
-   "id": "hairB",
-   "prompt": "1boy, solo, faceless, blank face, very short hair, black hair, crew cut, white skin, muscular male, monochrome, greyscale, clean lineart, manga, grey background"
+   "id": "hairD",
+   "prompt": "1boy, solo, faceless, short hair, black hair, undercut, slicked back hair, hair on top of head, monochrome, greyscale, clean lineart, manga, grey background"
   }
  ],
- "negative": "eyes, nose, mouth, face, hat, cap, helmet, color, text, watermark, lowres, worst quality, low quality, blurry",
+ "negative": "bald, eyes, nose, mouth, face, hat, cap, helmet, white hair, grey hair, text, watermark, lowres, worst quality, low quality, blurry",
  "seeds": [
-  3,
-  21,
-  77
+  5,
+  13,
+  58
  ]
 }
