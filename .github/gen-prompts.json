@@ -1,8 +1,8 @@
 {
  "model": "cagliostrolab/animagine-xl-3.1",
- "style": "1boy, solo, faceless, faceless male, blank face, bald, white skin, pale skin, muscular male, very muscular, abs, pectorals, veins, detailed muscles, black compression shorts, red wristband, monochrome, greyscale, spot color, lineart, manga, clean lines, simple background, grey background, full body, masterpiece, best quality, very aesthetic, absurdres",
- "negative": "nsfw, lowres, eyes, nose, mouth, hair, facial hair, text, watermark, signature, logo, colored skin, tan, detailed background, scenery, gym, floor pattern, extra limbs, bad hands, missing fingers, cropped, worst quality, low quality, blurry, jpeg artifacts",
- "rev": 3,
+ "style": "1boy, solo, faceless, faceless male, blank face, bald, white skin, pale skin, muscular male, very muscular, abs, pectorals, veins, detailed muscles, black compression shorts, red wristband, topless, shirtless, monochrome, greyscale, red wristband only colored, lineart, manga, clean lines, simple background, grey background, full body, masterpiece, best quality, very aesthetic, absurdres",
+ "negative": "nsfw, lowres, eyes, nose, mouth, hair, facial hair, text, watermark, signature, logo, colored skin, tan, detailed background, scenery, gym, floor pattern, extra limbs, bad hands, missing fingers, cropped, worst quality, low quality, blurry, jpeg artifacts, tank top, shirt, clothes on torso, nipples, red outline, red glow, red edges, red shoes, red trim, rim light",
+ "rev": 4,
  "items": [
   {
    "id": "pushup",
