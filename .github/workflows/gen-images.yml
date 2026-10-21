@@ -1,0 +1,50 @@
+name: gen-images
+# 見本用：.github/gen-prompts.json の絵を、無料の画像生成モデル（SDXL base 1.0、CreativeML OpenRAIL++）で GitHub の無料ランナーの CPU で描き、analysis/gen/ に置く。
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['.github/gen-prompts.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  gen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      matrix:
+        idx: [0, 1, 2, 3, 4, 5]
+        seed: [11, 42]
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q --index-url https://download.pytorch.org/whl/cpu torch && pip install -q diffusers transformers accelerate safetensors pillow
+      - name: generate
+        run: |
+          python3 - <<'PY'
+          import json, torch, os
+          from diffusers import StableDiffusionXLPipeline
+          cfg = json.load(open('.github/gen-prompts.json')); it = cfg['items'][${{ matrix.idx }}]
+          pipe = StableDiffusionXLPipeline.from_pretrained('stabilityai/stable-diffusion-xl-base-1.0', torch_dtype=torch.bfloat16, variant='fp16', use_safetensors=True)
+          pipe.vae.to(torch.float32); pipe.upcast_vae = True
+          torch.set_num_threads(os.cpu_count())
+          g = torch.Generator().manual_seed(${{ matrix.seed }})
+          im = pipe(prompt=f"{it['pose']}, {cfg['style']}", negative_prompt=cfg['negative'], width=it['w'], height=it['h'],
+                    num_inference_steps=22, guidance_scale=6.5, generator=g).images[0]
+          os.makedirs('out', exist_ok=True); im.save(f"out/{it['id']}_s${{ matrix.seed }}.png")
+          PY
+      - uses: actions/upload-artifact@v4
+        with: { name: 'gen-${{ matrix.idx }}-${{ matrix.seed }}', path: out }
+  commit:
+    needs: gen
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: dl, pattern: 'gen-*', merge-multiple: true }
+      - run: |
+          mkdir -p analysis/gen && cp dl/*.png analysis/gen/ 2>/dev/null || true
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git pull -q --rebase origin "$GITHUB_REF_NAME" || true
+          git add analysis/gen && git commit -m "Generated sample images" && git push origin HEAD:"$GITHUB_REF_NAME" || echo nothing
