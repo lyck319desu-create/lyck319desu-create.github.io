@@ -4,7 +4,7 @@ name: fetch-channel
 on:
   push:
     branches: ['claude/**']
-    paths: ['.github/fetch-targets.txt']
+    paths: ['.github/fetch-targets.txt', '.github/fetch-details.txt']
   workflow_dispatch:
 permissions:
   contents: write
@@ -50,6 +50,24 @@ jobs:
           PY
             mkdir -p thumbs/$handle && mv "$out"/thumbs/* thumbs/$handle/ 2>/dev/null; rm -rf "$out"/thumbs "$out"/*.err
           done < .github/fetch-targets.txt
+      - name: details
+        # .github/fetch-details.txt の動画IDごとに概要欄・チャプター・高評価・自動字幕を保存
+        run: |
+          [ -f .github/fetch-details.txt ] || exit 0
+          while read -r handle vid; do
+            case "$handle" in ""|"#"*) continue;; esac
+            out="analysis/raw/$handle/details"; mkdir -p "$out"
+            yt-dlp --skip-download -J "https://www.youtube.com/watch?v=$vid" > "$out/$vid.full.json" 2> "$out/$vid.err" || true
+            python3 - "$out/$vid.full.json" "$out/$vid.json" <<'PY'
+          import json,sys
+          try: d=json.load(open(sys.argv[1]))
+          except Exception: sys.exit(0)
+          keep={k:d.get(k) for k in ['id','title','description','chapters','duration','view_count','like_count','comment_count','upload_date','tags','categories']}
+          json.dump(keep,open(sys.argv[2],'w'),ensure_ascii=False,indent=1)
+          PY
+            rm -f "$out/$vid.full.json"
+            yt-dlp --skip-download --write-auto-subs --write-subs --sub-langs 'ja.*,ja' --sub-format vtt -o "$out/%(id)s.%(ext)s" "https://www.youtube.com/watch?v=$vid" 2>> "$out/$vid.err" || true
+          done < .github/fetch-details.txt
       - uses: actions/upload-artifact@v4
         with: { name: thumbs, path: thumbs, if-no-files-found: ignore }
       - run: |
