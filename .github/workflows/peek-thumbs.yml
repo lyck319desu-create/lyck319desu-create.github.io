@@ -1,10 +1,12 @@
 name: peek-thumbs
-# 分析用：.github/peek-thumbs.txt の動画のサムネを1枚の縮小一覧にして、ログに base64 で出す（リポジトリには保存しない）。
+# 分析用：.github/peek-thumbs.txt の動画のサムネを1枚の一覧にし、.github/peek.pub で暗号化してブランチに置く（他人の画像を公開リポジトリに平文で載せない）。
 on:
   push:
     branches: ['claude/**']
     paths: ['.github/peek-thumbs.txt']
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   peek:
     runs-on: ubuntu-latest
@@ -25,8 +27,11 @@ jobs:
           W,H=480,270; cols=3; rows=(len(ims)+cols-1)//cols
           sheet=Image.new('RGB',(W*cols,H*rows),'white')
           for i,im in enumerate(ims): sheet.paste(im.resize((W,H)),((i%cols)*W,(i//cols)*H))
-          b=io.BytesIO(); sheet.save(b,'JPEG',quality=70); s=base64.b64encode(b.getvalue()).decode()
-          print('B64BEGIN')
-          for i in range(0,len(s),1000): print('B64:'+s[i:i+1000])
-          print('B64END', len(s))
+          sheet.save('/tmp/sheet.jpg','JPEG',quality=85)
           PY
+          mkdir -p analysis/raw/_peek
+          openssl rand -hex 32 > /tmp/k
+          openssl enc -aes-256-cbc -pbkdf2 -salt -in /tmp/sheet.jpg -out analysis/raw/_peek/sheet.enc -pass file:/tmp/k
+          openssl pkeyutl -encrypt -pubin -inkey .github/peek.pub -in /tmp/k -out analysis/raw/_peek/key.enc
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git add analysis/raw/_peek && git commit -m "Peek thumbnails (encrypted)" && git push
