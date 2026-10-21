@@ -1,0 +1,57 @@
+name: fetch-channel
+# ベンチマーク用：.github/fetch-targets.txt のハンドルごとに公開動画一覧（タイトル・再生数・長さ）と RSS を analysis/raw/ に保存。
+# サムネは公開リポジトリに載せず、Actions の成果物（thumbs）として残す。
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['.github/fetch-targets.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q yt-dlp
+      - name: fetch
+        run: |
+          set -x
+          while read -r handle; do
+            case "$handle" in ""|"#"*) continue;; esac
+            out="analysis/raw/$handle"; mkdir -p "$out/thumbs"
+            case "$handle" in UC*) base="https://www.youtube.com/channel/$handle";; *) base="https://www.youtube.com/@$handle";; esac
+            for tab in videos shorts streams; do
+              yt-dlp --flat-playlist -J "$base/$tab" > "$out/$tab.json" 2> "$out/$tab.err" || true
+            done
+            cid=$(curl -sL "$base" | grep -o '"externalId":"UC[^"]*"' | head -1 | cut -d'"' -f4 || true)
+            echo "cid=$cid"
+            if [ -n "$cid" ]; then
+              curl -sL "https://www.youtube.com/feeds/videos.xml?channel_id=$cid" > "$out/feed.xml" || true
+              yt-dlp --flat-playlist -J "https://www.youtube.com/playlist?list=UU${cid#UC}" > "$out/uploads.json" 2> "$out/uploads.err" || true
+            fi
+            python3 - "$out" <<'PY'
+          import json,sys,os,urllib.request
+          out=sys.argv[1]; rows=[]
+          for tab in ['videos','shorts','streams','uploads']:
+              p=f'{out}/{tab}.json'
+              try: d=json.load(open(p)) or {}
+              except Exception: continue
+              for e in d.get('entries') or []:
+                  if not e: continue
+                  rows.append({'tab':tab,'id':e.get('id'),'title':e.get('title'),'views':e.get('view_count'),'duration':e.get('duration')})
+          json.dump(rows,open(f'{out}/list.json','w'),ensure_ascii=False,indent=1)
+          vids=sorted([r for r in rows if r['tab'] in ('videos','uploads')],key=lambda r:-(r['views'] or 0))
+          for r in vids[:40]:
+              for q in ['maxresdefault','hqdefault']:
+                  try:
+                      urllib.request.urlretrieve(f"https://i.ytimg.com/vi/{r['id']}/{q}.jpg",f"{out}/thumbs/{r['id']}.jpg"); break
+                  except Exception: pass
+          PY
+            mkdir -p thumbs/$handle && mv "$out"/thumbs/* thumbs/$handle/ 2>/dev/null; rm -rf "$out"/thumbs "$out"/*.err
+          done < .github/fetch-targets.txt
+      - uses: actions/upload-artifact@v4
+        with: { name: thumbs, path: thumbs, if-no-files-found: ignore }
+      - run: |
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git add analysis/raw && git commit -m "Fetch benchmark channel data" && git push || echo nothing
