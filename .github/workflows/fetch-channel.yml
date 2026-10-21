@@ -76,7 +76,8 @@ jobs:
           mkdir -p analysis/raw/search
           while IFS=$'\t' read -r name query; do
             case "$name" in ""|"#"*) continue;; esac
-            yt-dlp --flat-playlist -J "ytsearch60:$query" > "analysis/raw/search/$name.full.json" 2> /dev/null < /dev/null || true
+            case "$query" in http*) src="$query";; *) src="ytsearch60:$query";; esac
+            yt-dlp --flat-playlist --playlist-end 80 -J "$src" > "analysis/raw/search/$name.full.json" 2> /dev/null < /dev/null || true
             python3 - "analysis/raw/search/$name.full.json" "analysis/raw/search/$name.json" "$query" <<'PY'
           import json,sys
           try: d=json.load(open(sys.argv[1])) or {}
@@ -86,6 +87,29 @@ jobs:
           PY
             rm -f "analysis/raw/search/$name.full.json"
           done < .github/fetch-search.txt
+          # 検索に出たチャンネルごとに RSS を取り、開設日・直近15本の公開日と再生数を channels.json にまとめる
+          python3 - <<'PY'
+          import json,glob,re,urllib.request,html
+          out='analysis/raw/search/channels.json'
+          try: known=json.load(open(out))
+          except Exception: known={}
+          ids=set()
+          for f in glob.glob('analysis/raw/search/*.json'):
+              if f.endswith('channels.json'): continue
+              for e in (json.load(open(f)).get('entries') or []):
+                  if e.get('channel_id'): ids.add(e['channel_id'])
+          for cid in sorted(ids-set(known)):
+              try: x=urllib.request.urlopen(f'https://www.youtube.com/feeds/videos.xml?channel_id={cid}',timeout=20).read().decode()
+              except Exception: continue
+              head=x.split('<entry>')[0]
+              m=re.search(r'<published>([^<]+)',head); t=re.search(r'<title>([^<]+)',head)
+              vids=[]
+              for ent in x.split('<entry>')[1:]:
+                  g=lambda r:(re.search(r,ent) or [None,None])[1]
+                  vids.append({'id':g(r'<yt:videoId>([^<]+)'),'title':html.unescape(g(r'<title>([^<]+)') or ''),'published':g(r'<published>([^<]+)'),'views':int(g(r'views="(\d+)"') or 0)})
+              known[cid]={'name':html.unescape(t[1]) if t else None,'created':m[1] if m else None,'recent':vids}
+          json.dump(known,open(out,'w'),ensure_ascii=False,indent=1)
+          PY
       - uses: actions/upload-artifact@v4
         with: { name: thumbs, path: thumbs, if-no-files-found: ignore }
       - run: |
