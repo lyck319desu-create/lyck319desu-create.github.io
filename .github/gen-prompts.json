@@ -2,11 +2,42 @@
  "style": "black and white manga illustration, clean bold ink lines, highly detailed muscle linework with hatching, very muscular athletic man, pure white skin, smooth bald egg-shaped white head with a blank featureless face and two narrow slanted black eye slits, black compression shorts, bright red wristbands on both wrists, plain flat medium gray background, full body, centered, high contrast, professional fitness manga",
  "negative": "color skin, tan skin, hair, nose, mouth, realistic photo, 3d render, text, letters, watermark, signature, extra limbs, extra fingers, deformed hands, cropped head, blurry, low quality",
  "items": [
-  {"id": "pushup", "pose": "doing a push-up, side view, body straight, hands on the floor", "w": 1024, "h": 640},
-  {"id": "stand", "pose": "standing facing the viewer, hands on hips, confident pose", "w": 640, "h": 1024},
-  {"id": "squat", "pose": "doing a deep bodyweight squat, side view, arms straight forward", "w": 768, "h": 896},
-  {"id": "plank", "pose": "holding a forearm plank, front three-quarter view, elbows on the floor", "w": 1024, "h": 640},
-  {"id": "flex", "pose": "double biceps flex, facing the viewer, upper body", "w": 768, "h": 896},
-  {"id": "belly", "pose": "standing facing the viewer, pinching belly fat with one hand, slightly chubby belly", "w": 640, "h": 1024}
- ]
+  {
+   "id": "pushup",
+   "pose": "doing a push-up, side view, body straight, hands on the floor",
+   "w": 1024,
+   "h": 640
+  },
+  {
+   "id": "stand",
+   "pose": "standing facing the viewer, hands on hips, confident pose",
+   "w": 640,
+   "h": 1024
+  },
+  {
+   "id": "squat",
+   "pose": "doing a deep bodyweight squat, side view, arms straight forward",
+   "w": 768,
+   "h": 896
+  },
+  {
+   "id": "plank",
+   "pose": "holding a forearm plank, front three-quarter view, elbows on the floor",
+   "w": 1024,
+   "h": 640
+  },
+  {
+   "id": "flex",
+   "pose": "double biceps flex, facing the viewer, upper body",
+   "w": 768,
+   "h": 896
+  },
+  {
+   "id": "belly",
+   "pose": "standing facing the viewer, pinching belly fat with one hand, slightly chubby belly",
+   "w": 640,
+   "h": 1024
+  }
+ ],
+ "rev": 2
 }
