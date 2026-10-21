@@ -4,7 +4,7 @@ name: fetch-channel
 on:
   push:
     branches: ['claude/**']
-    paths: ['.github/fetch-targets.txt', '.github/fetch-details.txt']
+    paths: ['.github/fetch-targets.txt', '.github/fetch-details.txt', '.github/fetch-search.txt']
   workflow_dispatch:
 permissions:
   contents: write
@@ -69,6 +69,23 @@ jobs:
             rm -f "$out/$vid.full.json"
             yt-dlp --skip-download --write-auto-subs --write-subs --sub-langs 'ja.*,ja' --sub-format vtt -o "$out/%(id)s.%(ext)s" "https://www.youtube.com/watch?v=$vid" 2>> "$out/$vid.err" < /dev/null || true
           done < .github/fetch-details.txt
+      - name: search
+        # .github/fetch-search.txt の「名前<TAB>検索語」ごとに YouTube 検索の上位（タイトル・再生数・長さ・チャンネル）を保存
+        run: |
+          [ -f .github/fetch-search.txt ] || exit 0
+          mkdir -p analysis/raw/search
+          while IFS=$'\t' read -r name query; do
+            case "$name" in ""|"#"*) continue;; esac
+            yt-dlp --flat-playlist -J "ytsearch60:$query" > "analysis/raw/search/$name.full.json" 2> /dev/null < /dev/null || true
+            python3 - "analysis/raw/search/$name.full.json" "analysis/raw/search/$name.json" "$query" <<'PY'
+          import json,sys
+          try: d=json.load(open(sys.argv[1])) or {}
+          except Exception: d={}
+          rows=[{k:e.get(k) for k in ['id','title','view_count','duration','channel','channel_id','uploader_id']} for e in d.get('entries') or [] if e]
+          json.dump({'query':sys.argv[3],'entries':rows},open(sys.argv[2],'w'),ensure_ascii=False,indent=1)
+          PY
+            rm -f "analysis/raw/search/$name.full.json"
+          done < .github/fetch-search.txt
       - uses: actions/upload-artifact@v4
         with: { name: thumbs, path: thumbs, if-no-files-found: ignore }
       - run: |
