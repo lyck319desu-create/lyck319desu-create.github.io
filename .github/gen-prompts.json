@@ -1,43 +1,44 @@
 {
- "style": "black and white manga illustration, clean bold ink lines, highly detailed muscle linework with hatching, very muscular athletic man, pure white skin, smooth bald egg-shaped white head with a blank featureless face and two narrow slanted black eye slits, black compression shorts, bright red wristbands on both wrists, plain flat medium gray background, full body, centered, high contrast, professional fitness manga",
- "negative": "color skin, tan skin, hair, nose, mouth, realistic photo, 3d render, text, letters, watermark, signature, extra limbs, extra fingers, deformed hands, cropped head, blurry, low quality",
+ "model": "cagliostrolab/animagine-xl-3.1",
+ "style": "1boy, solo, faceless, faceless male, blank face, bald, white skin, pale skin, muscular male, very muscular, abs, pectorals, veins, detailed muscles, black compression shorts, red wristband, monochrome, greyscale, spot color, lineart, manga, clean lines, simple background, grey background, full body, masterpiece, best quality, very aesthetic, absurdres",
+ "negative": "nsfw, lowres, eyes, nose, mouth, hair, facial hair, text, watermark, signature, logo, colored skin, tan, detailed background, scenery, gym, floor pattern, extra limbs, bad hands, missing fingers, cropped, worst quality, low quality, blurry, jpeg artifacts",
+ "rev": 3,
  "items": [
   {
    "id": "pushup",
-   "pose": "doing a push-up, side view, body straight, hands on the floor",
-   "w": 1024,
-   "h": 640
+   "pose": "push-up, from side, straight body, hands on floor, arms extended",
+   "w": 1216,
+   "h": 832
   },
   {
    "id": "stand",
-   "pose": "standing facing the viewer, hands on hips, confident pose",
-   "w": 640,
-   "h": 1024
+   "pose": "standing, hands on hips, facing viewer, front view",
+   "w": 832,
+   "h": 1216
   },
   {
    "id": "squat",
-   "pose": "doing a deep bodyweight squat, side view, arms straight forward",
-   "w": 768,
-   "h": 896
+   "pose": "squatting, deep squat, from side, arms extended forward",
+   "w": 832,
+   "h": 1216
   },
   {
    "id": "plank",
-   "pose": "holding a forearm plank, front three-quarter view, elbows on the floor",
-   "w": 1024,
-   "h": 640
+   "pose": "forearm plank, elbows on floor, from front, three quarter view",
+   "w": 1216,
+   "h": 832
   },
   {
    "id": "flex",
-   "pose": "double biceps flex, facing the viewer, upper body",
-   "w": 768,
-   "h": 896
+   "pose": "double biceps pose, flexing, facing viewer, upper body",
+   "w": 832,
+   "h": 1216
   },
   {
    "id": "belly",
-   "pose": "standing facing the viewer, pinching belly fat with one hand, slightly chubby belly",
-   "w": 640,
-   "h": 1024
+   "pose": "standing, facing viewer, pinching own belly fat, slightly chubby",
+   "w": 832,
+   "h": 1216
   }
- ],
- "rev": 2
+ ]
 }
