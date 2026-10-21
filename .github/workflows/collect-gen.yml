@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "RUN=$(head -1 .github/collect-run.txt)" >> $GITHUB_ENV
+      - run: echo "RUN=$(head -1 .github/collect-run.txt | cut -d' ' -f1)" >> $GITHUB_ENV
       - uses: actions/download-artifact@v4
         with: { path: dl, pattern: 'gen-*', merge-multiple: true, run-id: '${{ env.RUN }}', github-token: '${{ github.token }}' }
       - run: |
