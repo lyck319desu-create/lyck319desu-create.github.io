@@ -110,6 +110,32 @@ jobs:
               known[cid]={'name':html.unescape(t[1]) if t else None,'created':m[1] if m else None,'recent':vids}
           json.dump(known,open(out,'w'),ensure_ascii=False,indent=1)
           PY
+      - name: thumb-notes
+        # サムネは載せずに、文字（OCR）と主な色と明るさの配置だけを analysis/raw/<handle>/thumbs_notes.json に残す
+        run: |
+          [ -d thumbs ] || exit 0
+          sudo apt-get install -y -qq tesseract-ocr tesseract-ocr-jpn >/dev/null 2>&1 || true
+          pip install -q pillow
+          for d in thumbs/*/; do
+            h=$(basename "$d"); python3 - "$d" "analysis/raw/$h/thumbs_notes.json" <<'PY'
+          import sys,os,json,subprocess
+          from PIL import Image
+          d,out=sys.argv[1],sys.argv[2]; res={}
+          for f in sorted(os.listdir(d)):
+              if not f.endswith('.jpg'): continue
+              im=Image.open(os.path.join(d,f)).convert('RGB'); w,h=im.size
+              def ocr(psm):
+                  try: return subprocess.run(['tesseract',os.path.join(d,f),'-','-l','jpn+eng','--psm',psm],capture_output=True,text=True).stdout.strip()
+                  except Exception: return ''
+              pal=im.resize((160,90)).quantize(6).convert('RGB').getcolors(99999) or []
+              pal=sorted(pal,reverse=True)[:6]; tot=sum(c for c,_ in pal) or 1
+              g=im.resize((4,3)).convert('L')
+              res[f[:-4]]={'size':[w,h],'ocr':ocr('11'),'ocr_block':ocr('3'),
+                'colors':[{'hex':'#%02x%02x%02x'%c,'share':round(n/tot,2)} for n,c in pal],
+                'brightness_4x3':[[g.getpixel((x,y)) for x in range(4)] for y in range(3)]}
+          json.dump(res,open(out,'w'),ensure_ascii=False,indent=1)
+          PY
+          done
       - uses: actions/upload-artifact@v4
         with: { name: thumbs, path: thumbs, if-no-files-found: ignore }
       - run: |
