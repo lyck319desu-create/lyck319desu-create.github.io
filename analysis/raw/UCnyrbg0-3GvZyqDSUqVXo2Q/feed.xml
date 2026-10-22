@@ -1,11 +1,829 @@
-<!DOCTYPE html>
-<html lang=en>
-  <meta charset=utf-8>
-  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
-  <title>Error 404 (Not Found)!!1</title>
-  <style>
-    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
-  </style>
-  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
-  <p><b>404.</b> <ins>That’s an error.</ins>
-  <p>The requested URL <code>/feeds/videos.xml?channel_id=UCnyrbg0-3GvZyqDSUqVXo2Q</code> was not found on this server.  <ins>That’s all we know.</ins>
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCnyrbg0-3GvZyqDSUqVXo2Q"/>
+ <id>yt:channel:nyrbg0-3GvZyqDSUqVXo2Q</id>
+ <yt:channelId>nyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+ <title>Sticko Explains</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q"/>
+ <author>
+  <name>Sticko Explains</name>
+  <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+ </author>
+ <published>2025-05-29T15:14:03+00:00</published>
+ <entry>
+  <id>yt:video:ga8eYrILi_8</id>
+  <yt:videoId>ga8eYrILi_8</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>You Took Their Phone. The Real Problem Stayed.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ga8eYrILi_8"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-10-19T19:15:13+00:00</published>
+  <updated>2026-10-21T13:18:21+00:00</updated>
+  <media:group>
+   <media:title>You Took Their Phone. The Real Problem Stayed.</media:title>
+   <media:content url="https://www.youtube.com/v/ga8eYrILi_8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/ga8eYrILi_8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A phone can be a problem and still be solving one... Taking it away may stop the scrolling without touching what made your teen reach for it. Your teen may have given that phone two hidden jobs, and removing it can leave them alone with the reason they needed it.
+
+This parenting video explores the difference between teen phone addiction and phone use as a coping strategy. You’ll learn how loneliness, rumination, online friendships, and identity can hide underneath screen time—and how to keep healthy phone boundaries while helping with the real problem.
+
+🤓 Understand the patterns in your relationships... and know what to try next with the Sticko app: https://studio.com/sticko
+
+📚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+
+Kardefelt-Winther, D. (2014). A conceptual and methodological critique of internet addiction research: Towards a model of compensatory internet use.
+Computers in Human Behavior, 31, 351–354.
+https://doi.org/10.1016/j.chb.2013.10.059
+
+Arrivillaga, C., Rey, L., &amp; Extremera, N. (2022). Psychological distress, rumination and problematic smartphone use among Spanish adolescents: An emotional intelligence-based conditional process analysis.
+Journal of Affective Disorders, 296, 1–8.
+https://doi.org/10.1016/j.jad.2021.09.021
+
+Fullwood, C., James, B. M., &amp; Chen-Wilson, C. H. (2016). Self-concept clarity and online self-presentation in adolescents.
+Cyberpsychology, Behavior, and Social Networking, 19(12).
+https://doi.org/10.1089/cyber.2015.0623
+
+Teen experiences featured in this video have been anonymized and paraphrased.
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐨𝐧 𝐩𝐚𝐫𝐞𝐧𝐭𝐢𝐧𝐠 𝐭𝐞𝐞𝐧𝐬, 𝐭𝐞𝐞𝐧 𝐩𝐬𝐲𝐜𝐡𝐨𝐥𝐨𝐠𝐲, 𝐚𝐧𝐝 𝐛𝐮𝐢𝐥𝐝𝐢𝐧𝐠 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐚𝐛𝐚𝐧𝐝𝐨𝐧𝐢𝐧𝐠 𝐡𝐞𝐚𝐥𝐭𝐡𝐲 𝐛𝐨𝐮𝐧𝐝𝐚𝐫𝐢𝐞𝐬
+https://www.youtube.com/@StickoExplains?sub_confirmation=1
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy
+
+#ParentingTeens #TeenMentalHealth #PhoneAddiction
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalized guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝗧𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘄𝗮𝘁𝗰𝗵𝗶𝗻𝗴. 𝗠𝗮𝘆 𝘆𝗼𝘂𝗿 𝘁𝗲𝗲𝗻 𝗮𝗹𝘄𝗮𝘆𝘀 𝗵𝗮𝘃𝗲 𝘀𝗼𝗺𝗲𝘄𝗵𝗲𝗿𝗲 𝘀𝗮𝗳𝗲 𝘁𝗼 𝘁𝗮𝗸𝗲 𝘄𝗵𝗮𝘁𝗲𝘃𝗲𝗿 𝘁𝗵𝗲𝘆 𝘄𝗲𝗿𝗲 𝘁𝗿𝘆𝗶𝗻𝗴 𝘁𝗼 𝗲𝘀𝗰𝗮𝗽𝗲.</media:description>
+   <media:community>
+    <media:starRating count="156" average="5.00" min="1" max="5"/>
+    <media:statistics views="7851"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zlxUOFKgEaw</id>
+  <yt:videoId>zlxUOFKgEaw</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>6 Moments That Teach Your Kid Their Choices Don’t Matter</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=zlxUOFKgEaw"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-10-16T16:15:39+00:00</published>
+  <updated>2026-10-20T02:26:59+00:00</updated>
+  <media:group>
+   <media:title>6 Moments That Teach Your Kid Their Choices Don’t Matter</media:title>
+   <media:content url="https://www.youtube.com/v/zlxUOFKgEaw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zlxUOFKgEaw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Your kid may still know exactly what they want... They’ve just learned that saying it out loud can cost too much. These six ordinary moments can teach a child to check everyone else’s face before trusting their own answer.
+
+Over time, those small lessons tell your kid that their choices don’t matter, and quiet people pleasing slowly takes over. This parenting video looks at how it starts at home and how parenting teens with genuine choices helps them find a confident voice that is truly their own.
+
+🤓 Understand the patterns in your relationships... and know what to try next with the Sticko app: https://studio.com/sticko
+
+📚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+Wilson, T. D., &amp; Schooler, J. W. (1991). Thinking too much: Introspection can reduce the quality of preferences and decisions.
+Journal of Personality and Social Psychology, 60(2), 181-192.
+https://doi.org/10.1037/0022-3514.60.2.181
+Ariely, D., &amp; Levav, J. (2000). Sequential choice in group settings: Taking the road less traveled and less enjoyed.
+Journal of Consumer Research, 27(3), 279-290.
+https://doi.org/10.1086/317585
+Van Dijk, M. P. A., Branje, S., Keijsers, L., Hawk, S. T., Hale, W. W., III, &amp; Meeus, W. (2014). Self-concept clarity across adolescence: Longitudinal associations with open communication with parents and internalizing symptoms.
+Journal of Youth and Adolescence, 43, 1861-1876.
+https://doi.org/10.1007/s10964-013-0055-x
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐨𝐧 𝐩𝐚𝐫𝐞𝐧𝐭𝐢𝐧𝐠 𝐩𝐬𝐲𝐜𝐡𝐨𝐥𝐨𝐠𝐲 𝐚𝐧𝐝 𝐫𝐚𝐢𝐬𝐢𝐧𝐠 𝐤𝐢𝐝𝐬 𝐰𝐡𝐨 𝐭𝐫𝐮𝐬𝐭 𝐭𝐡𝐞𝐢𝐫 𝐨𝐰𝐧 𝐜𝐡𝐨𝐢𝐜𝐞𝐬
+https://www.youtube.com/@StickoExplains?sub_confirmation=1
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy 
+
+#Parenting #PeoplePleasing #ChildPsychology
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalised guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝗧𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘄𝗮𝘁𝗰𝗵𝗶𝗻𝗴. 𝗠𝗮𝘆 𝘁𝗵𝗲 𝗽𝗲𝗼𝗽𝗹𝗲 𝘆𝗼𝘂 𝗹𝗼𝘃𝗲 𝗮𝗹𝘄𝗮𝘆𝘀 𝗳𝗲𝗲𝗹 𝘀𝗮𝗳𝗲 𝗲𝗻𝗼𝘂𝗴𝗵 𝘁𝗼 𝘁𝗲𝗹𝗹 𝘆𝗼𝘂 𝘄𝗵𝗮𝘁 𝘁𝗵𝗲𝘆 𝘁𝗿𝘂𝗹𝘆 𝘄𝗮𝗻𝘁.</media:description>
+   <media:community>
+    <media:starRating count="110" average="5.00" min="1" max="5"/>
+    <media:statistics views="7036"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8O_9qJ2bNMY</id>
+  <yt:videoId>8O_9qJ2bNMY</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>7 Sentences Your Kid Will Still Hear at 40</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8O_9qJ2bNMY"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-10-13T16:15:20+00:00</published>
+  <updated>2026-10-18T00:49:45+00:00</updated>
+  <media:group>
+   <media:title>7 Sentences Your Kid Will Still Hear at 40</media:title>
+   <media:content url="https://www.youtube.com/v/8O_9qJ2bNMY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8O_9qJ2bNMY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Some things parents say to kids stay for life. These 7 sentences your kid will still hear at 40 reveal how the words parents say to children deeply shape their inner voice, self-worth, and adult life.
+
+From small, everyday parenting mistakes to simple phrases that build real trust, this video explores why children remember what we tell them long after we forget. Whether you are raising teenagers or looking back on your own childhood, you will find a kinder way to talk to the people you love most.
+
+🤓 Understand the patterns in your relationships... and know what to try next with the Sticko app: https://studio.com/sticko
+
+📚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+Brainerd, C. J., &amp; Reyna, V. F. (2004). Fuzzy-trace theory and memory development.
+Developmental Review.
+https://www.sciencedirect.com/science/article/abs/pii/S0273229704000449
+James, K. M., Sequeira, S. L., Dahl, R. E., Forbes, E. E., Ryan, N. D., Hooley, J., Ladouceur, C. D., &amp; Silk, J. S. (2023). Adolescents’ neural reactivity to parental criticism is associated with diminished happiness during daily interpersonal situations.
+Social Cognitive and Affective Neuroscience, 18(1), nsad020.
+https://doi.org/10.1093/scan/nsad020
+Baumeister, R. F., Bratslavsky, E., Finkenauer, C., &amp; Vohs, K. D. (2001). Bad is stronger than good.
+Review of General Psychology, 5(4), 323–370.
+https://doi.org/10.1037/1089-2680.5.4.323
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐨𝐧 𝐩𝐚𝐫𝐞𝐧𝐭𝐢𝐧𝐠 𝐩𝐬𝐲𝐜𝐡𝐨𝐥𝐨𝐠𝐲, 𝐭𝐡𝐞 𝐰𝐨𝐫𝐝𝐬 𝐩𝐚𝐫𝐞𝐧𝐭𝐬 𝐬𝐚𝐲 𝐭𝐨 𝐤𝐢𝐝𝐬, 𝐚𝐧𝐝 𝐡𝐨𝐰 𝐜𝐡𝐢𝐥𝐝𝐡𝐨𝐨𝐝 𝐦𝐞𝐬𝐬𝐚𝐠𝐞𝐬 𝐬𝐡𝐚𝐩𝐞 𝐰𝐡𝐨 𝐰𝐞 𝐛𝐞𝐜𝐨𝐦𝐞
+https://www.youtube.com/@StickoExplains?sub_confirmation=1
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy 
+
+#Parenting #ParentingMistakes #ChildPsychology
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalised guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝗧𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘄𝗮𝘁𝗰𝗵𝗶𝗻𝗴. 𝗠𝗮𝘆 𝘁𝗵𝗲 𝘄𝗼𝗿𝗱𝘀 𝘆𝗼𝘂 𝘀𝗵𝗮𝗿𝗲 𝘁𝗼𝗱𝗮𝘆 𝗯𝗲𝗰𝗼𝗺𝗲 𝗮 𝗸𝗶𝗻𝗱 𝘃𝗼𝗶𝗰𝗲 𝘀𝗼𝗺𝗲𝗼𝗻𝗲 𝗰𝗮𝗿𝗿𝗶𝗲𝘀 𝘄𝗶𝘁𝗵 𝘁𝗵𝗲𝗺 𝗳𝗼𝗿 𝘆𝗲𝗮𝗿𝘀.</media:description>
+   <media:community>
+    <media:starRating count="140" average="5.00" min="1" max="5"/>
+    <media:statistics views="8043"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:w1VXC-BC1es</id>
+  <yt:videoId>w1VXC-BC1es</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>How to Finally Stop Having the Same Fight</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=w1VXC-BC1es"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-10-12T18:15:22+00:00</published>
+  <updated>2026-10-18T14:30:16+00:00</updated>
+  <media:group>
+   <media:title>How to Finally Stop Having the Same Fight</media:title>
+   <media:content url="https://www.youtube.com/v/w1VXC-BC1es?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/w1VXC-BC1es/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The hardest part of any relationship isn’t what happened, it’s what you think it meant. Meet Sticko, the relationship app that helps you stop overthinking in relationships, ease relationship anxiety and improve communication with simple, practical relationship advice in just a few minutes a day.
+
+You’ve watched Sticko explain relationships from the outside. Now Sticko can help you understand yours, separate what you know from what you’ve assumed, and find one small step to try next.
+
+🤓 Understand the patterns in your relationships... and know what to try next with the Sticko app: https://studio.com/sticko
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐨𝐧 𝐫𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩𝐬, 𝐨𝐯𝐞𝐫𝐭𝐡𝐢𝐧𝐤𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐭𝐡𝐞 𝐩𝐚𝐭𝐭𝐞𝐫𝐧𝐬 𝐭𝐡𝐚𝐭 𝐪𝐮𝐢𝐞𝐭𝐥𝐲 𝐬𝐡𝐚𝐩𝐞 𝐡𝐨𝐰 𝐰𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐩𝐞𝐨𝐩𝐥𝐞 𝐰𝐞 𝐥𝐨𝐯𝐞
+https://www.youtube.com/@StickoExplains?sub_confirmation=1
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy 
+
+#RelationshipAdvice #Overthinking #RelationshipAnxiety
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalised guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐰𝐚𝐭𝐜𝐡𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐦𝐚𝐲 𝐞𝐯𝐞𝐫𝐲 𝐬𝐦𝐚𝐥𝐥 𝐦𝐨𝐦𝐞𝐧𝐭 𝐨𝐟 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝𝐢𝐧𝐠 𝐛𝐫𝐢𝐧𝐠 𝐲𝐨𝐮 𝐜𝐥𝐨𝐬𝐞𝐫 𝐭𝐨 𝐭𝐡𝐞 𝐩𝐞𝐨𝐩𝐥𝐞 𝐲𝐨𝐮 𝐥𝐨𝐯𝐞.</media:description>
+   <media:community>
+    <media:starRating count="34" average="5.00" min="1" max="5"/>
+    <media:statistics views="2036"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:lAeTOaZLQnI</id>
+  <yt:videoId>lAeTOaZLQnI</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>STICKO MADE AN APP?! 🤓❤️ #Shorts</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/lAeTOaZLQnI"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-10-09T19:42:13+00:00</published>
+  <updated>2026-10-18T14:26:13+00:00</updated>
+  <media:group>
+   <media:title>STICKO MADE AN APP?! 🤓❤️ #Shorts</media:title>
+   <media:content url="https://www.youtube.com/v/lAeTOaZLQnI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/lAeTOaZLQnI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>STICKO MADE AN APP... WHO APPROVED THIS?! 😂🤓
+
+You've watched Sticko explain relationships. Now let Sticko help you understand yours. ❤️
+
+Whether it's your child, parent, partner or someone else who matters, the Sticko app helps you spot patterns you might be missing and discover one small thing you can try next.
+
+🚀 The Sticko app is officially LIVE!
+
+🎁 LAUNCH OFFER: 20% OFF until October 16, 2026!
+
+👉 https://studio.com/sticko
+
+#StickoExplains #Shorts #RelationshipPsychology #Parenting</media:description>
+   <media:community>
+    <media:starRating count="261" average="5.00" min="1" max="5"/>
+    <media:statistics views="5587"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7mzUOebYP2A</id>
+  <yt:videoId>7mzUOebYP2A</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>You Swore You’d NEVER Become Your Parents</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7mzUOebYP2A"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-10-09T16:15:26+00:00</published>
+  <updated>2026-10-13T02:49:49+00:00</updated>
+  <media:group>
+   <media:title>You Swore You’d NEVER Become Your Parents</media:title>
+   <media:content url="https://www.youtube.com/v/7mzUOebYP2A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7mzUOebYP2A/hqdefault.jpg" width="480" height="360"/>
+   <media:description>You swore you’d never parent like them. Then one spilled drink made their voice come out of your mouth. Here’s why old parenting patterns take over before you can think... And what actually helps break them.
+
+These parenting patterns can continue across generations through generational trauma, inherited parenting habits, and childhood experiences that shape how you raise your children. Discover how to break the cycle and build a healthier parent-child relationship.
+
+🤓 Understand the patterns in your relationships... and know what to try next with the Sticko app: https://studio.com/sticko
+
+📚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+1. Arnsten, A. F. T. (2015)
+   Nature Neuroscience, 18(10), 1376–1385.
+   https://pubmed.ncbi.nlm.nih.gov/26404712/
+
+2. Arnsten, Raskind, Taylor &amp; Connor (2015)
+   https://www.sciencedirect.com/science/article/pii/S2352289514000101
+
+3. Neppl, Conger, Scaramella &amp; Ontai (2009)
+   Developmental Psychology, 45(5).
+   https://pubmed.ncbi.nlm.nih.gov/19702389/
+
+4. Conger, Schofield, Neppl &amp; Merrick (2013)
+   Journal of Adolescent Health.
+   https://pubmed.ncbi.nlm.nih.gov/24059934/
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐨𝐧 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐭𝐫𝐚𝐮𝐦𝐚, 𝐩𝐚𝐫𝐞𝐧𝐭𝐢𝐧𝐠 𝐩𝐚𝐭𝐭𝐞𝐫𝐧𝐬, 𝐚𝐧𝐝 𝐡𝐨𝐰 𝐜𝐡𝐢𝐥𝐝𝐡𝐨𝐨𝐝 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞𝐬 𝐬𝐡𝐚𝐩𝐞 𝐭𝐡𝐞 𝐧𝐞𝐱𝐭 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐨𝐧
+https://www.youtube.com/@StickoExplains?sub_confirmation=1
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy 
+
+#GenerationalTrauma #Parenting #ChildhoodTrauma
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalised guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝗧𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘄𝗮𝘁𝗰𝗵𝗶𝗻𝗴. 𝗠𝗮𝘆 𝘁𝗵𝗲𝘀𝗲 𝗿𝗲𝗳𝗹𝗲𝗰𝘁𝗶𝗼𝗻𝘀 𝗯𝗿𝗶𝗻𝗴 𝗴𝗿𝗲𝗮𝘁𝗲𝗿 𝘂𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗲𝘃𝗲𝗿𝘆𝗱𝗮𝘆 𝗹𝗶𝗳𝗲.</media:description>
+   <media:community>
+    <media:starRating count="101" average="5.00" min="1" max="5"/>
+    <media:statistics views="6756"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:V919jeh7mSA</id>
+  <yt:videoId>V919jeh7mSA</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>6 Things One of Your Kids Notices That You DON’T</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=V919jeh7mSA"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-10-07T20:00:20+00:00</published>
+  <updated>2026-10-12T03:35:04+00:00</updated>
+  <media:group>
+   <media:title>6 Things One of Your Kids Notices That You DON’T</media:title>
+   <media:content url="https://www.youtube.com/v/V919jeh7mSA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/V919jeh7mSA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>One of your kids may be asking for less -- but that doesn’t mean they need you less. Here’s what they’ve been quietly counting, why they eventually stop asking, and how to move the number...
+
+This video looks at parental favoritism, sibling favoritism, and unequal treatment, and why a younger child may feel overlooked, less important, or less wanted within the family.
+
+🤓 Understand the patterns in your relationships... and know what to try next with the Sticko app: https://studio.com/sticko
+
+📚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+1. Jensen, A. C., &amp; Whiteman, S. D. (2017)
+   Journal of Adolescence
+   300+ families, two adolescents each.
+   https://pubmed.ncbi.nlm.nih.gov/31280428/
+2. Jensen, A. C., &amp; Jorgensen-Wells, M. A. (2025)
+   Psychological Bulletin
+   30 studies, ~19,500 participants.
+   https://www.apa.org/pubs/journals/releases/bul-bul0000458.pdf
+3. Kowal, A., &amp; Kramer, L. (1997)
+   Child Development
+   61 children aged 11–13, interviewed separately from siblings.
+   https://www.jstor.org/stable/1131929?origin=crossref
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐨𝐧 𝐩𝐚𝐫𝐞𝐧𝐭𝐢𝐧𝐠, 𝐬𝐢𝐛𝐥𝐢𝐧𝐠 𝐫𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩𝐬, 𝐚𝐧𝐝 𝐜𝐡𝐢𝐥𝐝 𝐛𝐞𝐡𝐚𝐯𝐢𝐨𝐫.
+https://www.youtube.com/@StickoExplains?sub_confirmation=1
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy 
+
+#SiblingRelationships #SiblingFavoritism #Parenting
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalised guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝗧𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘄𝗮𝘁𝗰𝗵𝗶𝗻𝗴. 𝗪𝗲 𝗵𝗼𝗽𝗲 𝘁𝗵𝗶𝘀 𝗴𝗶𝘃𝗲𝘀 𝘆𝗼𝘂 𝘀𝗼𝗺𝗲𝘁𝗵𝗶𝗻𝗴 𝗺𝗲𝗮𝗻𝗶𝗻𝗴𝗳𝘂𝗹 𝘁𝗼 𝗿𝗲𝗳𝗹𝗲𝗰𝘁 𝗼𝗻 𝗶𝗻 𝗲𝘃𝗲𝗿𝘆𝗱𝗮𝘆 𝗹𝗶𝗳𝗲.</media:description>
+   <media:community>
+    <media:starRating count="122" average="5.00" min="1" max="5"/>
+    <media:statistics views="8622"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:FJ-BuB2Sq5A</id>
+  <yt:videoId>FJ-BuB2Sq5A</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>What Your Teen DOESN'T Say When They Defend You</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FJ-BuB2Sq5A"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-10-06T16:15:39+00:00</published>
+  <updated>2026-10-10T06:56:27+00:00</updated>
+  <media:group>
+   <media:title>What Your Teen DOESN'T Say When They Defend You</media:title>
+   <media:content url="https://www.youtube.com/v/FJ-BuB2Sq5A?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FJ-BuB2Sq5A/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Your teen may defend you when you’re not there—but what they go quiet about can reveal even more. Teen parenting and parenting teenagers can reveal a lot about the teen parent relationship, teen communication, and teenage behavior. What your teen defends about you, and what they don’t, can shape the parent teen relationship and teen loyalty.
+
+🤓 Understand the patterns in your relationships... and know what to try next with the Sticko app: https://studio.com/sticko
+
+📚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+1. Rimé, B. (2007)
+The Social Sharing of Emotion as an Interface Between Individual and Collective Processes in the Construction of Emotional Climates
+Journal of Social Issues, 63(2), 307-322
+https://www.ehu.eus/documents/1463215/1504269/Rime_%282007%29_Journal_of_Social_Issues.pdf
+
+2. Muzi, S., et al. (2026)
+Twenty Years of Attachment Research With the Friends and Family Interview: A Systematic Review and Meta-Analysis
+Clinical Psychology &amp; Psychotherapy
+https://onlinelibrary.wiley.com/doi/10.1002/cpp.70203
+
+3. Ducommun-Nagy, C. (2012)
+Understanding Family Loyalty through the Work of Ivan Boszormenyi-Nagy
+Enfances &amp; Psy, 56, 15-25
+https://shs.cairn.info/journal-enfances-et-psy-2012-3-page-15?lang=en
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐨𝐧 𝐭𝐞𝐞𝐧 𝐩𝐚𝐫𝐞𝐧𝐭𝐢𝐧𝐠, 𝐩𝐚𝐫𝐞𝐧𝐭-𝐭𝐞𝐞𝐧 𝐫𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩𝐬, 𝐭𝐞𝐞𝐧 𝐥𝐨𝐲𝐚𝐥𝐭𝐲, 𝐚𝐧𝐝 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝𝐢𝐧𝐠 𝐭𝐞𝐞𝐧𝐚𝐠𝐞 𝐛𝐞𝐡𝐚𝐯𝐢𝐨𝐫.
+https://www.youtube.com/@StickoExplains?sub_confirmation=1
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy 
+
+#TeenParenting #TeenCommunication #ParentTeenRelationship
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalised guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐰𝐚𝐭𝐜𝐡𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐰𝐞 𝐡𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐥𝐞𝐚𝐯𝐞𝐬 𝐲𝐨𝐮 𝐰𝐢𝐭𝐡 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐫𝐞𝐟𝐥𝐞𝐜𝐭 𝐨𝐧 𝐢𝐧 𝐞𝐯𝐞𝐫𝐲𝐝𝐚𝐲 𝐥𝐢𝐟𝐞.</media:description>
+   <media:community>
+    <media:starRating count="107" average="5.00" min="1" max="5"/>
+    <media:statistics views="6838"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:BXUw0_EwjKY</id>
+  <yt:videoId>BXUw0_EwjKY</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>10 Things Your Teen EDITS Out Before Talking to You</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=BXUw0_EwjKY"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-10-03T14:45:25+00:00</published>
+  <updated>2026-10-07T15:17:45+00:00</updated>
+  <media:group>
+   <media:title>10 Things Your Teen EDITS Out Before Talking to You</media:title>
+   <media:content url="https://www.youtube.com/v/BXUw0_EwjKY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/BXUw0_EwjKY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Your teen may still talk to you every day while quietly leaving out the things that matter most. Here are 10 things teens stop telling their parents and why they may stop sharing.
+
+Teen parenting can become difficult when teens stop talking to parents, making teenage communication and parent-child communication harder. This video looks at why teenagers stop sharing the small things that matter, while focusing on trust and keeping communication open.
+
+🤓 Understand the patterns in your relationships... and know what to try next with the Sticko app: https://studio.com/sticko
+
+📚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+1. De Los Reyes, A., Ohannessian, C. M., &amp; Racz, S. J. (2019)
+Discrepancies Between Adolescent and Parent Reports About Family Relationships
+Child Development Perspectives | Oxford Academic
+https://academic.oup.com/cdpers/article/13/1/53/8231481
+
+2. Kashdan, T. B., et al. (2013)
+Failure to Capitalize on Sharing Good News With Romantic Partners
+PMC | Reviews capitalization research and active-constructive responding
+https://pmc.ncbi.nlm.nih.gov/articles/PMC3776926/
+
+3. Slepian, M. L. (2024)
+The New Psychology of Secrecy
+Current Directions in Psychological Science | SAGE Journals
+https://journals.sagepub.com/doi/10.1177/09637214241226676
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐨𝐧 𝐭𝐞𝐞𝐧 𝐜𝐨𝐦𝐦𝐮𝐧𝐢𝐜𝐚𝐭𝐢𝐨𝐧, 𝐩𝐚𝐫𝐞𝐧𝐭𝐢𝐧𝐠 𝐭𝐞𝐞𝐧𝐚𝐠𝐞𝐫𝐬, 𝐭𝐞𝐞𝐧 𝐭𝐫𝐮𝐬𝐭, 𝐚𝐧𝐝 𝐩𝐚𝐫𝐞𝐧𝐭-𝐜𝐡𝐢𝐥𝐝 𝐫𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩𝐬.
+https://www.youtube.com/@StickoExplains?sub_confirmation=1
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy 
+
+#Teenagers #TeenParenting #ParentChildRelationship
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalised guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐰𝐚𝐭𝐜𝐡𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐰𝐞 𝐡𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐢𝐯𝐞𝐬 𝐲𝐨𝐮 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐫𝐞𝐟𝐥𝐞𝐜𝐭 𝐨𝐧 𝐚𝐧𝐝 𝐜𝐚𝐫𝐫𝐲 𝐰𝐢𝐭𝐡 𝐲𝐨𝐮 𝐢𝐧 𝐞𝐯𝐞𝐫𝐲𝐝𝐚𝐲 𝐥𝐢𝐟𝐞.</media:description>
+   <media:community>
+    <media:starRating count="133" average="5.00" min="1" max="5"/>
+    <media:statistics views="5759"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hluHNhdrWn4</id>
+  <yt:videoId>hluHNhdrWn4</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>This Is How Your Kid Replaces You WITHOUT Pulling Away</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hluHNhdrWn4"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-09-26T14:00:38+00:00</published>
+  <updated>2026-10-07T15:39:21+00:00</updated>
+  <media:group>
+   <media:title>This Is How Your Kid Replaces You WITHOUT Pulling Away</media:title>
+   <media:content url="https://www.youtube.com/v/hluHNhdrWn4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/hluHNhdrWn4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Your child has quietly ranked every adult they know...Where you sit on that list decides whether you hear about the real problem or the decision they already made without you.
+
+Why teens stop trusting their parents often comes down to communication, trust, and how parents respond when they don’t know the answer. Learn how teen trust, parent-child relationships, and teenage independence shape who teens turn to for advice.
+
+🤓 Understand the patterns in your relationships... and know what to try next with the Sticko app: https://studio.com/sticko
+
+📚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+1. Kushnir, Sobel &amp; Sabbagh
+Trust Comes When You Admit What You Don’t Know
+Queen's University Gazette
+https://www.queensu.ca/gazette/stories/trust-comes-when-you-admit-what-you-don-t-know-lessons-child-development-research
+
+2. Lutz &amp; Keil (2002)
+Early Understanding of the Division of Cognitive Labor
+Child Development | PubMed
+https://pubmed.ncbi.nlm.nih.gov/12146734/
+
+3. Frazier, Gelman &amp; Wellman (2009)
+Preschoolers' Search for Explanatory Information Within Adult–Child Conversation
+Child Development | PubMed
+https://pubmed.ncbi.nlm.nih.gov/19930340/
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐨𝐧 𝐩𝐚𝐫𝐞𝐧𝐭𝐢𝐧𝐠, 𝐭𝐞𝐞𝐧 𝐭𝐫𝐮𝐬𝐭, 𝐜𝐡𝐢𝐥𝐝 𝐛𝐞𝐡𝐚𝐯𝐢𝐨𝐫, 𝐚𝐧𝐝 𝐩𝐚𝐫𝐞𝐧𝐭-𝐜𝐡𝐢𝐥𝐝 𝐫𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩𝐬.
+https://www.youtube.com/@StickoExplains?sub_confirmation=1
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy 
+
+#Parenting #Teenagers #parentchildrelationship 
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalised guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐰𝐚𝐭𝐜𝐡𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐰𝐞 𝐡𝐨𝐩𝐞 𝐭𝐡𝐢𝐬 𝐠𝐢𝐯𝐞𝐬 𝐲𝐨𝐮 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐫𝐞𝐟𝐥𝐞𝐜𝐭 𝐨𝐧 𝐚𝐧𝐝 𝐜𝐚𝐫𝐫𝐲 𝐰𝐢𝐭𝐡 𝐲𝐨𝐮 𝐢𝐧 𝐞𝐯𝐞𝐫𝐲𝐝𝐚𝐲 𝐥𝐢𝐟𝐞.</media:description>
+   <media:community>
+    <media:starRating count="120" average="5.00" min="1" max="5"/>
+    <media:statistics views="5966"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_gvO1egXc2M</id>
+  <yt:videoId>_gvO1egXc2M</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>The 4 Seconds That Decide If Your Kid Ever Tells You Something That Matters Again</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_gvO1egXc2M"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-09-25T16:15:13+00:00</published>
+  <updated>2026-10-06T16:46:58+00:00</updated>
+  <media:group>
+   <media:title>The 4 Seconds That Decide If Your Kid Ever Tells You Something That Matters Again</media:title>
+   <media:content url="https://www.youtube.com/v/_gvO1egXc2M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_gvO1egXc2M/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A bad grade can disappear into a backpack. Your reaction can stay with your child for years.
+Here’s how one unfinished mistake can decide whether they tell you about the next one.
+
+Why your kid starts hiding mistakes from you may come down to fear of disappointing parents. This video looks at how kids handle failure, why children hide bad grades, and how parent child communication can build trust and make it easier to talk about mistakes and setbacks.
+
+🤓 Understand the patterns in your relationships... and know what to try next with the Sticko app: https://studio.com/sticko
+
+📚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+1. Meyer, A., Proudfit, G. H., Bufferd, S. J., Kujawa, A. J., Kessel, E. M., Carlson, G. A., &amp; Klein, D. N. (2015). Self-Reported and Observed Punitive Parenting Prospectively Predicts Increased Error-Related Brain Activity in Six-Year-Old Children. Research on Child and Adolescent Psychopathology.
+[Research source](https://pmc.ncbi.nlm.nih.gov/articles/PMC5302091/?utm_source=chatgpt.com)
+
+2. Masicampo, E. J., &amp; Baumeister, R. F. (2011). Consider It Done! Plan Making Can Eliminate the Cognitive Effects of Unfulfilled Goals. Journal of Personality and Social Psychology, 101, 667–683.
+[Research source](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fa0024192&amp;utm_source=chatgpt.com)
+
+3. Whiteman, R. C., &amp; Mangels, J. A. (2016). Rumination and Rebound from Failure as a Function of Gender and Time on Task. Brain Sciences, 6(1), 7.
+[Research source](https://www.mdpi.com/2076-3425/6/1/7?utm_source=chatgpt.com)
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐨𝐧 𝐩𝐚𝐫𝐞𝐧𝐭𝐢𝐧𝐠, 𝐜𝐡𝐢𝐥𝐝 𝐛𝐞𝐡𝐚𝐯𝐢𝐨𝐫, 𝐚𝐧𝐝 𝐡𝐨𝐰 𝐤𝐢𝐝𝐬 𝐡𝐚𝐧𝐝𝐥𝐞 𝐟𝐚𝐢𝐥𝐮𝐫𝐞.
+https://www.youtube.com/@StickoExplains?sub_confirmation=1
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy 
+
+#parenting #childbehavior #emotionaldevelopment 
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalised guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐰𝐚𝐭𝐜𝐡𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐡𝐞𝐫𝐞’𝐬 𝐭𝐨 𝐟𝐢𝐧𝐝𝐢𝐧𝐠 𝐦𝐨𝐫𝐞 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝𝐢𝐧𝐠 𝐢𝐧 𝐭𝐡𝐞 𝐪𝐮𝐢𝐞𝐭 𝐦𝐨𝐦𝐞𝐧𝐭𝐬 𝐨𝐟 𝐞𝐯𝐞𝐫𝐲𝐝𝐚𝐲 𝐥𝐢𝐟𝐞.</media:description>
+   <media:community>
+    <media:starRating count="86" average="5.00" min="1" max="5"/>
+    <media:statistics views="5830"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:L-8CtapkYcs</id>
+  <yt:videoId>L-8CtapkYcs</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>This Is How Kids Lose The Words For What They Feel</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=L-8CtapkYcs"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-09-16T16:30:04+00:00</published>
+  <updated>2026-10-06T16:45:08+00:00</updated>
+  <media:group>
+   <media:title>This Is How Kids Lose The Words For What They Feel</media:title>
+   <media:content url="https://www.youtube.com/v/L-8CtapkYcs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/L-8CtapkYcs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Your kid says “I’m fine” before you’ve even finished the question. But what if they learned that answer long before they ever started using it on you? Here’s what happens when “fine” stops being an answer and becomes something else.
+
+Your kid says “I’m fine,” but what does it really mean? This video explores child behavior, parenting, kids’ emotions, and emotional development, and why “I’m fine” can become a reflex before they eventually mean it.
+
+🤓 Understand the patterns in your relationships... and know what to try next with the Sticko app: https://studio.com/sticko
+
+📚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+1. Gunzenhauser, C., Fäsche, A., Friedlmeier, W., &amp; von Suchodoletz, A. (2014). Face it or hide it: Parental socialization of reappraisal and response suppression. Frontiers in Psychology, 4, 992.
+https://doi.org/10.3389/fpsyg.2013.00992
+
+2. Butler, E. A., Egloff, B., Wilhelm, F. H., Smith, N. C., Erickson, E. A., &amp; Gross, J. J. (2003). The social consequences of expressive suppression. Emotion, 3(1), 48–67.
+https://doi.org/10.1037/1528-3542.3.1.48
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐨𝐧 𝐩𝐚𝐫𝐞𝐧𝐭𝐢𝐧𝐠, 𝐜𝐡𝐢𝐥𝐝 𝐛𝐞𝐡𝐚𝐯𝐢𝐨𝐫, 𝐚𝐧𝐝 𝐞𝐦𝐨𝐭𝐢𝐨𝐧𝐬.
+https://www.youtube.com/@StickoExplains?sub_confirmation=1
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy 
+
+#parenting #childbehavior #emotionaldevelopment
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalised guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐰𝐚𝐭𝐜𝐡𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐡𝐞𝐫𝐞’𝐬 𝐭𝐨 𝐟𝐢𝐧𝐝𝐢𝐧𝐠 𝐦𝐨𝐫𝐞 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝𝐢𝐧𝐠 𝐢𝐧 𝐭𝐡𝐞 𝐪𝐮𝐢𝐞𝐭 𝐦𝐨𝐦𝐞𝐧𝐭𝐬 𝐭𝐡𝐚𝐭 𝐬𝐡𝐚𝐩𝐞 𝐨𝐮𝐫 𝐥𝐢𝐯𝐞𝐬.</media:description>
+   <media:community>
+    <media:starRating count="145" average="5.00" min="1" max="5"/>
+    <media:statistics views="9743"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:UIQ-crQg33w</id>
+  <yt:videoId>UIQ-crQg33w</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>Why Your Kid Says Sorry Before They’ve Even Finished Crying</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=UIQ-crQg33w"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-09-14T17:45:04+00:00</published>
+  <updated>2026-10-06T16:41:39+00:00</updated>
+  <media:group>
+   <media:title>Why Your Kid Says Sorry Before They’ve Even Finished Crying</media:title>
+   <media:content url="https://www.youtube.com/v/UIQ-crQg33w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/UIQ-crQg33w/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Your kid is still crying when the apology arrives. Why does your kid say sorry before they’ve even finished crying? The word “sorry” may reveal how they manage emotions at home.
+
+The snapped pencil isn’t the story. The apology is. Kids notice which feelings get a hug, which ones make the room uncomfortable, and which ones get quickly brushed aside. Then they adjust.
+
+Fear can arrive looking bored. Sadness can borrow anger’s clothes. Even happiness can learn to keep the volume down.
+
+This video explains how your child learns the emotional language of your home and how your four-second response can quietly teach them a new one.
+
+Because sometimes the most important thing you can say is: “You don’t have to apologize for that.”
+
+Then nothing at all.
+
+Subscribe to Sticko Explains for more videos about the things kids struggle to say out loud.
+
+🤓 Understand the patterns in your relationships... and know what to try next with the Sticko app: https://studio.com/sticko
+
+📚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+1. Zeman, J., &amp; Garber, J. (1996). Display Rules for Anger, Sadness, and Pain: It Depends on Who Is Watching.
+https://eric.ed.gov/?id=EJ528221
+
+2. Saarni, C. (1999). The Development of Emotional Competence.
+https://books.google.com/books/about/The_Development_of_Emotional_Competence.html?id=nHRqbmVgQK4C
+
+3. O’Neal, C. R., &amp; Magai, C. (2005). Do Parents Respond in Different Ways When Children Feel Different Emotions? The Emotional Context of Parenting.
+https://doi.org/10.1017/S0954579405050224
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐚𝐧𝐝 𝐡𝐢𝐭 𝐭𝐡𝐞 𝐛𝐞𝐥𝐥 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐨𝐧 𝐭𝐞𝐞𝐧 𝐛𝐞𝐡𝐚𝐯𝐢𝐨𝐫, 𝐩𝐚𝐫𝐞𝐧𝐭𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐰𝐡𝐚𝐭 𝐲𝐨𝐮𝐫 𝐤𝐢𝐝 𝐦𝐚𝐲 𝐫𝐞𝐚𝐥𝐥𝐲 𝐛𝐞 𝐚𝐬𝐤𝐢𝐧𝐠.
+https://www.youtube.com/@StickoExplains?sub_confirmation=1
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy
+
+#Parenting #ChildPsychology #emotionalsafety 
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalised guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐰𝐚𝐭𝐜𝐡𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐡𝐞𝐫𝐞’𝐬 𝐭𝐨 𝐟𝐢𝐧𝐝𝐢𝐧𝐠 𝐦𝐨𝐫𝐞 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝𝐢𝐧𝐠 𝐢𝐧 𝐭𝐡𝐞 𝐪𝐮𝐢𝐞𝐭 𝐦𝐨𝐦𝐞𝐧𝐭𝐬 𝐭𝐡𝐚𝐭 𝐬𝐡𝐚𝐩𝐞 𝐨𝐮𝐫 𝐥𝐢𝐯𝐞𝐬.</media:description>
+   <media:community>
+    <media:starRating count="198" average="5.00" min="1" max="5"/>
+    <media:statistics views="12296"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Ohgl28QJffA</id>
+  <yt:videoId>Ohgl28QJffA</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>Your Kid Keeps Asking For Things. That's The Good News.</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Ohgl28QJffA"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-09-11T16:15:06+00:00</published>
+  <updated>2026-10-06T07:37:07+00:00</updated>
+  <media:group>
+   <media:title>Your Kid Keeps Asking For Things. That's The Good News.</media:title>
+   <media:content url="https://www.youtube.com/v/Ohgl28QJffA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Ohgl28QJffA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Every parent has thought it: nothing is ever enough for this kid. But the teenager who keeps asking is the one still coming to you. It's the year the birthday list comes back empty that should worry you. Your fastest yes may have counted for the least — and it has nothing to do with what you spent.
+
+This video explores why your kid keeps asking for things through teen behavior, parenting teenagers, and teen materialism, looking at what these repeated requests can reveal about teen psychology, reassurance, and the parent-teen relationship.
+
+🥸 𝐈𝐓’𝐒 𝐇𝐄𝐑𝐄! The Sticko app is officially LIVE. Understand what’s really happening in any relationship—and get one small step you can try today: https://studio.com/sticko
+
+📚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+1. Chaplin, L. N. &amp; John, D. R. (2007), Journal of Consumer Research
+   Growing Up in a Material World: Age Differences in Materialism in Children and Adolescents.
+   https://academic.oup.com/jcr/article-abstract/34/4/480/1820248
+
+2. Richins, M. L. &amp; Chaplin, L. N. (2015), Journal of Consumer Research
+   Material Parenting: How the Use of Goods in Parenting Fosters Materialism in the Next Generation.
+   https://academic.oup.com/jcr/article-abstract/41/6/1333/2379564?redirectedFrom=fulltext
+
+3. Starr, L. R. &amp; Davila, J. (2008), Journal of Abnormal Psychology
+   Excessive Reassurance Seeking, Depression, and Interpersonal Rejection: A Meta-Analytic Review.
+   https://www.psych.rochester.edu/research/starrlab/wp-content/uploads/2014/08/meta-analysis.pdf
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐚𝐧𝐝 𝐡𝐢𝐭 𝐭𝐡𝐞 𝐛𝐞𝐥𝐥 𝐟𝐨𝐫 𝐦𝐨𝐫𝐞 𝐨𝐧 𝐭𝐞𝐞𝐧 𝐛𝐞𝐡𝐚𝐯𝐢𝐨𝐫, 𝐩𝐚𝐫𝐞𝐧𝐭𝐢𝐧𝐠, 𝐚𝐧𝐝 𝐰𝐡𝐚𝐭 𝐲𝐨𝐮𝐫 𝐤𝐢𝐝 𝐦𝐚𝐲 𝐫𝐞𝐚𝐥𝐥𝐲 𝐛𝐞 𝐚𝐬𝐤𝐢𝐧𝐠.
+https://www.youtu
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy 
+
+#ParentingTeens #TeenBehavior #TeenPsychology #ParentingTips
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalised guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐰𝐚𝐭𝐜𝐡𝐢𝐧𝐠; 𝐦𝐚𝐲 𝐞𝐚𝐜𝐡 𝐬𝐭𝐨𝐫𝐲 𝐛𝐫𝐢𝐧𝐠 𝐦𝐨𝐫𝐞 𝐜𝐚𝐥𝐦, 𝐜𝐮𝐫𝐢𝐨𝐬𝐢𝐭𝐲, 𝐚𝐧𝐝 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 𝐭𝐨 𝐞𝐯𝐞𝐫𝐲𝐝𝐚𝐲 𝐥𝐢𝐟𝐞.</media:description>
+   <media:community>
+    <media:starRating count="140" average="5.00" min="1" max="5"/>
+    <media:statistics views="8894"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:_NEqfYHa-ng</id>
+  <yt:videoId>_NEqfYHa-ng</yt:videoId>
+  <yt:channelId>UCnyrbg0-3GvZyqDSUqVXo2Q</yt:channelId>
+  <title>Your Kid Has Never Seen You Angry At Them. That's Not The Problem...</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=_NEqfYHa-ng"/>
+  <author>
+   <name>Sticko Explains</name>
+   <uri>https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q</uri>
+  </author>
+  <published>2026-09-06T15:15:31+00:00</published>
+  <updated>2026-10-06T16:39:51+00:00</updated>
+  <media:group>
+   <media:title>Your Kid Has Never Seen You Angry At Them. That's Not The Problem...</media:title>
+   <media:content url="https://www.youtube.com/v/_NEqfYHa-ng?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/_NEqfYHa-ng/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Your kid says sorry before you’ve even reacted — but the strange part is, they may never have seen you angry at them. Here’s what they may have been watching instead, and what it can quietly teach them to expect from you.
+
+This video explores parent child communication, parenting teenagers, teen behavior, emotional safety, fear of disappointing parents, and why kids apologize early. See how trust, calm responses, and healthy conflict repair can shape what your teen feels safe telling you.
+
+🤓 Understand the patterns in your relationships... and know what to try next with the Sticko app: https://studio.com/sticko
+
+📚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐒𝐨𝐮𝐫𝐜𝐞𝐬:
+1. Olsson, Nearing &amp; Phelps (2007), Social Cognitive and Affective Neuroscience
+   Fear learned by observing others engages the same amygdala systems involved in directly conditioned fear.
+   https://academic.oup.com/scan/article/2/1/3/2362880
+
+2. El-Sheikh &amp; Cummings (1995), Social Development
+   Children responded differently when anger between adults was resolved compared with when it remained unresolved.
+   https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9507.1995.tb00052.x
+
+3. Salkovskis (1991), Behavioural Psychotherapy
+   Safety-seeking behaviors can prevent people from learning that an expected threat may not actually occur.
+   https://www.cambridge.org/core/journals/behavioural-and-cognitive-psychotherapy/article/abs/importance-of-behaviour-in-the-maintenance-of-anxiety-and-panic-a-cognitive-account/B3BAA0EFEF179C99BBCA5F983B05A534
+
+🔔 𝐒𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞 𝐚𝐧𝐝 𝐡𝐢𝐭 𝐭𝐡𝐞 𝐛𝐞𝐥𝐥 𝐬𝐨 𝐲𝐨𝐮 𝐧𝐞𝐯𝐞𝐫 𝐦𝐢𝐬𝐬 𝐰𝐡𝐚𝐭 𝐲𝐨𝐮𝐫 𝐤𝐢𝐝 𝐦𝐚𝐲 𝐧𝐨𝐭 𝐛𝐞 𝐬𝐚𝐲𝐢𝐧𝐠.
+https://www.youtube.com/channel/UCnyrbg0-3GvZyqDSUqVXo2Q?sub_confirmation=1
+
+🎥 𝐖𝐀𝐓𝐂𝐇 𝐌𝐎𝐑𝐄 𝐏𝐀𝐑𝐄𝐍𝐓𝐈𝐍𝐆 𝐕𝐈𝐃𝐄𝐎𝐒 𝐇𝐄𝐑𝐄:
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKDC79GAHCrEj6ZckRbQjYgQ
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD1rP3H0H2RA15R9RIjOyPi
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKD4SzZzyi6tUQfxrzybtv8w
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKAsQ270mHGkQlm0pPMQDd8s
+👉 https://www.youtube.com/playlist?list=PLZYW4jB10vKCoRMSlF1yJNl6N5t3UUrmy 
+
+#Parenting #TeenParenting #TeenBehavior #EmotionalSafety 
+
+𝐃𝐈𝐒𝐂𝐋𝐀𝐈𝐌𝐄𝐑: This video is intended for educational and entertainment purposes only. It is not a substitute for professional medical, psychological, or therapeutic advice. Always consult a qualified expert for personalised guidance regarding health, parenting, child development, or any other professional concerns. Viewers are encouraged to use their own judgment and seek trusted support when making decisions.
+
+𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐰𝐚𝐭𝐜𝐡𝐢𝐧𝐠; 𝐦𝐚𝐲 𝐭𝐡𝐢𝐬 𝐥𝐞𝐚𝐯𝐞 𝐲𝐨𝐮 𝐰𝐢𝐭𝐡 𝐦𝐨𝐫𝐞 𝐜𝐮𝐫𝐢𝐨𝐬𝐢𝐭𝐲, 𝐜𝐚𝐥𝐦, 𝐚𝐧𝐝 𝐮𝐧𝐝𝐞𝐫𝐬𝐭𝐚𝐧𝐝𝐢𝐧𝐠 𝐟𝐨𝐫 𝐞𝐯𝐞𝐫𝐲𝐝𝐚𝐲 𝐥𝐢𝐟𝐞.</media:description>
+   <media:community>
+    <media:starRating count="174" average="5.00" min="1" max="5"/>
+    <media:statistics views="8391"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
