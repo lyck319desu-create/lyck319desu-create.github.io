@@ -1,23 +1,23 @@
 {
  "model": "cagliostrolab/animagine-xl-3.1",
- "image": "analysis/gen/dreadband_base.png",
- "mask": "analysis/gen/dreadband_mask.png",
+ "image": "analysis/gen/mashlehi_base.png",
+ "mask": "analysis/gen/mashlehi_mask.png",
  "variants": [
   {
-   "id": "b60",
-   "strength": 0.6,
-   "prompt": "1boy, solo, faceless, black hair, dreadlocks, thick dreadlocks, dreadlock roots, hairline, dreadlocks pulled back from forehead, detailed hair, high contrast, monochrome, greyscale, detailed lineart, manga, ink illustration, grey background"
+   "id": "m45",
+   "strength": 0.45,
+   "prompt": "1boy, solo, faceless, black hair, mushroom cut, bowl cut, voluminous hair, round puffy hair, thick heavy bangs, swept bangs, shiny hair, glossy hair, hair highlights, detailed hair strands, intricate hair linework, hair texture, high contrast, monochrome, greyscale, detailed lineart, manga, ink illustration, grey background"
   },
   {
-   "id": "b75",
-   "strength": 0.75,
-   "prompt": "1boy, solo, faceless, black hair, dreadlocks, thick dreadlocks, dreadlock roots, hairline, dreadlocks pulled back from forehead, detailed hair, high contrast, monochrome, greyscale, detailed lineart, manga, ink illustration, grey background"
+   "id": "m55",
+   "strength": 0.55,
+   "prompt": "1boy, solo, faceless, black hair, mushroom cut, bowl cut, voluminous hair, round puffy hair, thick heavy bangs, swept bangs, shiny hair, glossy hair, hair highlights, detailed hair strands, intricate hair linework, hair texture, high contrast, monochrome, greyscale, detailed lineart, manga, ink illustration, grey background"
   }
  ],
- "negative": "bald, eyes, nose, mouth, face, hat, cap, helmet, headphones, white hair, grey hair, braid, thin braids, sparse hair, text, watermark, lowres, worst quality, low quality, blurry, flat color, simple, 3d",
+ "negative": "bald, eyes, nose, mouth, face, hat, cap, helmet, white hair, grey hair, spiked hair, dreadlocks, text, watermark, lowres, worst quality, low quality, blurry, flat color, simple, 3d",
  "seeds": [
-  8,
-  23,
-  57
+  9,
+  33,
+  61
  ]
 }
