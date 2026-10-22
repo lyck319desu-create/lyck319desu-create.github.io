@@ -1,26 +1,26 @@
 {
  "model": "cagliostrolab/animagine-xl-3.1",
  "image": "analysis/gen/squatLine_s7.png",
- "mask": "analysis/gen/squatLine_s7_mashbasemask2.png",
+ "mask": "analysis/gen/squatLine_s7_mashbasemask3.png",
  "variants": [
   {
-   "id": "mashB60",
-   "image": "analysis/gen/squatLine_s7_mashbase2.png",
+   "id": "mashC60",
+   "image": "analysis/gen/squatLine_s7_mashbase3.png",
    "strength": 0.6,
-   "prompt": "1boy, solo, faceless, black hair, mushroom cut, korean mash haircut, rounded voluminous hair, textured bangs, wispy bangs, curved bangs, hair over ears, layered hair, hair strands, monochrome, greyscale, clean lineart, manga, anime coloring, grey background"
+   "prompt": "1boy, solo, faceless, black hair, mushroom cut, bowl cut, voluminous hair, round puffy hair, thick heavy bangs, swept bangs, hair between eyes, shiny hair, hair highlights, glossy hair, hair strands, monochrome, greyscale, clean lineart, manga, anime coloring, grey background"
   },
   {
-   "id": "mashB72",
-   "image": "analysis/gen/squatLine_s7_mashbase2.png",
+   "id": "mashC72",
+   "image": "analysis/gen/squatLine_s7_mashbase3.png",
    "strength": 0.72,
-   "prompt": "1boy, solo, faceless, black hair, mushroom cut, korean mash haircut, rounded voluminous hair, textured bangs, wispy bangs, curved bangs, hair over ears, layered hair, hair strands, monochrome, greyscale, clean lineart, manga, anime coloring, grey background"
+   "prompt": "1boy, solo, faceless, black hair, mushroom cut, bowl cut, voluminous hair, round puffy hair, thick heavy bangs, swept bangs, hair between eyes, shiny hair, hair highlights, glossy hair, hair strands, monochrome, greyscale, clean lineart, manga, anime coloring, grey background"
   }
  ],
- "negative": "bald, eyes, nose, mouth, face, hat, cap, helmet, bowl cut, blunt bangs, straight-cut bangs, white hair, grey hair, spiked hair, text, watermark, lowres, worst quality, low quality, blurry",
+ "negative": "bald, eyes, nose, mouth, face, hat, cap, helmet, white hair, grey hair, spiked hair, text, watermark, lowres, worst quality, low quality, blurry",
  "seeds": [
-  7,
-  21,
-  44
+  3,
+  17,
+  90
  ],
  "crop": [
   64,
