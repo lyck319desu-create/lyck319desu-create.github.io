@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 60
     strategy:
       fail-fast: false
-      max-parallel: 3
+      max-parallel: 6
       matrix:
         v: [0, 1]
         seed: [0, 1, 2]
@@ -30,7 +30,7 @@ jobs:
           from PIL import Image
           from diffusers import StableDiffusionXLInpaintPipeline
           c = json.load(open('.github/inpaint.json')); v = c['variants'][${{ matrix.v }}]; seed = c['seeds'][${{ matrix.seed }}]
-          pipe = StableDiffusionXLInpaintPipeline.from_pretrained(c['model'], torch_dtype=torch.bfloat16, use_safetensors=True)
+          pipe = StableDiffusionXLInpaintPipeline.from_pretrained(c['model'], torch_dtype=torch.float32, use_safetensors=True)
           torch.set_num_threads(os.cpu_count())
           img = Image.open(v.get('image', c['image'])).convert('RGB'); mask = Image.open(c['mask']).convert('L')
           full, fmask = img, mask
