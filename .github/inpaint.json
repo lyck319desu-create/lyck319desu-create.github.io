@@ -1,23 +1,23 @@
 {
  "model": "cagliostrolab/animagine-xl-3.1",
- "image": "analysis/gen/dreadhi_base.png",
- "mask": "analysis/gen/dreadhi_mask.png",
+ "image": "analysis/gen/dreadhi2_base.png",
+ "mask": "analysis/gen/dreadhi2_mask.png",
  "variants": [
   {
-   "id": "d50",
-   "strength": 0.5,
+   "id": "e45",
+   "strength": 0.45,
    "prompt": "1boy, solo, faceless, black hair, dreadlocks, thick dreadlocks, separated dreadlocks, dense dreadlocks, long dreadlocks, voluminous hair, high contrast, white highlights on each dreadlock, detailed hair, intricate hair linework, hatching, monochrome, greyscale, detailed lineart, manga, ink illustration, grey background"
   },
   {
-   "id": "d60",
-   "strength": 0.6,
+   "id": "e55",
+   "strength": 0.55,
    "prompt": "1boy, solo, faceless, black hair, dreadlocks, thick dreadlocks, separated dreadlocks, dense dreadlocks, long dreadlocks, voluminous hair, high contrast, white highlights on each dreadlock, detailed hair, intricate hair linework, hatching, monochrome, greyscale, detailed lineart, manga, ink illustration, grey background"
   }
  ],
  "negative": "bald, eyes, nose, mouth, face, hat, cap, helmet, headphones, white hair, grey hair, braid, thin braids, sparse hair, text, watermark, lowres, worst quality, low quality, blurry, flat color, simple, 3d",
  "seeds": [
-  4,
-  52,
-  89
+  6,
+  40,
+  71
  ]
 }
