@@ -1,0 +1,114 @@
+{
+  "video_id": "2FfW-mrwTEA",
+  "channel": "地図の理由",
+  "title": "富山県は、川を直すため石川県から独立した。なぜ？",
+  "published_date": "2026-09-25",
+  "duration_seconds": 26,
+  "age_days_at_fetch": 27,
+  "fetched_at": "2026-10-22T19:46:26+09:00",
+  "period": {
+    "start": "2026-09-25",
+    "end": "2026-10-22",
+    "note": "Studio 詳細モード『過去28日間』。28日以内の動画なので公開後の合計と同じ"
+  },
+  "summary": {
+    "views": 2424.0,
+    "engagedViews": 934.0,
+    "estimatedMinutesWatched": 480.0,
+    "averageViewDuration": 28,
+    "averageViewPercentage": 111.0,
+    "subscribersGained": 1.0,
+    "likes": 14.0,
+    "shares": 0.0,
+    "comments": 1.0,
+    "stayedToWatchPercent": 45.0
+  },
+  "audience_retention": [
+    {
+      "elapsedVideoTimeRatio": 0.0,
+      "audienceWatchRatio": 1.8
+    },
+    {
+      "elapsedVideoTimeRatio": 0.05,
+      "audienceWatchRatio": 1.72
+    },
+    {
+      "elapsedVideoTimeRatio": 0.1,
+      "audienceWatchRatio": 1.64
+    },
+    {
+      "elapsedVideoTimeRatio": 0.15,
+      "audienceWatchRatio": 1.54
+    },
+    {
+      "elapsedVideoTimeRatio": 0.2,
+      "audienceWatchRatio": 1.38
+    },
+    {
+      "elapsedVideoTimeRatio": 0.25,
+      "audienceWatchRatio": 1.3
+    },
+    {
+      "elapsedVideoTimeRatio": 0.3,
+      "audienceWatchRatio": 1.26
+    },
+    {
+      "elapsedVideoTimeRatio": 0.35,
+      "audienceWatchRatio": 1.19
+    },
+    {
+      "elapsedVideoTimeRatio": 0.4,
+      "audienceWatchRatio": 1.13
+    },
+    {
+      "elapsedVideoTimeRatio": 0.45,
+      "audienceWatchRatio": 1.09
+    },
+    {
+      "elapsedVideoTimeRatio": 0.5,
+      "audienceWatchRatio": 1.04
+    },
+    {
+      "elapsedVideoTimeRatio": 0.55,
+      "audienceWatchRatio": 0.98
+    },
+    {
+      "elapsedVideoTimeRatio": 0.6,
+      "audienceWatchRatio": 0.96
+    },
+    {
+      "elapsedVideoTimeRatio": 0.65,
+      "audienceWatchRatio": 0.93
+    },
+    {
+      "elapsedVideoTimeRatio": 0.7,
+      "audienceWatchRatio": 0.91
+    },
+    {
+      "elapsedVideoTimeRatio": 0.75,
+      "audienceWatchRatio": 0.89
+    },
+    {
+      "elapsedVideoTimeRatio": 0.8,
+      "audienceWatchRatio": 0.85
+    },
+    {
+      "elapsedVideoTimeRatio": 0.85,
+      "audienceWatchRatio": 0.84
+    },
+    {
+      "elapsedVideoTimeRatio": 0.9,
+      "audienceWatchRatio": 0.83
+    },
+    {
+      "elapsedVideoTimeRatio": 0.95,
+      "audienceWatchRatio": 0.81
+    },
+    {
+      "elapsedVideoTimeRatio": 1.0,
+      "audienceWatchRatio": 0.8
+    }
+  ],
+  "relativeRetentionPerformance": null,
+  "source": "YouTube Studio の画面から取得（詳細モードの表＋動画の分析『視聴者維持率』グラフを5%刻みで読み取り。グラフの読み取りなので±1〜2%の誤差あり。stayedToWatchPercent＝Studio の『視聴を継続』（スワイプされず見た割合）。relativeRetentionPerformance は Studio のショートでは表示されないため空）"
+}

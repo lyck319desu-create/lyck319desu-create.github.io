@@ -1,0 +1,114 @@
+{
+  "video_id": "nH3ReHK9qng",
+  "channel": "地図の理由",
+  "title": "伊豆半島は、もとは南の海の島。なぜ本州に？",
+  "published_date": "2026-10-05",
+  "duration_seconds": 22,
+  "age_days_at_fetch": 17,
+  "fetched_at": "2026-10-22T19:46:26+09:00",
+  "period": {
+    "start": "2026-10-05",
+    "end": "2026-10-22",
+    "note": "Studio 詳細モード『過去28日間』。28日以内の動画なので公開後の合計と同じ"
+  },
+  "summary": {
+    "views": 67168.0,
+    "engagedViews": 27847.0,
+    "estimatedMinutesWatched": 14166.0,
+    "averageViewDuration": 29,
+    "averageViewPercentage": 133.9,
+    "subscribersGained": 26.0,
+    "likes": 256.0,
+    "shares": 13.0,
+    "comments": 19.0,
+    "stayedToWatchPercent": 58.9
+  },
+  "audience_retention": [
+    {
+      "elapsedVideoTimeRatio": 0.0,
+      "audienceWatchRatio": 2.1
+    },
+    {
+      "elapsedVideoTimeRatio": 0.05,
+      "audienceWatchRatio": 1.97
+    },
+    {
+      "elapsedVideoTimeRatio": 0.1,
+      "audienceWatchRatio": 1.8
+    },
+    {
+      "elapsedVideoTimeRatio": 0.15,
+      "audienceWatchRatio": 1.7
+    },
+    {
+      "elapsedVideoTimeRatio": 0.2,
+      "audienceWatchRatio": 1.64
+    },
+    {
+      "elapsedVideoTimeRatio": 0.25,
+      "audienceWatchRatio": 1.55
+    },
+    {
+      "elapsedVideoTimeRatio": 0.3,
+      "audienceWatchRatio": 1.49
+    },
+    {
+      "elapsedVideoTimeRatio": 0.35,
+      "audienceWatchRatio": 1.41
+    },
+    {
+      "elapsedVideoTimeRatio": 0.4,
+      "audienceWatchRatio": 1.37
+    },
+    {
+      "elapsedVideoTimeRatio": 0.45,
+      "audienceWatchRatio": 1.32
+    },
+    {
+      "elapsedVideoTimeRatio": 0.5,
+      "audienceWatchRatio": 1.29
+    },
+    {
+      "elapsedVideoTimeRatio": 0.55,
+      "audienceWatchRatio": 1.25
+    },
+    {
+      "elapsedVideoTimeRatio": 0.6,
+      "audienceWatchRatio": 1.23
+    },
+    {
+      "elapsedVideoTimeRatio": 0.65,
+      "audienceWatchRatio": 1.2
+    },
+    {
+      "elapsedVideoTimeRatio": 0.7,
+      "audienceWatchRatio": 1.2
+    },
+    {
+      "elapsedVideoTimeRatio": 0.75,
+      "audienceWatchRatio": 1.19
+    },
+    {
+      "elapsedVideoTimeRatio": 0.8,
+      "audienceWatchRatio": 1.17
+    },
+    {
+      "elapsedVideoTimeRatio": 0.85,
+      "audienceWatchRatio": 1.15
+    },
+    {
+      "elapsedVideoTimeRatio": 0.9,
+      "audienceWatchRatio": 1.14
+    },
+    {
+      "elapsedVideoTimeRatio": 0.95,
+      "audienceWatchRatio": 1.13
+    },
+    {
+      "elapsedVideoTimeRatio": 1.0,
+      "audienceWatchRatio": 1.1
+    }
+  ],
+  "relativeRetentionPerformance": null,
+  "source": "YouTube Studio の画面から取得（詳細モードの表＋動画の分析『視聴者維持率』グラフを5%刻みで読み取り。グラフの読み取りなので±1〜2%の誤差あり。stayedToWatchPercent＝Studio の『視聴を継続』（スワイプされず見た割合）。relativeRetentionPerformance は Studio のショートでは表示されないため空）"
+}

@@ -1,0 +1,114 @@
+{
+  "video_id": "iGzB1lUdWEY",
+  "channel": "地図の理由",
+  "title": "日本には、長さ900kmの切れ目がある。中央構造線",
+  "published_date": "2026-10-15",
+  "duration_seconds": 41,
+  "age_days_at_fetch": 7,
+  "fetched_at": "2026-10-22T19:46:26+09:00",
+  "period": {
+    "start": "2026-10-15",
+    "end": "2026-10-22",
+    "note": "Studio 詳細モード『過去28日間』。28日以内の動画なので公開後の合計と同じ"
+  },
+  "summary": {
+    "views": 43030.0,
+    "engagedViews": 20494.0,
+    "estimatedMinutesWatched": 14448.0,
+    "averageViewDuration": 41,
+    "averageViewPercentage": 100.4,
+    "subscribersGained": 23.0,
+    "likes": 268.0,
+    "shares": 17.0,
+    "comments": 9.0,
+    "stayedToWatchPercent": 59.7
+  },
+  "audience_retention": [
+    {
+      "elapsedVideoTimeRatio": 0.0,
+      "audienceWatchRatio": 1.73
+    },
+    {
+      "elapsedVideoTimeRatio": 0.05,
+      "audienceWatchRatio": 1.51
+    },
+    {
+      "elapsedVideoTimeRatio": 0.1,
+      "audienceWatchRatio": 1.42
+    },
+    {
+      "elapsedVideoTimeRatio": 0.15,
+      "audienceWatchRatio": 1.19
+    },
+    {
+      "elapsedVideoTimeRatio": 0.2,
+      "audienceWatchRatio": 1.13
+    },
+    {
+      "elapsedVideoTimeRatio": 0.25,
+      "audienceWatchRatio": 1.09
+    },
+    {
+      "elapsedVideoTimeRatio": 0.3,
+      "audienceWatchRatio": 1.07
+    },
+    {
+      "elapsedVideoTimeRatio": 0.35,
+      "audienceWatchRatio": 1.03
+    },
+    {
+      "elapsedVideoTimeRatio": 0.4,
+      "audienceWatchRatio": 1.0
+    },
+    {
+      "elapsedVideoTimeRatio": 0.45,
+      "audienceWatchRatio": 0.97
+    },
+    {
+      "elapsedVideoTimeRatio": 0.5,
+      "audienceWatchRatio": 0.96
+    },
+    {
+      "elapsedVideoTimeRatio": 0.55,
+      "audienceWatchRatio": 0.93
+    },
+    {
+      "elapsedVideoTimeRatio": 0.6,
+      "audienceWatchRatio": 0.91
+    },
+    {
+      "elapsedVideoTimeRatio": 0.65,
+      "audienceWatchRatio": 0.89
+    },
+    {
+      "elapsedVideoTimeRatio": 0.7,
+      "audienceWatchRatio": 0.88
+    },
+    {
+      "elapsedVideoTimeRatio": 0.75,
+      "audienceWatchRatio": 0.87
+    },
+    {
+      "elapsedVideoTimeRatio": 0.8,
+      "audienceWatchRatio": 0.86
+    },
+    {
+      "elapsedVideoTimeRatio": 0.85,
+      "audienceWatchRatio": 0.84
+    },
+    {
+      "elapsedVideoTimeRatio": 0.9,
+      "audienceWatchRatio": 0.83
+    },
+    {
+      "elapsedVideoTimeRatio": 0.95,
+      "audienceWatchRatio": 0.82
+    },
+    {
+      "elapsedVideoTimeRatio": 1.0,
+      "audienceWatchRatio": 0.78
+    }
+  ],
+  "relativeRetentionPerformance": null,
+  "source": "YouTube Studio の画面から取得（詳細モードの表＋動画の分析『視聴者維持率』グラフを5%刻みで読み取り。グラフの読み取りなので±1〜2%の誤差あり。stayedToWatchPercent＝Studio の『視聴を継続』（スワイプされず見た割合）。relativeRetentionPerformance は Studio のショートでは表示されないため空）"
+}

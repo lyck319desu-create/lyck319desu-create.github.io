@@ -1,0 +1,114 @@
+{
+  "video_id": "VTsaq2nKBzk",
+  "channel": "地図の理由",
+  "title": "もし東京湾がなかったら",
+  "published_date": "2026-10-12",
+  "duration_seconds": 50,
+  "age_days_at_fetch": 10,
+  "fetched_at": "2026-10-22T19:46:26+09:00",
+  "period": {
+    "start": "2026-10-12",
+    "end": "2026-10-22",
+    "note": "Studio 詳細モード『過去28日間』。28日以内の動画なので公開後の合計と同じ"
+  },
+  "summary": {
+    "views": 5518.0,
+    "engagedViews": 3083.0,
+    "estimatedMinutesWatched": 2130.0,
+    "averageViewDuration": 40,
+    "averageViewPercentage": 81.3,
+    "subscribersGained": 2.0,
+    "likes": 44.0,
+    "shares": 0.0,
+    "comments": 0.0,
+    "stayedToWatchPercent": 63.8
+  },
+  "audience_retention": [
+    {
+      "elapsedVideoTimeRatio": 0.0,
+      "audienceWatchRatio": 1.43
+    },
+    {
+      "elapsedVideoTimeRatio": 0.05,
+      "audienceWatchRatio": 1.31
+    },
+    {
+      "elapsedVideoTimeRatio": 0.1,
+      "audienceWatchRatio": 1.23
+    },
+    {
+      "elapsedVideoTimeRatio": 0.15,
+      "audienceWatchRatio": 1.1
+    },
+    {
+      "elapsedVideoTimeRatio": 0.2,
+      "audienceWatchRatio": 1.01
+    },
+    {
+      "elapsedVideoTimeRatio": 0.25,
+      "audienceWatchRatio": 0.98
+    },
+    {
+      "elapsedVideoTimeRatio": 0.3,
+      "audienceWatchRatio": 0.94
+    },
+    {
+      "elapsedVideoTimeRatio": 0.35,
+      "audienceWatchRatio": 0.89
+    },
+    {
+      "elapsedVideoTimeRatio": 0.4,
+      "audienceWatchRatio": 0.79
+    },
+    {
+      "elapsedVideoTimeRatio": 0.45,
+      "audienceWatchRatio": 0.76
+    },
+    {
+      "elapsedVideoTimeRatio": 0.5,
+      "audienceWatchRatio": 0.75
+    },
+    {
+      "elapsedVideoTimeRatio": 0.55,
+      "audienceWatchRatio": 0.72
+    },
+    {
+      "elapsedVideoTimeRatio": 0.6,
+      "audienceWatchRatio": 0.71
+    },
+    {
+      "elapsedVideoTimeRatio": 0.65,
+      "audienceWatchRatio": 0.68
+    },
+    {
+      "elapsedVideoTimeRatio": 0.7,
+      "audienceWatchRatio": 0.67
+    },
+    {
+      "elapsedVideoTimeRatio": 0.75,
+      "audienceWatchRatio": 0.66
+    },
+    {
+      "elapsedVideoTimeRatio": 0.8,
+      "audienceWatchRatio": 0.65
+    },
+    {
+      "elapsedVideoTimeRatio": 0.85,
+      "audienceWatchRatio": 0.63
+    },
+    {
+      "elapsedVideoTimeRatio": 0.9,
+      "audienceWatchRatio": 0.58
+    },
+    {
+      "elapsedVideoTimeRatio": 0.95,
+      "audienceWatchRatio": 0.51
+    },
+    {
+      "elapsedVideoTimeRatio": 1.0,
+      "audienceWatchRatio": 0.47
+    }
+  ],
+  "relativeRetentionPerformance": null,
+  "source": "YouTube Studio の画面から取得（詳細モードの表＋動画の分析『視聴者維持率』グラフを5%刻みで読み取り。グラフの読み取りなので±1〜2%の誤差あり。stayedToWatchPercent＝Studio の『視聴を継続』（スワイプされず見た割合）。relativeRetentionPerformance は Studio のショートでは表示されないため空）"
+}

@@ -1,0 +1,114 @@
+{
+  "video_id": "FF7xZoHjKuE",
+  "channel": "地図の理由",
+  "title": "和歌山の南に、阿蘇より大きい火山の跡がある",
+  "published_date": "2026-10-18",
+  "duration_seconds": 48,
+  "age_days_at_fetch": 4,
+  "fetched_at": "2026-10-22T19:46:26+09:00",
+  "period": {
+    "start": "2026-10-18",
+    "end": "2026-10-22",
+    "note": "Studio 詳細モード『過去28日間』。28日以内の動画なので公開後の合計と同じ"
+  },
+  "summary": {
+    "views": 12609.0,
+    "engagedViews": 6685.0,
+    "estimatedMinutesWatched": 4974.0,
+    "averageViewDuration": 43,
+    "averageViewPercentage": 91.2,
+    "subscribersGained": 10.0,
+    "likes": 113.0,
+    "shares": 5.0,
+    "comments": 2.0,
+    "stayedToWatchPercent": 62.3
+  },
+  "audience_retention": [
+    {
+      "elapsedVideoTimeRatio": 0.0,
+      "audienceWatchRatio": 1.48
+    },
+    {
+      "elapsedVideoTimeRatio": 0.05,
+      "audienceWatchRatio": 1.33
+    },
+    {
+      "elapsedVideoTimeRatio": 0.1,
+      "audienceWatchRatio": 1.26
+    },
+    {
+      "elapsedVideoTimeRatio": 0.15,
+      "audienceWatchRatio": 1.12
+    },
+    {
+      "elapsedVideoTimeRatio": 0.2,
+      "audienceWatchRatio": 1.04
+    },
+    {
+      "elapsedVideoTimeRatio": 0.25,
+      "audienceWatchRatio": 1.01
+    },
+    {
+      "elapsedVideoTimeRatio": 0.3,
+      "audienceWatchRatio": 0.99
+    },
+    {
+      "elapsedVideoTimeRatio": 0.35,
+      "audienceWatchRatio": 0.98
+    },
+    {
+      "elapsedVideoTimeRatio": 0.4,
+      "audienceWatchRatio": 0.96
+    },
+    {
+      "elapsedVideoTimeRatio": 0.45,
+      "audienceWatchRatio": 0.94
+    },
+    {
+      "elapsedVideoTimeRatio": 0.5,
+      "audienceWatchRatio": 0.92
+    },
+    {
+      "elapsedVideoTimeRatio": 0.55,
+      "audienceWatchRatio": 0.9
+    },
+    {
+      "elapsedVideoTimeRatio": 0.6,
+      "audienceWatchRatio": 0.88
+    },
+    {
+      "elapsedVideoTimeRatio": 0.65,
+      "audienceWatchRatio": 0.87
+    },
+    {
+      "elapsedVideoTimeRatio": 0.7,
+      "audienceWatchRatio": 0.86
+    },
+    {
+      "elapsedVideoTimeRatio": 0.75,
+      "audienceWatchRatio": 0.84
+    },
+    {
+      "elapsedVideoTimeRatio": 0.8,
+      "audienceWatchRatio": 0.8
+    },
+    {
+      "elapsedVideoTimeRatio": 0.85,
+      "audienceWatchRatio": 0.78
+    },
+    {
+      "elapsedVideoTimeRatio": 0.9,
+      "audienceWatchRatio": 0.74
+    },
+    {
+      "elapsedVideoTimeRatio": 0.95,
+      "audienceWatchRatio": 0.57
+    },
+    {
+      "elapsedVideoTimeRatio": 1.0,
+      "audienceWatchRatio": 0.44
+    }
+  ],
+  "relativeRetentionPerformance": null,
+  "source": "YouTube Studio の画面から取得（詳細モードの表＋動画の分析『視聴者維持率』グラフを5%刻みで読み取り。グラフの読み取りなので±1〜2%の誤差あり。stayedToWatchPercent＝Studio の『視聴を継続』（スワイプされず見た割合）。relativeRetentionPerformance は Studio のショートでは表示されないため空）"
+}
