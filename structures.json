@@ -285,5 +285,83 @@
       "summary": "反対の動きは別の動画で→いいね・登録"
     },
     "memo": "約8字/秒、1〜1.5秒ごとに切り替え。灰色背景＋白い人物、強調は赤・黄だけ。分析：analysis/sukemacho_overhaul_plan.md"
+  },
+  {
+    "id": "geolens-fossamagna",
+    "url": "https://www.youtube.com/watch?v=vYb7WBUuvec",
+    "channel": "ジオレンズ【データで見る地理】",
+    "genre": "地理（長尺）",
+    "views": 1921492,
+    "posted": "2026-10-16",
+    "length": 697,
+    "hook": {
+      "type": "意外な数字",
+      "summary": "タイトル冒頭で「深さ6000mの溝」、サムネは富士山を赤丸で囲み「なぜ富士山は溝の上に立っているのか？」"
+    },
+    "body": {
+      "type": "データで検証",
+      "summary": "標高データの地図で、見える谷（中央構造線）と見えない溝（フォッサマグナ）を比べる6章"
+    },
+    "punch": {
+      "type": "常識の逆",
+      "summary": "溝は地図に見えず、その上に富士山が立っているという逆説で締める"
+    },
+    "cta": {
+      "type": "なし",
+      "summary": "概要欄に目次・参考文献14件・注釈"
+    },
+    "memo": "タイトル型：［数字の事実］は、なぜ［常識と逆］のか？［一ひねり］【用語】。サムネ：地図全面・左に白極太明朝の問い・1語金色・赤橙の丸1つ。題材の大きさ（富士山）で6日192万回（同じ型の他2本は3〜5万）。詳細 analysis/benchmark_geolens_title_thumb.md"
+  },
+  {
+    "id": "geolens-jomon-transgression",
+    "url": "https://www.youtube.com/watch?v=YKX6VEIrI9A",
+    "channel": "ジオレンズ【データで見る地理】",
+    "genre": "地理（長尺）",
+    "views": 46467,
+    "posted": "2026-10-12",
+    "length": 703,
+    "hook": {
+      "type": "意外な数字",
+      "summary": "「7000年前」「60km」をタイトルに、サムネは群馬を矢印で指し「なぜここに海の貝？」"
+    },
+    "body": {
+      "type": "データで検証",
+      "summary": "貝塚の分布→海面上昇→今の地図で海面を上げる実験→ボーリングで地下の谷→まとめ"
+    },
+    "punch": {
+      "type": "定説の補足",
+      "summary": "「海面上昇だけではない理由」を地下の谷で示す"
+    },
+    "cta": {
+      "type": "なし",
+      "summary": "概要欄に目次・参考文献10件・注釈・データ出典"
+    },
+    "memo": "ベージュの都道府県地図＋紺の海の平らなサムネ。陰影図の富士山回より伸びは小さい。詳細 analysis/benchmark_geolens_title_thumb.md"
+  },
+  {
+    "id": "geolens-kobiwako",
+    "url": "https://www.youtube.com/watch?v=JNmf_bsMc9Q",
+    "channel": "ジオレンズ【データで見る地理】",
+    "genre": "地理（長尺）",
+    "views": 33708,
+    "posted": "2026-10-20",
+    "length": 647,
+    "hook": {
+      "type": "意外な数字",
+      "summary": "「400万年前、三重県にあった」琵琶湖。サムネは緑の陰影図に「なぜ琵琶湖は…にあったのか」"
+    },
+    "body": {
+      "type": "データで検証",
+      "summary": "断層の跡を標高データの地図で追い、湖が北へ動いた道筋を見せる"
+    },
+    "punch": {
+      "type": "常識の逆",
+      "summary": "動かないはずの湖が動いていたという逆説"
+    },
+    "cta": {
+      "type": "なし",
+      "summary": "概要欄に目次・参考文献"
+    },
+    "memo": "富士山の回と同じ型・同じ緑の陰影図サムネでも2日3.4万。差は題材の大きさと見る。詳細 analysis/benchmark_geolens_title_thumb.md"
   }
 ]
