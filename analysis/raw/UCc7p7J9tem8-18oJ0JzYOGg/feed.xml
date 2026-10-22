@@ -1,11 +1,369 @@
-<!DOCTYPE html>
-<html lang=en>
-  <meta charset=utf-8>
-  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
-  <title>Error 500 (Server Error)!!1</title>
-  <style>
-    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
-  </style>
-  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
-  <p><b>500.</b> <ins>That’s an error.</ins>
-  <p>The server encountered an error and could not complete your request.<p>If the problem persists, please <A HREF="http://www.google.com/support/">report</A> your problem and mention this error message and the query that caused it.  <ins>That’s all we know.</ins>
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCc7p7J9tem8-18oJ0JzYOGg"/>
+ <id>yt:channel:c7p7J9tem8-18oJ0JzYOGg</id>
+ <yt:channelId>c7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+ <title>The Evaluator</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg"/>
+ <author>
+  <name>The Evaluator</name>
+  <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+ </author>
+ <published>2024-02-14T13:39:24+00:00</published>
+ <entry>
+  <id>yt:video:TZwjA-GouyM</id>
+  <yt:videoId>TZwjA-GouyM</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>9 Deadliest Diseases You Might Have Without Knowing</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=TZwjA-GouyM"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-08-10T16:43:47+00:00</published>
+  <updated>2026-10-03T01:59:21+00:00</updated>
+  <media:group>
+   <media:title>9 Deadliest Diseases You Might Have Without Knowing</media:title>
+   <media:content url="https://www.youtube.com/v/TZwjA-GouyM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/TZwjA-GouyM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Join Freecash today by clicking on the link https://signupfreecash.com/theevaluator and enjoy an extra $10 on your first offer!
+
+Some diseases can develop quietly, showing few or no obvious symptoms until they become more serious. This video explains conditions that can go unnoticed, the warning signs people may overlook, and why proper screening and diagnosis matter.</media:description>
+   <media:community>
+    <media:starRating count="2064" average="5.00" min="1" max="5"/>
+    <media:statistics views="80969"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:LU2KBHI01L0</id>
+  <yt:videoId>LU2KBHI01L0</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>Every Crime Teachers Committed In Class Explained in 12 Minutes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=LU2KBHI01L0"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-07-04T16:00:03+00:00</published>
+  <updated>2026-10-21T09:36:54+00:00</updated>
+  <media:group>
+   <media:title>Every Crime Teachers Committed In Class Explained in 12 Minutes</media:title>
+   <media:content url="https://www.youtube.com/v/LU2KBHI01L0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LU2KBHI01L0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>These teachers committed real crimes in front of a room full of students — and somehow nobody noticed. Every case explained, from the first red flag to the day they finally got caught, in 12 minutes.</media:description>
+   <media:community>
+    <media:starRating count="5466" average="5.00" min="1" max="5"/>
+    <media:statistics views="197151"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:qvAE-nB9n-g</id>
+  <yt:videoId>qvAE-nB9n-g</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>Every Childhood Trauma Explained in 17 Minutes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=qvAE-nB9n-g"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-06-22T18:00:23+00:00</published>
+  <updated>2026-09-30T07:55:01+00:00</updated>
+  <media:group>
+   <media:title>Every Childhood Trauma Explained in 17 Minutes</media:title>
+   <media:content url="https://www.youtube.com/v/qvAE-nB9n-g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qvAE-nB9n-g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Childhood trauma can take many forms, and not all of them look obvious at first. In 17 minutes, this video explains the different types, how they affect people long term, and why those early experiences can shape someone for life.</media:description>
+   <media:community>
+    <media:starRating count="8893" average="5.00" min="1" max="5"/>
+    <media:statistics views="212711"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:jHpK1_ItW2w</id>
+  <yt:videoId>jHpK1_ItW2w</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>Every Romantic Orientation Explained in 10 Minutes [ Vol.2 ]</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=jHpK1_ItW2w"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-04-25T16:45:00+00:00</published>
+  <updated>2026-09-30T14:23:04+00:00</updated>
+  <media:group>
+   <media:title>Every Romantic Orientation Explained in 10 Minutes [ Vol.2 ]</media:title>
+   <media:content url="https://www.youtube.com/v/jHpK1_ItW2w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/jHpK1_ItW2w/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A quick and easy guide to understanding every romantic orientation covered in Volume 2, explained in just 10 minutes. From lesser-known identities to commonly misunderstood terms, this video breaks it all down in a simple and engaging way.</media:description>
+   <media:community>
+    <media:starRating count="10907" average="5.00" min="1" max="5"/>
+    <media:statistics views="368770"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:z8NkuNclyVg</id>
+  <yt:videoId>z8NkuNclyVg</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>Every Human Trafficking Method Explained in 11 Minutes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=z8NkuNclyVg"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-04-06T16:00:00+00:00</published>
+  <updated>2026-09-30T23:07:01+00:00</updated>
+  <media:group>
+   <media:title>Every Human Trafficking Method Explained in 11 Minutes</media:title>
+   <media:content url="https://www.youtube.com/v/z8NkuNclyVg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/z8NkuNclyVg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Trafficking isn’t usually a random van situation — it’s often built through grooming, coercion, and control over time. We start with the early warning signs, then break down the patterns that make it so hard for victims to leave once things escalate.</media:description>
+   <media:community>
+    <media:starRating count="24405" average="5.00" min="1" max="5"/>
+    <media:statistics views="1078230"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:0Fx-Ue4yXF4</id>
+  <yt:videoId>0Fx-Ue4yXF4</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>Every School Punishment That Was Illegal Explained in 12 Minutes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0Fx-Ue4yXF4"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-03-29T16:30:00+00:00</published>
+  <updated>2026-10-03T14:03:33+00:00</updated>
+  <media:group>
+   <media:title>Every School Punishment That Was Illegal Explained in 12 Minutes</media:title>
+   <media:content url="https://www.youtube.com/v/0Fx-Ue4yXF4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/0Fx-Ue4yXF4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>I thought school punishments were just “detention and homework” until I found out some of the stuff that happened was straight-up illegal. This is a quick breakdown of the worst ones and how they ever got away with it.</media:description>
+   <media:community>
+    <media:starRating count="18972" average="5.00" min="1" max="5"/>
+    <media:statistics views="1035191"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:z740NcwPGrY</id>
+  <yt:videoId>z740NcwPGrY</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>Every Dream Type Explained in 14 Minutes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=z740NcwPGrY"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-03-23T16:00:00+00:00</published>
+  <updated>2026-10-01T21:39:21+00:00</updated>
+  <media:group>
+   <media:title>Every Dream Type Explained in 14 Minutes</media:title>
+   <media:content url="https://www.youtube.com/v/z740NcwPGrY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/z740NcwPGrY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Your brain has genres, and dreams are basically the weirdest streaming service ever. Here’s a fast breakdown of the most common dream types and what’s really going on when you have them.</media:description>
+   <media:community>
+    <media:starRating count="4112" average="5.00" min="1" max="5"/>
+    <media:statistics views="127571"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:PuiKyyKqIx8</id>
+  <yt:videoId>PuiKyyKqIx8</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>Every Disturbing Trait That Serial Killers Have Explained in 12 Minutes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=PuiKyyKqIx8"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-03-16T16:00:00+00:00</published>
+  <updated>2026-10-02T19:33:42+00:00</updated>
+  <media:group>
+   <media:title>Every Disturbing Trait That Serial Killers Have Explained in 12 Minutes</media:title>
+   <media:content url="https://www.youtube.com/v/PuiKyyKqIx8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/PuiKyyKqIx8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>I went down the serial killer psychology rabbit hole and found some patterns that show up way more often than I expected. This isn’t about “spotting” people — it’s about the disturbing traits that keep repeating across cases.</media:description>
+   <media:community>
+    <media:starRating count="2452" average="5.00" min="1" max="5"/>
+    <media:statistics views="84285"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:FjmongZjbtA</id>
+  <yt:videoId>FjmongZjbtA</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>8 Videos With Terrifying Truths Explained in 15 Minutes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FjmongZjbtA"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-03-11T16:00:00+00:00</published>
+  <updated>2026-10-05T11:56:06+00:00</updated>
+  <media:group>
+   <media:title>8 Videos With Terrifying Truths Explained in 15 Minutes</media:title>
+   <media:content url="https://www.youtube.com/v/FjmongZjbtA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/FjmongZjbtA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>I went in expecting regular creepy videos… and ended up with stuff that felt way too real. Some of these truths are the kind that stick in your head after the video ends.</media:description>
+   <media:community>
+    <media:starRating count="2313" average="5.00" min="1" max="5"/>
+    <media:statistics views="96493"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Ub7cTUptk-s</id>
+  <yt:videoId>Ub7cTUptk-s</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>7 Most Horrible Haunted Objects Explained in 10 Minutes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Ub7cTUptk-s"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-03-04T16:45:00+00:00</published>
+  <updated>2026-10-02T02:18:14+00:00</updated>
+  <media:group>
+   <media:title>7 Most Horrible Haunted Objects Explained in 10 Minutes</media:title>
+   <media:content url="https://www.youtube.com/v/Ub7cTUptk-s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Ub7cTUptk-s/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Some haunted objects are so unsettling they don’t even need to move to scare you. We’re going through the most terrifying ones and the backstories that make them feel cursed just sitting there.</media:description>
+   <media:community>
+    <media:starRating count="2919" average="5.00" min="1" max="5"/>
+    <media:statistics views="135968"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:06Wk09jbrW4</id>
+  <yt:videoId>06Wk09jbrW4</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>8 Audio Recordings With Terrifying Truths Explained In 18 Minutes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=06Wk09jbrW4"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-02-28T16:45:00+00:00</published>
+  <updated>2026-09-30T17:44:21+00:00</updated>
+  <media:group>
+   <media:title>8 Audio Recordings With Terrifying Truths Explained In 18 Minutes</media:title>
+   <media:content url="https://www.youtube.com/v/06Wk09jbrW4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/06Wk09jbrW4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>I thought it would just be spooky noise… but a couple of these felt way too real once the story clicked. The kind of audio that makes you pause and sit in silence for a second.</media:description>
+   <media:community>
+    <media:starRating count="2991" average="5.00" min="1" max="5"/>
+    <media:statistics views="119334"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:aV6EK6jCL-I</id>
+  <yt:videoId>aV6EK6jCL-I</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>10 Worst Mass Disappearances Explained In 16 Minutes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=aV6EK6jCL-I"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-02-23T16:00:00+00:00</published>
+  <updated>2026-10-04T05:25:29+00:00</updated>
+  <media:group>
+   <media:title>10 Worst Mass Disappearances Explained In 16 Minutes</media:title>
+   <media:content url="https://www.youtube.com/v/aV6EK6jCL-I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/aV6EK6jCL-I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Imagine a whole group disappearing… and the only thing left behind is a few clues that don’t make sense. I’m breaking down 10 cases like that in 16 minutes, and some of the details are genuinely unreal.</media:description>
+   <media:community>
+    <media:starRating count="1686" average="5.00" min="1" max="5"/>
+    <media:statistics views="68321"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:8cdot1UCTVs</id>
+  <yt:videoId>8cdot1UCTVs</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>11 Photos With Terrifying Truths Explained in 20 Minutes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=8cdot1UCTVs"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-02-18T16:45:00+00:00</published>
+  <updated>2026-10-02T17:31:35+00:00</updated>
+  <media:group>
+   <media:title>11 Photos With Terrifying Truths Explained in 20 Minutes</media:title>
+   <media:content url="https://www.youtube.com/v/8cdot1UCTVs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/8cdot1UCTVs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>These photos captured a moment in time… and something far more disturbing than anyone realized.</media:description>
+   <media:community>
+    <media:starRating count="11524" average="5.00" min="1" max="5"/>
+    <media:statistics views="342336"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:CLiPMgDNwCU</id>
+  <yt:videoId>CLiPMgDNwCU</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>Every DEADLIEST Disease Explained in 14 Minutes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=CLiPMgDNwCU"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-02-13T16:45:00+00:00</published>
+  <updated>2026-10-20T08:02:32+00:00</updated>
+  <media:group>
+   <media:title>Every DEADLIEST Disease Explained in 14 Minutes</media:title>
+   <media:content url="https://www.youtube.com/v/CLiPMgDNwCU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/CLiPMgDNwCU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>This is a fast guide to the world’s deadliest diseases — the ones that changed history and terrified entire generations.</media:description>
+   <media:community>
+    <media:starRating count="3744" average="5.00" min="1" max="5"/>
+    <media:statistics views="163413"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:cLJRmO2fcrY</id>
+  <yt:videoId>cLJRmO2fcrY</yt:videoId>
+  <yt:channelId>UCc7p7J9tem8-18oJ0JzYOGg</yt:channelId>
+  <title>8 WORST Disasters Caused by Humans Explained in 13 Minutes</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=cLJRmO2fcrY"/>
+  <author>
+   <name>The Evaluator</name>
+   <uri>https://www.youtube.com/channel/UCc7p7J9tem8-18oJ0JzYOGg</uri>
+  </author>
+  <published>2026-02-10T16:30:00+00:00</published>
+  <updated>2026-10-03T20:41:58+00:00</updated>
+  <media:group>
+   <media:title>8 WORST Disasters Caused by Humans Explained in 13 Minutes</media:title>
+   <media:content url="https://www.youtube.com/v/cLJRmO2fcrY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/cLJRmO2fcrY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>These are 8 man-made disasters that didn’t need to happen — until one mistake turned into a chain reaction.
+
+00:00 - SEGMENT 1
+01:31 - SEGMENT 2
+02:59 - SEGMENT 3
+04:39 - SEGMENT 4
+06:28 - SEGMENT 5
+08:15 - SEGMENT 6
+09:54 - SEGMENT 7
+11:36 - SEGMENT 8</media:description>
+   <media:community>
+    <media:starRating count="1290" average="5.00" min="1" max="5"/>
+    <media:statistics views="48263"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
