@@ -1,20 +1,20 @@
 {
  "model": "cagliostrolab/animagine-xl-3.1",
- "image": "analysis/gen/mashlehi_base2.png",
+ "image": "analysis/gen/mashclump_base.png",
  "mask": "analysis/gen/mashlehi_mask.png",
  "variants": [
   {
-   "id": "n50",
-   "strength": 0.5,
-   "prompt": "1boy, solo, faceless, black hair, mushroom cut, bowl cut, voluminous hair, round puffy hair, thick heavy bangs, swept bangs, shiny hair, glossy hair, hair highlights, detailed hair strands, intricate hair linework, hair texture, high contrast, monochrome, greyscale, detailed lineart, manga, ink illustration, grey background"
+   "id": "k35",
+   "strength": 0.35,
+   "prompt": "1boy, solo, faceless, black hair, mushroom cut, bowl cut, voluminous hair, thick heavy bangs, hair clumps, shiny hair, hair highlights, glossy hair, sharp hair highlights, detailed lineart, clean lineart, manga, anime coloring, cel shading, monochrome, greyscale, high contrast, grey background"
   },
   {
-   "id": "n62",
-   "strength": 0.62,
-   "prompt": "1boy, solo, faceless, black hair, mushroom cut, bowl cut, voluminous hair, round puffy hair, thick heavy bangs, swept bangs, shiny hair, glossy hair, hair highlights, detailed hair strands, intricate hair linework, hair texture, high contrast, monochrome, greyscale, detailed lineart, manga, ink illustration, grey background"
+   "id": "k45",
+   "strength": 0.45,
+   "prompt": "1boy, solo, faceless, black hair, mushroom cut, bowl cut, voluminous hair, thick heavy bangs, hair clumps, shiny hair, hair highlights, glossy hair, sharp hair highlights, detailed lineart, clean lineart, manga, anime coloring, cel shading, monochrome, greyscale, high contrast, grey background"
   }
  ],
- "negative": "bald, eyes, nose, mouth, face, hat, cap, helmet, white hair, grey hair, spiked hair, dreadlocks, text, watermark, lowres, worst quality, low quality, blurry, flat color, simple, 3d",
+ "negative": "bald, eyes, nose, mouth, face, hat, cap, helmet, white hair, spiked hair, dreadlocks, text, watermark, lowres, worst quality, low quality, blurry, sketch, messy, 3d",
  "seeds": [
   14,
   47,
