@@ -1,31 +1,23 @@
 {
  "model": "cagliostrolab/animagine-xl-3.1",
- "image": "analysis/gen/squatLine_s7.png",
- "mask": "analysis/gen/squatLine_s7_dreadmask.png",
+ "image": "analysis/gen/dreadhi_base.png",
+ "mask": "analysis/gen/dreadhi_mask.png",
  "variants": [
   {
-   "id": "dread80",
-   "image": "analysis/gen/squatLine_s7_dreadbase.png",
-   "strength": 0.8,
-   "prompt": "1boy, solo, faceless, black hair, dreadlocks, long dreadlocks, thick dreadlocks, many dreadlocks, voluminous hair, detailed hair, intricate hair linework, hair highlights, hatching, monochrome, greyscale, clean lineart, manga, ink illustration, grey background"
+   "id": "d65",
+   "strength": 0.65,
+   "prompt": "1boy, solo, faceless, black hair, dreadlocks, thick dreadlocks, dense dreadlocks, long dreadlocks, voluminous hair, detailed hair, intricate hair linework, textured hair, hair highlights, hatching, cross-hatching, monochrome, greyscale, detailed lineart, manga, ink illustration, grey background"
   },
   {
-   "id": "dread92",
-   "image": "analysis/gen/squatLine_s7_dreadbase.png",
-   "strength": 0.92,
-   "prompt": "1boy, solo, faceless, black hair, dreadlocks, long dreadlocks, thick dreadlocks, many dreadlocks, voluminous hair, detailed hair, intricate hair linework, hair highlights, hatching, monochrome, greyscale, clean lineart, manga, ink illustration, grey background"
+   "id": "d80",
+   "strength": 0.8,
+   "prompt": "1boy, solo, faceless, black hair, dreadlocks, thick dreadlocks, dense dreadlocks, long dreadlocks, voluminous hair, detailed hair, intricate hair linework, textured hair, hair highlights, hatching, cross-hatching, monochrome, greyscale, detailed lineart, manga, ink illustration, grey background"
   }
  ],
- "negative": "bald, eyes, nose, mouth, face, hat, cap, helmet, headphones, earmuffs, white hair, grey hair, braid, text, watermark, lowres, worst quality, low quality, blurry, flat color, simple",
+ "negative": "bald, eyes, nose, mouth, face, hat, cap, helmet, headphones, white hair, grey hair, braid, thin braids, sparse hair, text, watermark, lowres, worst quality, low quality, blurry, flat color, simple, 3d",
  "seeds": [
-  11,
-  29,
-  63
- ],
- "crop": [
-  64,
-  0,
-  832,
-  768
+  2,
+  31,
+  77
  ]
 }
