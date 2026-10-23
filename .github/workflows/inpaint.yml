@@ -1,0 +1,49 @@
+name: inpaint
+# 見本用：.github/inpaint.json の画像の、マスクの部分（例：頭）だけを無料モデルで描き直し、analysis/gen/ に置く。
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['.github/inpaint.json']
+permissions:
+  contents: write
+jobs:
+  paint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        v: [0, 1]
+        seed: [0, 1, 2]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-animagine-xl-3.1
+      - run: pip install -q --index-url https://download.pytorch.org/whl/cpu torch && pip install -q diffusers transformers accelerate safetensors pillow
+      - env: { HF_HUB_DOWNLOAD_TIMEOUT: '60', HF_HUB_ETAG_TIMEOUT: '30' }
+        run: |
+          python3 - <<'PY'
+          import json, torch, os
+          from PIL import Image
+          from diffusers import StableDiffusionXLInpaintPipeline
+          c = json.load(open('.github/inpaint.json')); v = c['variants'][${{ matrix.v }}]; seed = c['seeds'][${{ matrix.seed }}]
+          pipe = StableDiffusionXLInpaintPipeline.from_pretrained(c['model'], torch_dtype=torch.float32, use_safetensors=True)
+          torch.set_num_threads(os.cpu_count())
+          img = Image.open(v.get('image', c['image'])).convert('RGB'); mask = Image.open(c['mask']).convert('L')
+          full, fmask = img, mask
+          box = tuple(c.get('crop', (0, 0, img.width, img.height)))  # 描き直すのは頭まわりの切り出しだけ（速くするため）
+          img, mask = full.crop(box), fmask.crop(box)
+          lat = pipe(prompt=v['prompt'], negative_prompt=c['negative'], image=img, mask_image=mask, width=img.width, height=img.height,
+                     strength=v.get('strength', 1.0), num_inference_steps=30, guidance_scale=7, generator=torch.Generator().manual_seed(seed), output_type='latent').images
+          vae = pipe.vae.to(torch.float32)
+          with torch.no_grad(): x = vae.decode(lat.to(torch.float32) / vae.config.scaling_factor).sample
+          out = pipe.image_processor.postprocess(x, output_type='pil')[0]
+          # マスクの外は元の絵のまま（体・背景を変えない）
+          out = Image.composite(out, img, mask); full.paste(out, box[:2]); out = full
+          os.makedirs('out', exist_ok=True); out.save(f"out/{os.path.basename(c['image'])[:-4]}_{v['id']}_s{seed}.png")
+          PY
+      - uses: actions/upload-artifact@v4
+        with: { name: 'paint-${{ matrix.v }}-${{ matrix.seed }}', path: out }

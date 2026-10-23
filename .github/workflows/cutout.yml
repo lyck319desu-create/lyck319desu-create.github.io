@@ -1,0 +1,30 @@
+name: cutout
+# analysis/gen/*.png の人物を、無料の背景切り抜き（rembg の isnet-anime）で切り抜き、透過 PNG を analysis/gen_cut/ に置く。.github/cutout.txt を push すると動く。
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['.github/cutout.txt']
+permissions:
+  contents: write
+jobs:
+  cut:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q "rembg[cpu]" pillow
+      - run: |
+          mkdir -p analysis/gen_cut
+          python3 - <<'PY'
+          import glob, os
+          from rembg import remove, new_session
+          from PIL import Image
+          s = new_session('isnet-anime')
+          for f in sorted(glob.glob('analysis/gen/*.png')):
+              out = 'analysis/gen_cut/' + os.path.basename(f)
+              if os.path.exists(out): continue
+              remove(Image.open(f), session=s, alpha_matting=True).save(out)
+              print(out)
+          PY
+      - run: |
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git add analysis/gen_cut && git commit -m "Cut out sample figures" && git push || echo nothing
