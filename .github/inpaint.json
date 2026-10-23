@@ -4,17 +4,17 @@
  "mask": "analysis/gen/full_mask_1216x832.png",
  "variants": [
   {
-   "id": "p62",
-   "strength": 0.62,
-   "prompt": "push-up, side view, from side, full body, arms straight, hands on floor, body straight plank, toes on floor, head facing right, 1boy, solo, faceless, faceless male, blank face, black hair, bowl cut, mushroom cut, thick bangs, white skin, pale skin, topless, shirtless, muscular male, very muscular, abs, pectorals, detailed muscles, tight black shorts, thigh-length shorts, barefoot, red wristband, monochrome, greyscale, red wristband only colored, clean lineart, anime coloring, flat white skin, minimal grey shading, cel shading, manga, simple background, grey background, masterpiece, best quality, very aesthetic, absurdres"
+   "id": "q85",
+   "strength": 0.85,
+   "prompt": "push-up, side view, from side, full body, arms straight, hands on floor, body straight plank, toes on floor, head facing right, 1boy, solo, faceless, faceless male, blank face, black hair, bowl cut, mushroom cut, thick bangs, white skin, pale skin, topless, shirtless, muscular male, very muscular, abs, pectorals, detailed muscles, tight black shorts, thigh-length shorts, barefoot, red wristband, monochrome, greyscale, red wristband only colored, clean lineart, detailed muscle definition, ink linework, manga illustration, muscle shading, grey shading, manga, simple background, grey background, masterpiece, best quality, very aesthetic, absurdres"
   },
   {
-   "id": "p75",
-   "strength": 0.75,
-   "prompt": "push-up, side view, from side, full body, arms straight, hands on floor, body straight plank, toes on floor, head facing right, 1boy, solo, faceless, faceless male, blank face, black hair, bowl cut, mushroom cut, thick bangs, white skin, pale skin, topless, shirtless, muscular male, very muscular, abs, pectorals, detailed muscles, tight black shorts, thigh-length shorts, barefoot, red wristband, monochrome, greyscale, red wristband only colored, clean lineart, anime coloring, flat white skin, minimal grey shading, cel shading, manga, simple background, grey background, masterpiece, best quality, very aesthetic, absurdres"
+   "id": "q93",
+   "strength": 0.93,
+   "prompt": "push-up, side view, from side, full body, arms straight, hands on floor, body straight plank, toes on floor, head facing right, 1boy, solo, faceless, faceless male, blank face, black hair, bowl cut, mushroom cut, thick bangs, white skin, pale skin, topless, shirtless, muscular male, very muscular, abs, pectorals, detailed muscles, tight black shorts, thigh-length shorts, barefoot, red wristband, monochrome, greyscale, red wristband only colored, clean lineart, detailed muscle definition, ink linework, manga illustration, muscle shading, grey shading, manga, simple background, grey background, masterpiece, best quality, very aesthetic, absurdres"
   }
  ],
- "negative": "nsfw, lowres, eyes, nose, mouth, ear, facial text, watermark, signature, logo, colored skin, tan, detailed background, scenery, gym, floor pattern, shoes, socks, footwear, belt, red belt, red waistband, baggy shorts, long shorts, tank top, shirt, nipples, red outline, red glow, red edges, heavy shading, airbrush, thick outline, extra limbs, bad hands, missing fingers, cropped, worst quality, low quality, blurry, jpeg artifacts, 3d, cg, realistic, gradient shading, floor, cast shadow, shadow on floor, long fingers, bald",
+ "negative": "nsfw, lowres, eyes, nose, mouth, ear, facial text, watermark, signature, logo, colored skin, tan, detailed background, scenery, gym, floor pattern, shoes, socks, footwear, belt, red belt, red waistband, baggy shorts, long shorts, tank top, shirt, nipples, red outline, red glow, red edges, airbrush, thick outline, extra limbs, bad hands, missing fingers, cropped, worst quality, low quality, blurry, jpeg artifacts, 3d, cg, realistic, floor, cast shadow, shadow on floor, long fingers, bald, simple, flat, minimalist, vector art, stick figure, mannequin, chibi",
  "seeds": [
   7,
   42,
