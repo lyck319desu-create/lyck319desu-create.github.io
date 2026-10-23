@@ -1,23 +1,23 @@
 {
  "model": "cagliostrolab/animagine-xl-3.1",
- "image": "analysis/gen/pose_pushup2_guide.png",
+ "image": "analysis/gen/pose_pushup3_guide.png",
  "mask": "analysis/gen/full_mask_1216x832.png",
  "variants": [
   {
-   "id": "t90",
-   "strength": 0.9,
-   "prompt": "push-up, side view, from side, full body, arms straight, hands on floor, body straight plank, toes on floor, head facing right, 1boy, solo, faceless, faceless male, blank face, black hair, bowl cut, thick bangs, white skin, pale skin, topless, shirtless, muscular male, very muscular, bodybuilder, huge muscles, broad shoulders, thick arms, thick thighs, abs, pectorals, detailed muscles, tight black shorts, thigh-length shorts, barefoot, red wristband, monochrome, greyscale, red wristband only colored, clean lineart, anime coloring, flat white skin, minimal grey shading, cel shading, manga, simple background, grey background, masterpiece, best quality, very aesthetic, absurdres"
+   "id": "u85",
+   "strength": 0.85,
+   "prompt": "push-up, side view, from side, full body, arms straight, hands on floor, body straight plank, toes on floor, head facing right, 1boy, solo, faceless, faceless male, blank face, black hair, bowl cut, thick bangs, white skin, pale skin, topless, shirtless, muscular male, very muscular, heavy grey cel shading, thick black outline, bulky bodybuilder, glossy skin shading, bodybuilder, huge muscles, broad shoulders, thick arms, thick thighs, abs, pectorals, detailed muscles, tight black shorts, thigh-length shorts, barefoot, red wristband, monochrome, greyscale, red wristband only colored, clean lineart, anime coloring, flat white skin, minimal grey shading, cel shading, manga, simple background, grey background, masterpiece, best quality, very aesthetic, absurdres"
   },
   {
-   "id": "t95",
-   "strength": 0.95,
-   "prompt": "push-up, side view, from side, full body, arms straight, hands on floor, body straight plank, toes on floor, head facing right, 1boy, solo, faceless, faceless male, blank face, black hair, bowl cut, thick bangs, white skin, pale skin, topless, shirtless, muscular male, very muscular, bodybuilder, huge muscles, broad shoulders, thick arms, thick thighs, abs, pectorals, detailed muscles, tight black shorts, thigh-length shorts, barefoot, red wristband, monochrome, greyscale, red wristband only colored, clean lineart, anime coloring, flat white skin, minimal grey shading, cel shading, manga, simple background, grey background, masterpiece, best quality, very aesthetic, absurdres"
+   "id": "u92",
+   "strength": 0.92,
+   "prompt": "push-up, side view, from side, full body, arms straight, hands on floor, body straight plank, toes on floor, head facing right, 1boy, solo, faceless, faceless male, blank face, black hair, bowl cut, thick bangs, white skin, pale skin, topless, shirtless, muscular male, very muscular, heavy grey cel shading, thick black outline, bulky bodybuilder, glossy skin shading, bodybuilder, huge muscles, broad shoulders, thick arms, thick thighs, abs, pectorals, detailed muscles, tight black shorts, thigh-length shorts, barefoot, red wristband, monochrome, greyscale, red wristband only colored, clean lineart, anime coloring, flat white skin, minimal grey shading, cel shading, manga, simple background, grey background, masterpiece, best quality, very aesthetic, absurdres"
   }
  ],
- "negative": "nsfw, lowres, eyes, nose, mouth, ear, facial text, watermark, signature, logo, colored skin, tan, detailed background, scenery, gym, floor pattern, shoes, socks, footwear, belt, red belt, red waistband, baggy shorts, long shorts, tank top, shirt, nipples, red outline, red glow, red edges, heavy shading, airbrush, thick outline, extra limbs, bad hands, missing fingers, cropped, worst quality, low quality, blurry, jpeg artifacts, 3d, cg, realistic, gradient shading, floor, cast shadow, shadow on floor, long fingers, bald, mushroom, food, simple, flat, minimalist, vector art, stick figure, mannequin, chibi, skinny, thin",
+ "negative": "nsfw, lowres, eyes, nose, mouth, ear, facial text, watermark, signature, logo, colored skin, tan, detailed background, scenery, gym, floor pattern, shoes, socks, footwear, belt, red belt, red waistband, baggy shorts, long shorts, tank top, shirt, nipples, red outline, red glow, red edges, airbrush, extra limbs, bad hands, missing fingers, cropped, worst quality, low quality, blurry, jpeg artifacts, 3d, cg, realistic, floor, cast shadow, shadow on floor, long fingers, bald, mushroom, food, simple, flat, minimalist, vector art, stick figure, mannequin, chibi, skinny, thin",
  "seeds": [
-  42,
   555,
-  99
+  42,
+  7
  ]
 }
