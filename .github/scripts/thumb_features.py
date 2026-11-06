@@ -75,8 +75,24 @@ def one(ch, vid):
     gray = cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY); edges = cv2.Canny(gray, 80, 200)
     boxes = []
     try:
-        for bb, txt, conf in reader.readtext(a, detail=1):
-            if conf < 0.15 or not txt.strip(): continue
+        cand = []
+        for scale in (1.0, 0.5):
+            img = a if scale == 1.0 else cv2.resize(a, (640, 360), interpolation=cv2.INTER_AREA)
+            for bb, txt, conf in reader.readtext(img, detail=1, text_threshold=0.5, low_text=0.3):
+                if conf < 0.05 or not txt.strip(): continue
+                bb = [[p[0]/scale, p[1]/scale] for p in bb]
+                cand.append((bb, txt, conf))
+        # 2つの大きさで重なった箱は、高さの大きい方（大きい字を丸ごと拾えた方）を残す
+        def rect(bb): xs=[p[0] for p in bb]; ys=[p[1] for p in bb]; return min(xs),min(ys),max(xs),max(ys)
+        cand.sort(key=lambda c: -(rect(c[0])[3]-rect(c[0])[1]))
+        kept = []
+        for c in cand:
+            x0,y0,x1,y1 = rect(c[0]); dup=False
+            for k in kept:
+                X0,Y0,X1,Y1 = rect(k[0]); ix=max(0,min(x1,X1)-max(x0,X0)); iy=max(0,min(y1,Y1)-max(y0,Y0))
+                if ix*iy > 0.4*min((x1-x0)*(y1-y0),(X1-X0)*(Y1-Y0)): dup=True; break
+            if not dup: kept.append(c)
+        for bb, txt, conf in kept:
             xs = [p[0] for p in bb]; ys = [p[1] for p in bb]
             x0, x1, y0, y1 = max(0, min(xs)), min(1280, max(xs)), max(0, min(ys)), min(720, max(ys))
             if x1-x0 < 4 or y1-y0 < 4: continue
