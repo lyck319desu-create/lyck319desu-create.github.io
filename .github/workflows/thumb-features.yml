@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: pip install -q torch torchvision --index-url https://download.pytorch.org/whl/cpu
-      - run: pip install -q easyocr open_clip_torch opencv-python-headless pillow numpy
+      - run: pip install -q easyocr open_clip_torch pillow numpy && pip uninstall -y -q opencv-python opencv-python-headless opencv-contrib-python || true; pip install -q opencv-python-headless && python -c 'import cv2;print(cv2.__version__, hasattr(cv2,"CascadeClassifier"))'
       - run: python .github/scripts/thumb_features.py .github/thumb-targets.txt ${{ matrix.shard }} 8 feat_${{ matrix.shard }}.json
       - uses: actions/upload-artifact@v4
         with: { name: 'feat_${{ matrix.shard }}', path: 'feat_${{ matrix.shard }}.json' }

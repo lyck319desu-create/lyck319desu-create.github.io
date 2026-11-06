@@ -62,11 +62,14 @@ def colorfulness(a):
     rg = r-g; yb = 0.5*(r+g)-b
     return float(np.sqrt(rg.std()**2+yb.std()**2)+0.3*np.sqrt(rg.mean()**2+yb.mean()**2))
 
-face = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+try:
+    face = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+except Exception:
+    face = None
 res = {}
-for ch, vid in tg:
+def one(ch, vid):
     im, q = fetch(vid)
-    if im is None: res[vid] = {'ch': ch, 'err': 'nofetch'}; continue
+    if im is None: res[vid] = {'ch': ch, 'err': 'nofetch'}; return
     a = np.array(im); bgr = cv2.cvtColor(a, cv2.COLOR_RGB2BGR); hsv = cv2.cvtColor(bgr, cv2.COLOR_BGR2HSV)
     H, S, V = hsv[..., 0].astype(int)*2, hsv[..., 1], hsv[..., 2]
     gray = cv2.cvtColor(bgr, cv2.COLOR_BGR2GRAY); edges = cv2.Canny(gray, 80, 200)
@@ -98,7 +101,7 @@ for ch, vid in tg:
     nontext_red = (red & ~tmask).astype(np.uint8)
     nc, lab, st, _ = cv2.connectedComponentsWithStats(nontext_red, 8)
     blobs = sorted([s for s in st[1:] if s[4] > 400], key=lambda s: -s[4])[:3]
-    fc = face.detectMultiScale(gray, 1.1, 6, minSize=(60, 60))
+    fc = face.detectMultiScale(gray, 1.1, 6, minSize=(60, 60)) if face is not None else []
     g43 = cv2.resize(gray, (4, 3), interpolation=cv2.INTER_AREA)
     e43 = cv2.resize(edges.astype(float), (4, 3), interpolation=cv2.INTER_AREA)/255
     with torch.no_grad():
@@ -120,4 +123,8 @@ for ch, vid in tg:
       'clip': {k2: round(v, 3) for k2, v in zip(LABELS, p)}})
     res[vid] = r
     print(ch, vid, len(boxes), flush=True)
+
+for ch, vid in tg:
+    try: one(ch, vid)
+    except Exception as e: res[vid] = {'ch': ch, 'err': str(e)[:120]}; print('ERR', vid, e, flush=True)
 json.dump(res, open(out, 'w'), ensure_ascii=False)
