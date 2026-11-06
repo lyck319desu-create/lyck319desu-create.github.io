@@ -4,18 +4,18 @@
   "title": "もし埼玉県が存在しなかったら",
   "published_at": "2026-10-10T19:30:22+09:00",
   "duration_seconds": 48,
-  "age_days_at_fetch": 25.67,
-  "fetched_at": "2026-11-05T11:36:42+09:00",
+  "age_days_at_fetch": 26.67,
+  "fetched_at": "2026-11-06T11:35:05+09:00",
   "period": {
     "start": "2026-10-10",
-    "end": "2026-11-05"
+    "end": "2026-11-06"
   },
   "summary": {
-    "views": 3344,
-    "engagedViews": 1634,
-    "estimatedMinutesWatched": 1190,
+    "views": 3357,
+    "engagedViews": 1643,
+    "estimatedMinutesWatched": 1193,
     "averageViewDuration": 42,
-    "averageViewPercentage": 88.88,
+    "averageViewPercentage": 88.59,
     "subscribersGained": 3,
     "likes": 45,
     "shares": 4,
@@ -24,503 +24,503 @@
   "audience_retention": [
     {
       "elapsedVideoTimeRatio": 0.01,
-      "audienceWatchRatio": 1.6365,
-      "relativeRetentionPerformance": 0.645
+      "audienceWatchRatio": 1.6341999999999999,
+      "relativeRetentionPerformance": 0.6447499999999999
     },
     {
       "elapsedVideoTimeRatio": 0.02,
-      "audienceWatchRatio": 1.6193,
-      "relativeRetentionPerformance": 0.61455
+      "audienceWatchRatio": 1.6172,
+      "relativeRetentionPerformance": 0.6142
     },
     {
       "elapsedVideoTimeRatio": 0.03,
-      "audienceWatchRatio": 1.5588,
-      "relativeRetentionPerformance": 0.58635
+      "audienceWatchRatio": 1.5569,
+      "relativeRetentionPerformance": 0.58595
     },
     {
       "elapsedVideoTimeRatio": 0.04,
-      "audienceWatchRatio": 1.5031,
-      "relativeRetentionPerformance": 0.56415
+      "audienceWatchRatio": 1.5015,
+      "relativeRetentionPerformance": 0.56365
     },
     {
       "elapsedVideoTimeRatio": 0.05,
-      "audienceWatchRatio": 1.4706000000000001,
-      "relativeRetentionPerformance": 0.5491
+      "audienceWatchRatio": 1.4687000000000001,
+      "relativeRetentionPerformance": 0.5486
     },
     {
       "elapsedVideoTimeRatio": 0.06,
-      "audienceWatchRatio": 1.4455,
-      "relativeRetentionPerformance": 0.5404
+      "audienceWatchRatio": 1.4431,
+      "relativeRetentionPerformance": 0.5398499999999999
     },
     {
       "elapsedVideoTimeRatio": 0.07,
-      "audienceWatchRatio": 1.4278,
-      "relativeRetentionPerformance": 0.53595
+      "audienceWatchRatio": 1.4254,
+      "relativeRetentionPerformance": 0.5354
     },
     {
       "elapsedVideoTimeRatio": 0.08,
-      "audienceWatchRatio": 1.4113,
-      "relativeRetentionPerformance": 0.534
-    },
-    {
-      "elapsedVideoTimeRatio": 0.09,
-      "audienceWatchRatio": 1.3996000000000002,
-      "relativeRetentionPerformance": 0.53315
-    },
-    {
-      "elapsedVideoTimeRatio": 0.1,
-      "audienceWatchRatio": 1.3666,
-      "relativeRetentionPerformance": 0.5327500000000001
-    },
-    {
-      "elapsedVideoTimeRatio": 0.11,
-      "audienceWatchRatio": 1.314,
-      "relativeRetentionPerformance": 0.53255
-    },
-    {
-      "elapsedVideoTimeRatio": 0.12,
-      "audienceWatchRatio": 1.2528,
-      "relativeRetentionPerformance": 0.5325
-    },
-    {
-      "elapsedVideoTimeRatio": 0.13,
-      "audienceWatchRatio": 1.1952,
-      "relativeRetentionPerformance": 0.5325
-    },
-    {
-      "elapsedVideoTimeRatio": 0.14,
-      "audienceWatchRatio": 1.153,
-      "relativeRetentionPerformance": 0.5325
-    },
-    {
-      "elapsedVideoTimeRatio": 0.15,
-      "audienceWatchRatio": 1.1383,
-      "relativeRetentionPerformance": 0.53265
-    },
-    {
-      "elapsedVideoTimeRatio": 0.16,
-      "audienceWatchRatio": 1.1059,
-      "relativeRetentionPerformance": 0.5327999999999999
-    },
-    {
-      "elapsedVideoTimeRatio": 0.17,
-      "audienceWatchRatio": 1.0728,
-      "relativeRetentionPerformance": 0.53305
-    },
-    {
-      "elapsedVideoTimeRatio": 0.18,
-      "audienceWatchRatio": 1.0551000000000001,
+      "audienceWatchRatio": 1.409,
       "relativeRetentionPerformance": 0.5334
     },
     {
+      "elapsedVideoTimeRatio": 0.09,
+      "audienceWatchRatio": 1.3974000000000002,
+      "relativeRetentionPerformance": 0.53255
+    },
+    {
+      "elapsedVideoTimeRatio": 0.1,
+      "audienceWatchRatio": 1.3646,
+      "relativeRetentionPerformance": 0.5322
+    },
+    {
+      "elapsedVideoTimeRatio": 0.11,
+      "audienceWatchRatio": 1.3115999999999999,
+      "relativeRetentionPerformance": 0.532
+    },
+    {
+      "elapsedVideoTimeRatio": 0.12,
+      "audienceWatchRatio": 1.2495,
+      "relativeRetentionPerformance": 0.5319
+    },
+    {
+      "elapsedVideoTimeRatio": 0.13,
+      "audienceWatchRatio": 1.1911,
+      "relativeRetentionPerformance": 0.5319
+    },
+    {
+      "elapsedVideoTimeRatio": 0.14,
+      "audienceWatchRatio": 1.1491,
+      "relativeRetentionPerformance": 0.53195
+    },
+    {
+      "elapsedVideoTimeRatio": 0.15,
+      "audienceWatchRatio": 1.1345,
+      "relativeRetentionPerformance": 0.53205
+    },
+    {
+      "elapsedVideoTimeRatio": 0.16,
+      "audienceWatchRatio": 1.1023,
+      "relativeRetentionPerformance": 0.5322
+    },
+    {
+      "elapsedVideoTimeRatio": 0.17,
+      "audienceWatchRatio": 1.0694,
+      "relativeRetentionPerformance": 0.53245
+    },
+    {
+      "elapsedVideoTimeRatio": 0.18,
+      "audienceWatchRatio": 1.0517,
+      "relativeRetentionPerformance": 0.5327999999999999
+    },
+    {
       "elapsedVideoTimeRatio": 0.19,
-      "audienceWatchRatio": 1.0476999999999999,
-      "relativeRetentionPerformance": 0.53385
+      "audienceWatchRatio": 1.0444,
+      "relativeRetentionPerformance": 0.53325
     },
     {
       "elapsedVideoTimeRatio": 0.2,
-      "audienceWatchRatio": 1.033,
-      "relativeRetentionPerformance": 0.53435
+      "audienceWatchRatio": 1.0298,
+      "relativeRetentionPerformance": 0.5338
     },
     {
       "elapsedVideoTimeRatio": 0.21,
-      "audienceWatchRatio": 1.0288,
-      "relativeRetentionPerformance": 0.535
+      "audienceWatchRatio": 1.0256,
+      "relativeRetentionPerformance": 0.5344
     },
     {
       "elapsedVideoTimeRatio": 0.22,
-      "audienceWatchRatio": 1.0202,
-      "relativeRetentionPerformance": 0.5357
+      "audienceWatchRatio": 1.0170000000000001,
+      "relativeRetentionPerformance": 0.5351
     },
     {
       "elapsedVideoTimeRatio": 0.23,
-      "audienceWatchRatio": 1.0159,
-      "relativeRetentionPerformance": 0.53655
+      "audienceWatchRatio": 1.0128,
+      "relativeRetentionPerformance": 0.53595
     },
     {
       "elapsedVideoTimeRatio": 0.24,
-      "audienceWatchRatio": 1.008,
-      "relativeRetentionPerformance": 0.53745
+      "audienceWatchRatio": 1.0049,
+      "relativeRetentionPerformance": 0.53685
     },
     {
       "elapsedVideoTimeRatio": 0.25,
-      "audienceWatchRatio": 1.0012,
-      "relativeRetentionPerformance": 0.53845
+      "audienceWatchRatio": 0.9982,
+      "relativeRetentionPerformance": 0.5379
     },
     {
       "elapsedVideoTimeRatio": 0.26,
-      "audienceWatchRatio": 0.9884000000000001,
-      "relativeRetentionPerformance": 0.5396
+      "audienceWatchRatio": 0.9854,
+      "relativeRetentionPerformance": 0.53905
     },
     {
       "elapsedVideoTimeRatio": 0.27,
-      "audienceWatchRatio": 0.9761,
-      "relativeRetentionPerformance": 0.54085
+      "audienceWatchRatio": 0.9732,
+      "relativeRetentionPerformance": 0.54025
     },
     {
       "elapsedVideoTimeRatio": 0.28,
-      "audienceWatchRatio": 0.9645,
-      "relativeRetentionPerformance": 0.54215
+      "audienceWatchRatio": 0.9617,
+      "relativeRetentionPerformance": 0.5416
     },
     {
       "elapsedVideoTimeRatio": 0.29,
-      "audienceWatchRatio": 0.9565,
-      "relativeRetentionPerformance": 0.5436
+      "audienceWatchRatio": 0.9537,
+      "relativeRetentionPerformance": 0.54305
     },
     {
       "elapsedVideoTimeRatio": 0.3,
-      "audienceWatchRatio": 0.9529000000000001,
-      "relativeRetentionPerformance": 0.54515
+      "audienceWatchRatio": 0.9501000000000001,
+      "relativeRetentionPerformance": 0.5446
     },
     {
       "elapsedVideoTimeRatio": 0.31,
-      "audienceWatchRatio": 0.9460999999999999,
-      "relativeRetentionPerformance": 0.5469
+      "audienceWatchRatio": 0.9434,
+      "relativeRetentionPerformance": 0.5463
     },
     {
       "elapsedVideoTimeRatio": 0.32,
-      "audienceWatchRatio": 0.937,
-      "relativeRetentionPerformance": 0.54875
+      "audienceWatchRatio": 0.9343,
+      "relativeRetentionPerformance": 0.54815
     },
     {
       "elapsedVideoTimeRatio": 0.33,
-      "audienceWatchRatio": 0.9278,
-      "relativeRetentionPerformance": 0.5508
+      "audienceWatchRatio": 0.9251,
+      "relativeRetentionPerformance": 0.5502
     },
     {
       "elapsedVideoTimeRatio": 0.34,
-      "audienceWatchRatio": 0.9253,
-      "relativeRetentionPerformance": 0.5531
+      "audienceWatchRatio": 0.9220999999999999,
+      "relativeRetentionPerformance": 0.55245
     },
     {
       "elapsedVideoTimeRatio": 0.35,
-      "audienceWatchRatio": 0.9204000000000001,
-      "relativeRetentionPerformance": 0.55555
+      "audienceWatchRatio": 0.9172,
+      "relativeRetentionPerformance": 0.5549
     },
     {
       "elapsedVideoTimeRatio": 0.36,
-      "audienceWatchRatio": 0.9148999999999999,
-      "relativeRetentionPerformance": 0.5582
+      "audienceWatchRatio": 0.9117000000000001,
+      "relativeRetentionPerformance": 0.55755
     },
     {
       "elapsedVideoTimeRatio": 0.37,
-      "audienceWatchRatio": 0.9081999999999999,
-      "relativeRetentionPerformance": 0.56105
+      "audienceWatchRatio": 0.9051,
+      "relativeRetentionPerformance": 0.5604
     },
     {
       "elapsedVideoTimeRatio": 0.38,
-      "audienceWatchRatio": 0.8978,
-      "relativeRetentionPerformance": 0.5641
+      "audienceWatchRatio": 0.8946999999999999,
+      "relativeRetentionPerformance": 0.5634
     },
     {
       "elapsedVideoTimeRatio": 0.39,
-      "audienceWatchRatio": 0.8874,
-      "relativeRetentionPerformance": 0.56725
+      "audienceWatchRatio": 0.8844,
+      "relativeRetentionPerformance": 0.5666
     },
     {
       "elapsedVideoTimeRatio": 0.4,
-      "audienceWatchRatio": 0.8752,
-      "relativeRetentionPerformance": 0.57065
+      "audienceWatchRatio": 0.8715999999999999,
+      "relativeRetentionPerformance": 0.56995
     },
     {
       "elapsedVideoTimeRatio": 0.41,
-      "audienceWatchRatio": 0.8709,
-      "relativeRetentionPerformance": 0.5742
+      "audienceWatchRatio": 0.8673000000000001,
+      "relativeRetentionPerformance": 0.5735
     },
     {
       "elapsedVideoTimeRatio": 0.42,
-      "audienceWatchRatio": 0.866,
-      "relativeRetentionPerformance": 0.578
+      "audienceWatchRatio": 0.8623999999999999,
+      "relativeRetentionPerformance": 0.5773
     },
     {
       "elapsedVideoTimeRatio": 0.43,
-      "audienceWatchRatio": 0.8592,
-      "relativeRetentionPerformance": 0.5821000000000001
+      "audienceWatchRatio": 0.8558,
+      "relativeRetentionPerformance": 0.5814
     },
     {
       "elapsedVideoTimeRatio": 0.44,
-      "audienceWatchRatio": 0.8586,
-      "relativeRetentionPerformance": 0.58645
+      "audienceWatchRatio": 0.8551000000000001,
+      "relativeRetentionPerformance": 0.58575
     },
     {
       "elapsedVideoTimeRatio": 0.45,
-      "audienceWatchRatio": 0.8568000000000001,
-      "relativeRetentionPerformance": 0.5911500000000001
+      "audienceWatchRatio": 0.8533,
+      "relativeRetentionPerformance": 0.59045
     },
     {
       "elapsedVideoTimeRatio": 0.46,
-      "audienceWatchRatio": 0.855,
-      "relativeRetentionPerformance": 0.5962
+      "audienceWatchRatio": 0.8515,
+      "relativeRetentionPerformance": 0.5955
     },
     {
       "elapsedVideoTimeRatio": 0.47,
-      "audienceWatchRatio": 0.8525,
-      "relativeRetentionPerformance": 0.60155
+      "audienceWatchRatio": 0.8491,
+      "relativeRetentionPerformance": 0.60085
     },
     {
       "elapsedVideoTimeRatio": 0.48,
-      "audienceWatchRatio": 0.8439,
-      "relativeRetentionPerformance": 0.6073
+      "audienceWatchRatio": 0.8405,
+      "relativeRetentionPerformance": 0.60665
     },
     {
       "elapsedVideoTimeRatio": 0.49,
-      "audienceWatchRatio": 0.8366,
-      "relativeRetentionPerformance": 0.61345
+      "audienceWatchRatio": 0.8331999999999999,
+      "relativeRetentionPerformance": 0.6128
     },
     {
       "elapsedVideoTimeRatio": 0.5,
-      "audienceWatchRatio": 0.8268000000000001,
-      "relativeRetentionPerformance": 0.61995
+      "audienceWatchRatio": 0.8234999999999999,
+      "relativeRetentionPerformance": 0.6193500000000001
     },
     {
       "elapsedVideoTimeRatio": 0.51,
-      "audienceWatchRatio": 0.8225,
-      "relativeRetentionPerformance": 0.6269
+      "audienceWatchRatio": 0.8192,
+      "relativeRetentionPerformance": 0.6263
     },
     {
       "elapsedVideoTimeRatio": 0.52,
-      "audienceWatchRatio": 0.8164,
-      "relativeRetentionPerformance": 0.6342
+      "audienceWatchRatio": 0.8131,
+      "relativeRetentionPerformance": 0.63365
     },
     {
       "elapsedVideoTimeRatio": 0.53,
-      "audienceWatchRatio": 0.8133,
-      "relativeRetentionPerformance": 0.642
+      "audienceWatchRatio": 0.8101,
+      "relativeRetentionPerformance": 0.6415
     },
     {
       "elapsedVideoTimeRatio": 0.54,
-      "audienceWatchRatio": 0.8054000000000001,
-      "relativeRetentionPerformance": 0.6503
+      "audienceWatchRatio": 0.8022,
+      "relativeRetentionPerformance": 0.64985
     },
     {
       "elapsedVideoTimeRatio": 0.55,
-      "audienceWatchRatio": 0.7998999999999999,
-      "relativeRetentionPerformance": 0.6592
+      "audienceWatchRatio": 0.7967,
+      "relativeRetentionPerformance": 0.65875
     },
     {
       "elapsedVideoTimeRatio": 0.56,
-      "audienceWatchRatio": 0.7987000000000001,
-      "relativeRetentionPerformance": 0.66865
+      "audienceWatchRatio": 0.7955,
+      "relativeRetentionPerformance": 0.6683
     },
     {
       "elapsedVideoTimeRatio": 0.57,
-      "audienceWatchRatio": 0.7962,
-      "relativeRetentionPerformance": 0.6788
+      "audienceWatchRatio": 0.7931,
+      "relativeRetentionPerformance": 0.67845
     },
     {
       "elapsedVideoTimeRatio": 0.58,
-      "audienceWatchRatio": 0.7938,
-      "relativeRetentionPerformance": 0.68965
+      "audienceWatchRatio": 0.7906,
+      "relativeRetentionPerformance": 0.68935
     },
     {
       "elapsedVideoTimeRatio": 0.59,
-      "audienceWatchRatio": 0.7901,
-      "relativeRetentionPerformance": 0.7012
+      "audienceWatchRatio": 0.787,
+      "relativeRetentionPerformance": 0.70095
     },
     {
       "elapsedVideoTimeRatio": 0.6,
-      "audienceWatchRatio": 0.7852,
-      "relativeRetentionPerformance": 0.71345
+      "audienceWatchRatio": 0.7820999999999999,
+      "relativeRetentionPerformance": 0.7133
     },
     {
       "elapsedVideoTimeRatio": 0.61,
-      "audienceWatchRatio": 0.784,
-      "relativeRetentionPerformance": 0.7264
+      "audienceWatchRatio": 0.7809,
+      "relativeRetentionPerformance": 0.7263
     },
     {
       "elapsedVideoTimeRatio": 0.62,
-      "audienceWatchRatio": 0.7820999999999999,
-      "relativeRetentionPerformance": 0.74
+      "audienceWatchRatio": 0.7791,
+      "relativeRetentionPerformance": 0.73995
     },
     {
       "elapsedVideoTimeRatio": 0.63,
-      "audienceWatchRatio": 0.7754000000000001,
+      "audienceWatchRatio": 0.7724,
       "relativeRetentionPerformance": 0.75405
     },
     {
       "elapsedVideoTimeRatio": 0.64,
-      "audienceWatchRatio": 0.7705,
-      "relativeRetentionPerformance": 0.7684
+      "audienceWatchRatio": 0.7675,
+      "relativeRetentionPerformance": 0.7685
     },
     {
       "elapsedVideoTimeRatio": 0.65,
-      "audienceWatchRatio": 0.7637999999999999,
-      "relativeRetentionPerformance": 0.78285
+      "audienceWatchRatio": 0.7608,
+      "relativeRetentionPerformance": 0.783
     },
     {
       "elapsedVideoTimeRatio": 0.66,
-      "audienceWatchRatio": 0.757,
-      "relativeRetentionPerformance": 0.7971999999999999
+      "audienceWatchRatio": 0.7541,
+      "relativeRetentionPerformance": 0.7974
     },
     {
       "elapsedVideoTimeRatio": 0.67,
-      "audienceWatchRatio": 0.7534000000000001,
-      "relativeRetentionPerformance": 0.81125
+      "audienceWatchRatio": 0.7505,
+      "relativeRetentionPerformance": 0.81145
     },
     {
       "elapsedVideoTimeRatio": 0.68,
-      "audienceWatchRatio": 0.7515000000000001,
-      "relativeRetentionPerformance": 0.8247500000000001
+      "audienceWatchRatio": 0.7486,
+      "relativeRetentionPerformance": 0.825
     },
     {
       "elapsedVideoTimeRatio": 0.69,
-      "audienceWatchRatio": 0.7491,
-      "relativeRetentionPerformance": 0.8375
+      "audienceWatchRatio": 0.7462000000000001,
+      "relativeRetentionPerformance": 0.8378
     },
     {
       "elapsedVideoTimeRatio": 0.7,
-      "audienceWatchRatio": 0.7484999999999999,
-      "relativeRetentionPerformance": 0.84935
+      "audienceWatchRatio": 0.7456,
+      "relativeRetentionPerformance": 0.84965
     },
     {
       "elapsedVideoTimeRatio": 0.71,
-      "audienceWatchRatio": 0.746,
-      "relativeRetentionPerformance": 0.8602000000000001
+      "audienceWatchRatio": 0.7432,
+      "relativeRetentionPerformance": 0.8605
     },
     {
       "elapsedVideoTimeRatio": 0.72,
-      "audienceWatchRatio": 0.7399,
-      "relativeRetentionPerformance": 0.86995
+      "audienceWatchRatio": 0.7371,
+      "relativeRetentionPerformance": 0.87025
     },
     {
       "elapsedVideoTimeRatio": 0.73,
-      "audienceWatchRatio": 0.7338,
-      "relativeRetentionPerformance": 0.8785499999999999
+      "audienceWatchRatio": 0.731,
+      "relativeRetentionPerformance": 0.8789
     },
     {
       "elapsedVideoTimeRatio": 0.74,
-      "audienceWatchRatio": 0.7271,
-      "relativeRetentionPerformance": 0.8861
+      "audienceWatchRatio": 0.7243,
+      "relativeRetentionPerformance": 0.88645
     },
     {
       "elapsedVideoTimeRatio": 0.75,
-      "audienceWatchRatio": 0.7252,
-      "relativeRetentionPerformance": 0.8927
+      "audienceWatchRatio": 0.7225,
+      "relativeRetentionPerformance": 0.893
     },
     {
       "elapsedVideoTimeRatio": 0.76,
-      "audienceWatchRatio": 0.7209,
-      "relativeRetentionPerformance": 0.89845
+      "audienceWatchRatio": 0.7182,
+      "relativeRetentionPerformance": 0.8987499999999999
     },
     {
       "elapsedVideoTimeRatio": 0.77,
-      "audienceWatchRatio": 0.7154,
-      "relativeRetentionPerformance": 0.9035
+      "audienceWatchRatio": 0.7127,
+      "relativeRetentionPerformance": 0.9038
     },
     {
       "elapsedVideoTimeRatio": 0.78,
-      "audienceWatchRatio": 0.7136,
-      "relativeRetentionPerformance": 0.90795
+      "audienceWatchRatio": 0.7109000000000001,
+      "relativeRetentionPerformance": 0.90825
     },
     {
       "elapsedVideoTimeRatio": 0.79,
-      "audienceWatchRatio": 0.713,
-      "relativeRetentionPerformance": 0.9118999999999999
+      "audienceWatchRatio": 0.7103,
+      "relativeRetentionPerformance": 0.9122
     },
     {
       "elapsedVideoTimeRatio": 0.8,
-      "audienceWatchRatio": 0.7118000000000001,
-      "relativeRetentionPerformance": 0.9154
+      "audienceWatchRatio": 0.7091,
+      "relativeRetentionPerformance": 0.9157
     },
     {
       "elapsedVideoTimeRatio": 0.81,
-      "audienceWatchRatio": 0.7099,
-      "relativeRetentionPerformance": 0.9185000000000001
+      "audienceWatchRatio": 0.7071999999999999,
+      "relativeRetentionPerformance": 0.9188000000000001
     },
     {
       "elapsedVideoTimeRatio": 0.82,
-      "audienceWatchRatio": 0.7087,
-      "relativeRetentionPerformance": 0.9212
+      "audienceWatchRatio": 0.706,
+      "relativeRetentionPerformance": 0.9215
     },
     {
       "elapsedVideoTimeRatio": 0.83,
-      "audienceWatchRatio": 0.7069,
-      "relativeRetentionPerformance": 0.92355
+      "audienceWatchRatio": 0.7042,
+      "relativeRetentionPerformance": 0.9238
     },
     {
       "elapsedVideoTimeRatio": 0.84,
-      "audienceWatchRatio": 0.7044,
-      "relativeRetentionPerformance": 0.92555
+      "audienceWatchRatio": 0.7018000000000001,
+      "relativeRetentionPerformance": 0.9258
     },
     {
       "elapsedVideoTimeRatio": 0.85,
-      "audienceWatchRatio": 0.7038,
-      "relativeRetentionPerformance": 0.9272
+      "audienceWatchRatio": 0.7012,
+      "relativeRetentionPerformance": 0.92745
     },
     {
       "elapsedVideoTimeRatio": 0.86,
-      "audienceWatchRatio": 0.7026,
-      "relativeRetentionPerformance": 0.92865
+      "audienceWatchRatio": 0.6999,
+      "relativeRetentionPerformance": 0.92885
     },
     {
       "elapsedVideoTimeRatio": 0.87,
-      "audienceWatchRatio": 0.7001000000000001,
-      "relativeRetentionPerformance": 0.9298
+      "audienceWatchRatio": 0.6975,
+      "relativeRetentionPerformance": 0.93005
     },
     {
       "elapsedVideoTimeRatio": 0.88,
-      "audienceWatchRatio": 0.6989,
-      "relativeRetentionPerformance": 0.9308
+      "audienceWatchRatio": 0.6962999999999999,
+      "relativeRetentionPerformance": 0.9310499999999999
     },
     {
       "elapsedVideoTimeRatio": 0.89,
-      "audienceWatchRatio": 0.6970999999999999,
-      "relativeRetentionPerformance": 0.93165
+      "audienceWatchRatio": 0.6945,
+      "relativeRetentionPerformance": 0.9318500000000001
     },
     {
       "elapsedVideoTimeRatio": 0.9,
-      "audienceWatchRatio": 0.6934,
-      "relativeRetentionPerformance": 0.9322999999999999
+      "audienceWatchRatio": 0.6908,
+      "relativeRetentionPerformance": 0.93255
     },
     {
       "elapsedVideoTimeRatio": 0.91,
-      "audienceWatchRatio": 0.6884999999999999,
-      "relativeRetentionPerformance": 0.9329000000000001
+      "audienceWatchRatio": 0.6859000000000001,
+      "relativeRetentionPerformance": 0.9331
     },
     {
       "elapsedVideoTimeRatio": 0.92,
-      "audienceWatchRatio": 0.6859999999999999,
-      "relativeRetentionPerformance": 0.93335
+      "audienceWatchRatio": 0.6835,
+      "relativeRetentionPerformance": 0.93355
     },
     {
       "elapsedVideoTimeRatio": 0.93,
-      "audienceWatchRatio": 0.6793,
-      "relativeRetentionPerformance": 0.9337
-    },
-    {
-      "elapsedVideoTimeRatio": 0.94,
-      "audienceWatchRatio": 0.6756,
-      "relativeRetentionPerformance": 0.9339500000000001
-    },
-    {
-      "elapsedVideoTimeRatio": 0.95,
-      "audienceWatchRatio": 0.6689,
-      "relativeRetentionPerformance": 0.9340999999999999
-    },
-    {
-      "elapsedVideoTimeRatio": 0.96,
-      "audienceWatchRatio": 0.6646,
-      "relativeRetentionPerformance": 0.9340999999999999
-    },
-    {
-      "elapsedVideoTimeRatio": 0.97,
-      "audienceWatchRatio": 0.6622,
-      "relativeRetentionPerformance": 0.9340999999999999
-    },
-    {
-      "elapsedVideoTimeRatio": 0.98,
-      "audienceWatchRatio": 0.6573,
-      "relativeRetentionPerformance": 0.9339999999999999
-    },
-    {
-      "elapsedVideoTimeRatio": 0.99,
-      "audienceWatchRatio": 0.6518,
+      "audienceWatchRatio": 0.6768000000000001,
       "relativeRetentionPerformance": 0.9339
     },
     {
+      "elapsedVideoTimeRatio": 0.94,
+      "audienceWatchRatio": 0.6731999999999999,
+      "relativeRetentionPerformance": 0.93415
+    },
+    {
+      "elapsedVideoTimeRatio": 0.95,
+      "audienceWatchRatio": 0.6665000000000001,
+      "relativeRetentionPerformance": 0.9343
+    },
+    {
+      "elapsedVideoTimeRatio": 0.96,
+      "audienceWatchRatio": 0.6622,
+      "relativeRetentionPerformance": 0.93435
+    },
+    {
+      "elapsedVideoTimeRatio": 0.97,
+      "audienceWatchRatio": 0.6598,
+      "relativeRetentionPerformance": 0.9343
+    },
+    {
+      "elapsedVideoTimeRatio": 0.98,
+      "audienceWatchRatio": 0.6548999999999999,
+      "relativeRetentionPerformance": 0.9342
+    },
+    {
+      "elapsedVideoTimeRatio": 0.99,
+      "audienceWatchRatio": 0.6494,
+      "relativeRetentionPerformance": 0.9340999999999999
+    },
+    {
       "elapsedVideoTimeRatio": 1,
-      "audienceWatchRatio": 0.6506000000000001,
-      "relativeRetentionPerformance": 0.9338
+      "audienceWatchRatio": 0.6481999999999999,
+      "relativeRetentionPerformance": 0.9339999999999999
     }
   ],
   "source": "YouTube Analytics API v2 (数字は2〜3日遅れることがある)"
