@@ -1,0 +1,51 @@
+name: thumb-sheets
+# 分析する人（Claude）が目で見比べるための一覧画像。.github/thumb-sheets.txt（チャンネル<TAB>動画ID<TAB>札）のサムネを
+# チャンネルごとに1枚の一覧にし、公開鍵で暗号化してから置く（画像そのものは公開しない。読めるのは秘密鍵を持つ側だけ）。
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['.github/thumb-sheets.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sheets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q pillow
+      - run: |
+          python3 - <<'PY'
+          import urllib.request, io, os
+          from PIL import Image, ImageDraw, ImageFont
+          rows=[l.rstrip('\n').split('\t') for l in open('.github/thumb-sheets.txt') if l.strip() and not l.startswith('#')]
+          by={}
+          for ch,vid,tag in rows: by.setdefault(ch,[]).append((vid,tag))
+          os.makedirs('sheets',exist_ok=True)
+          try: font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf',22)
+          except Exception: font=ImageFont.load_default()
+          W,H,C=480,270,4
+          for ch,items in by.items():
+              n=len(items); R=(n+C-1)//C
+              sheet=Image.new('RGB',(W*C,(H+30)*R),'white'); d=ImageDraw.Draw(sheet)
+              for i,(vid,tag) in enumerate(items):
+                  im=None
+                  for q in ['maxresdefault','hqdefault']:
+                      try:
+                          b=urllib.request.urlopen(f'https://i.ytimg.com/vi/{vid}/{q}.jpg',timeout=20).read()
+                          im=Image.open(io.BytesIO(b)).convert('RGB')
+                          if q=='hqdefault': w,h=im.size; im=im.crop((0,int(h*.125),w,int(h*.875)))
+                          break
+                      except Exception: pass
+                  x,y=(i%C)*W,(i//C)*(H+30)
+                  d.text((x+6,y+4),f'{i+1:02d} {tag} {vid}',fill='black',font=font)
+                  if im: sheet.paste(im.resize((W,H)),(x,y+30))
+              sheet.save(f'sheets/{ch}.jpg',quality=82)
+          PY
+          openssl rand -hex 32 > k.txt
+          tar cf sheets.tar sheets
+          openssl enc -aes-256-cbc -pbkdf2 -salt -in sheets.tar -out sheets.tar.enc -pass file:k.txt
+          openssl pkeyutl -encrypt -pubin -inkey .github/thumb-sheets.pub.pem -in k.txt -out k.enc
+          mkdir -p .cache && mv sheets.tar.enc k.enc .cache/ && rm -rf sheets sheets.tar k.txt
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git add .cache && git commit -m "thumb sheets (encrypted)" && git pull --rebase origin ${GITHUB_REF_NAME} && git push || echo nothing
