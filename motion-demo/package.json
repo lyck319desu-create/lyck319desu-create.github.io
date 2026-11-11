@@ -1,0 +1,19 @@
+{
+  "name": "iso-motion-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Creative-coding motion graphics demo: isometric procedural tower, splitting hemisphere with dimension HUD, red thread particle stroke, halftone + spectral scanline post-processing.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gsap": "3.12.5",
+    "three": "0.169.0"
+  },
+  "devDependencies": {
+    "vite": "5.4.10"
+  }
+}

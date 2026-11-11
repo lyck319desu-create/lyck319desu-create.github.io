@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ISO//TOWER motion study</title>
+  <meta name="description" content="Isometric procedural tower, splitting hemisphere, red thread and halftone post-processing. Three.js + GSAP + GLSL." />
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+<body>
+  <canvas id="gl"></canvas>
+
+  <div id="hud" aria-hidden="true">
+    <svg id="leaders"></svg>
+    <div id="labels"></div>
+
+    <div class="corner tl">
+      <div class="title">ISO//TOWER <span class="dim">motion study 0.1.0</span></div>
+      <div>fps <b id="fps">--</b> &nbsp;frame <b id="frame">0</b></div>
+      <div>t <b id="time">0.000</b>s &nbsp;loop <b id="loop">0</b></div>
+      <div>cam ortho iso <b id="cam">35.26° / 45.00°</b></div>
+    </div>
+
+    <div class="corner tr">
+      <div>three r169 · gsap 3.12 · glsl es3</div>
+      <div>res <b id="res">0x0</b> @<b id="dpr">1</b>x</div>
+      <div>draw <b id="calls">0</b> · tris <b id="tris">0</b></div>
+      <div class="swatches"><i style="--c:#ff2a2a"></i><i style="--c:#1f4bff"></i><i style="--c:#ff2bd6"></i><i style="--c:#ffd400"></i></div>
+    </div>
+
+    <div class="corner bl">
+      <pre id="code"></pre>
+    </div>
+
+    <div class="corner br">
+      <div id="scenes"></div>
+      <div class="bar"><div id="bar"></div></div>
+      <div class="dim">[space] pause · [h] hud · [r] restart</div>
+    </div>
+
+    <div id="dim-label" class="dim-label">d: 0.0m</div>
+    <div id="halftone-frame"><span>HALFTONE_PASS · cell 7px · 45°</span></div>
+    <div id="scan-label">SPECTRAL_LINE · y=0.500</div>
+  </div>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
