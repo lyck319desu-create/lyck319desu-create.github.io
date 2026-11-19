@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCH8T27ITWFDcCx8kd4NJvXQ"/>
+ <id>yt:channel:H8T27ITWFDcCx8kd4NJvXQ</id>
+ <yt:channelId>H8T27ITWFDcCx8kd4NJvXQ</yt:channelId>
+ <title>地形探偵【標高データで解く日本のなぞ】</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCH8T27ITWFDcCx8kd4NJvXQ"/>
+ <author>
+  <name>地形探偵【標高データで解く日本のなぞ】</name>
+  <uri>https://www.youtube.com/channel/UCH8T27ITWFDcCx8kd4NJvXQ</uri>
+ </author>
+ <published>2026-10-27T02:01:11+00:00</published>
+ <entry>
+  <id>yt:video:nGWAWoofVCs</id>
+  <yt:videoId>nGWAWoofVCs</yt:videoId>
+  <yt:channelId>UCH8T27ITWFDcCx8kd4NJvXQ</yt:channelId>
+  <title>なぜ日本海は「ほぼ湖」なのか？深さ3000mをこえる海の出口が、4つとも200mより浅い謎を標高データで追う</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=nGWAWoofVCs"/>
+  <author>
+   <name>地形探偵【標高データで解く日本のなぞ】</name>
+   <uri>https://www.youtube.com/channel/UCH8T27ITWFDcCx8kd4NJvXQ</uri>
+  </author>
+  <published>2026-11-17T02:51:03+00:00</published>
+  <updated>2026-11-18T06:08:25+00:00</updated>
+  <media:group>
+   <media:title>なぜ日本海は「ほぼ湖」なのか？深さ3000mをこえる海の出口が、4つとも200mより浅い謎を標高データで追う</media:title>
+   <media:content url="https://www.youtube.com/v/nGWAWoofVCs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/nGWAWoofVCs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>日本海は、広さおよそ100万km²、いちばん深い所は約3800m。ところが、外の海とつながる4つの海峡は、どれも深さ200mより浅く、標高データで測ると、水の約93％は出口より下にあります。約2万年前の氷期には海面が120〜130mほど下がり、出口はほとんど塞がりました。表面は真水に近づき、底は酸素のない海に。そして暖流が戻ると、日本海側に大雪が降るようになります。深い器と浅い出口がつくった日本海の姿を、標高データと研究の発表でたどります。
+
+0:00 はじめに
+1:05 1. 深い器と、浅い出口
+3:34 2. 4つの出口を測る
+6:16 3. 閉じ込められた水
+9:34 4. 出口はいつ浅くなったのか
+11:03 5. 2万年前、日本海はほぼ湖になった
+15:22 6. 暖流が戻り、雪国が生まれた
+17:17 7. 今の日本海で起きていること
+19:02 まとめ
+
+海と陸の標高：GMRT（Global Multi-Resolution Topography） https://www.gmrt.org/ （Ryan, W.B.F. et al. 2009, Geochem. Geophys. Geosyst., 10, Q03014）
+日本海の広さ（約99万km²）・平均の深さ（約1660m）・海峡の幅・海面を下げたときに海峡が塞がる高さ（間宮海峡4m・宗谷海峡58m・対馬海峡125m・津軽海峡136m）・出口より下にある水の割合（約93％）・海面を130m下げたときの広さ（今の約84％）と断面は、この標高データ（約380mごと）から計算した目安の数字です。
+
+断面・水の流れ・年表・グラフなどの図は、資料をもとに説明のために描いた図です。実際の形や範囲とは異なる場合があります。大昔の景色の絵は、説明のために作った絵です。
+
+参考資料
+- 4つの海峡は200mより浅い・日本海固有水（約300mより深い層、水温0〜1℃、体積の8割以上）・3つの海盆の深さ・大和堆・固有水は100年程度で入れ替わる・今後数百年のうちに底が酸素のない状態になるという指摘：気象庁「日本海固有水について」 https://ds.data.jma.go.jp/gmd/kaiyou/db/mar_env/knowledge/koyusui/koyusui.html
+- 平均水深1667m・対馬海峡を通る水の量・対馬暖流の出口・冬にウラジオストク沖で沈み込む水：気象庁「日本海の海洋構造」 https://www.data.jma.go.jp/jsmarine/japansea.html
+- 対馬海峡の水深（150m程度）・対馬暖流の厚さ：気象庁 舞鶴海洋気象台「対馬暖流」 https://www.data.jma.go.jp/gmd/kaiyou/data/db/maizuru/knowledge/tsushima_current.html
+- 深さ2000mの水温（10年あたり0.02℃上昇）と酸素（減り続けている）・1965年からの観測：気象庁 海洋の健康診断表「日本海固有水」（2026年1月23日） https://ds.data.jma.go.jp/kaiyou/shindan/e_2/maizuru_koyusui/maizuru_koyusui.html
+- いちばん深い所（3,796m）：海上保安庁 海洋情報部研究報告 https://www1.kaiho.mlit.go.jp/kenkyu/report/tbh25/tbh25-16.pdf
+- 日本海を洗面器にたとえる：九州大学 応用力学研究所 https://www.riam.kyushu-u.ac.jp/ocd/Research/outline_JS%20english.htm
+- 津軽海峡のいちばん浅い所（約130〜140m）・間宮海峡と関門海峡の深さ：地質ニュース「海峡形成史(1)」 https://www.gsj.jp/data/chishitsunews/76_10_02.pdf ／山梨大学 2021年 https://www.yamanashi.ac.jp/32678
+- 宗谷岬からサハリンまで約43km：JR北海道 https://www.jrhokkaido.co.jp/soyasen/wakkanai.html
+- 日本海ができて閉じるまで（約2500万年前・1000万年前・約450万年前・約260万年前）：富山大学・名古屋大学・海洋研究開発機構・九州大学 2018年9月18日 https://www.jamstec.go.jp/j/about/press_release/archive/2018/20180918.pdf
+- 約2万年前の日本海（水温・塩分・雪の量）と、暖流が戻った時期：九州大学・金沢大学・産業技術総合研究所ほか 2024年12月 https://kanazawa-u.ac.jp/wp/wp-content/uploads/2024/12/20241205.pdf
+- 「海峡は閉じるか狭く、かつ浅くなり」・冬の海の氷：池原ほか GSJ地質ニュース Vol.14 No.8（2025年8月） https://www.gsj.jp/data/gcn/gsj_cn_vol14.no8_p227-231.pdf
+- 氷期の海面の低下（約120〜130m）：産業技術総合研究所（地震調査研究推進本部の資料） https://jishin.go.jp/main/suihon/material_umikatsu/uk30/uk30-s1-4.pdf
+- 泥の明るい層と暗い層：佐川ほか 日本地球惑星科学連合 2016年 https://www2.jpgu.org/meeting/2016/session/PDF/M-IS17/MIS17-03.pdf
+- 酸素が残っていた場所と生き延びた生き物：小島茂明（東京大学）科学研究費 研究成果報告書（2014年） https://kaken.nii.ac.jp/en/file/KAKENHI-PROJECT-22370032/22370032seika.pdf
+- 日本海の深い所の生き物：環境省 https://www.env.go.jp/nature/biodic/kaiyo-hozen/kaiiki/hyoso/415.html ／北海道立総合研究機構 水産試験場 https://www.hro.or.jp/upload/55990/dayori104-03.pdf
+- 青森の西の沖 深さ約2000mの流れ（1994〜95年 毎秒5.17cm → 2016〜17年 毎秒3.29cm）：海洋政策研究所 Ocean Newsletter 第569号（国立環境研究所・九州大学） https://www.spf.org/opri/newsletter/569_2.html
+- 瀬戸内海の平均水深（38.0m）：環境省 せとうちネット https://www.env.go.jp/water/heisa/heisa_net/setouchiNet/seto/g2/g2cat01/index.html
+- 富士山の高さ：国土地理院 https://www.gsi.go.jp/kihonjohochousa/kihonjohochousa41139.html ／日本の国土の広さ：国土地理院 面積調（2026年7月1日） https://www.gsi.go.jp/KOKUJYOHO/MENCHO/backnumber/GSI-menseki20260701.pdf ／東京ドームの容積：東京ドーム https://www.tokyo-dome.co.jp/dome/about/ ／東京タワーの高さ：東京タワー https://www.tokyotower.co.jp/
+
+写真・画像
+- 瀬戸内海：Bernard Gagnon CC BY-SA 3.0
+- 関門海峡：Ka23 13 CC BY 4.0
+- 津軽海峡：皓月旗 CC BY-SA 4.0
+- 冬の日本海（新潟県 柿崎海岸）：Arichika Taniguchi CC BY-SA 3.0
+- ズワイガニ：Totti CC BY-SA 4.0
+- ノロゲンゲ：Apple2000 CC BY-SA 4.0
+- 海底を掘る調査船：Arito Sakaguchi &amp; IODP/TAMU
+- 珪質鞭毛藻（顕微鏡）：Donát Magyar, Paulian Dumitrica, Anna Mura-Mészáros, Zsófia Medzihradszky, Ádám Leelőssy, Simona Saint Martin CC BY-SA 4.0
+- 今のオホーツク海の流氷：Muramasa CC BY-SA 3.0
+- 今の男鹿半島・日本海の水平線（秋田県能代市）：掬茶 CC BY-SA 4.0
+- 海底から抜き取った泥の柱：MARUM − Zentrum für Marine Umweltwissenschaften, Universität Bremen CC BY 4.0
+- 泥の柱のしま模様：Tada, R. et al. (2018) Progress in Earth and Planetary Science 5:19 の図から CC BY 4.0
+- 約1000万〜700万年前の日本海の復元図：Matsuzaki, K.M. et al. (2018) Progress in Earth and Planetary Science 5:54 の Fig. 2 の一部に日本語の地名を加えた CC BY 4.0
+- 今と2万年前の日本海の図・水温のグラフ：池原 研ほか（2025）GSJ地質ニュース Vol.14 No.8 の第1図・第3図（産総研地質調査総合センター。URLは上の参考資料）を使用し、地形探偵が切り出して説明を加えた
+- 深さ2000mの水温と酸素のグラフ：気象庁「日本海固有水の時系列」（海洋の健康診断表 日本海固有水。URLは上の参考資料）を加工して作成（わくを加えた）
+- 冬の日本海に並ぶ すじ状の雲：NASA（Aqua・MODIS、EOSDIS Worldview）／海岸線：OpenStreetMap contributors
+- 気象庁の観測船：IikaJzuchiN CC BY-SA 4.0
+- 1963年 新潟県長岡市：長岡市
+- そのほかの写真・画像（人工衛星から見た日本海と間宮海峡・今のグリーンランド：NASA／富士山・対馬の海岸・東京ドーム・ホタルイカ・宗谷岬）：パブリックドメイン・CC0
+ライセンス：CC BY 4.0 https://creativecommons.org/licenses/by/4.0/deed.ja ／CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/deed.ja ／CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja
+
+【音楽・効果音】
+BGM「Earth」 作曲：gooset（OpenTracks） https://opentracks.com/bgm/detail/13883
+効果音：効果音ラボ https://soundeffect-lab.info/
+音声はAI音声を使用しています
+
+#日本海 #氷期 #地形探偵</media:description>
+   <media:community>
+    <media:starRating count="265" average="5.00" min="1" max="5"/>
+    <media:statistics views="126756"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:m3Si87I59mc</id>
+  <yt:videoId>m3Si87I59mc</yt:videoId>
+  <yt:channelId>UCH8T27ITWFDcCx8kd4NJvXQ</yt:channelId>
+  <title>なぜ東北の山は縦に、西日本の山は横に並ぶのか？日本列島の山の向きの謎を標高データで追う</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=m3Si87I59mc"/>
+  <author>
+   <name>地形探偵【標高データで解く日本のなぞ】</name>
+   <uri>https://www.youtube.com/channel/UCH8T27ITWFDcCx8kd4NJvXQ</uri>
+  </author>
+  <published>2026-11-14T13:25:02+00:00</published>
+  <updated>2026-11-18T10:55:43+00:00</updated>
+  <media:group>
+   <media:title>なぜ東北の山は縦に、西日本の山は横に並ぶのか？日本列島の山の向きの謎を標高データで追う</media:title>
+   <media:content url="https://www.youtube.com/v/m3Si87I59mc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/m3Si87I59mc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>日本列島を南の空から見ると、東北の山は北から南へ縦に、中国地方や四国の山は東から西へ横に並んでいます。標高データで尾根の向きを数えると、東北は南北にのびる尾根が48％、四国は東西にのびる尾根が53％。東西に押されて逆断層でしわができる東北、海溝で貼りついた古い地層の帯が山に出る西日本、そして西日本なのに縦の山が並ぶ近畿の真ん中まで、地震の記録とあわせてたどります。
+
+0:00 はじめに
+1:15 1. 東北の山は3列に並ぶ
+3:58 2. 東北は東から押されている
+6:28 3. しわを作る逆断層
+9:40 4. 西日本の山は横に並ぶ
+12:19 5. 地面の中の帯
+15:31 6. 西日本も押されているのに
+18:27 7. 西日本にもある縦の山
+20:28 まとめ
+
+陸の標高：国土地理院 標高タイル https://maps.gsi.go.jp/development/ichiran.html
+尾根の向きの割合（東北 南北48％・四国 東西53％・中国地方 東西50％・中部 南北65％）と断面は、国土地理院の標高データから計算しました（標高200m以上の山、約6kmの幅でならした斜面の向き）。
+
+断面・プレート・断層・地層の帯などの図は、資料をもとに説明のために描いた図です。実際の形や範囲とは異なる場合があります。大昔の景色の絵は、説明のために作った絵です。
+
+参考資料
+- 東北の地形・東北の活断層は逆断層が主・太平洋プレート（東南東から年約8cm）・陸羽地震：地震調査研究推進本部「日本の地震活動」東北地方 https://jishin.go.jp/main/nihonjishin/2010/tohoku.pdf
+- 東北が東西に縮み始めた時期（約300万年前）：産業技術総合研究所 2017年6月29日 https://www.aist.go.jp/aist_j/press_release/pr2017/pr20170629/pr20170629.html
+- 奥羽山脈：森林整備センター https://www.green.go.jp/seibi/tohoku/chisei_chishitsu_kiko/miyagi.html
+- 山の標高（岩手山・早池峰山・石鎚山・剣山・氷ノ山）：国土地理院 日本の山岳標高一覧 https://www.gsi.go.jp/KOKUJYOHO/MOUNTAIN/1003zan20260331.pdf
+- 川の長さ（北上川・最上川・雄物川・吉野川）：国土交通省 日本の川 https://www.mlit.go.jp/river/toukei_chousa/kasen/jiten/nihon_kawa/0204_kitakami/0204_kitakami_00.html ／吉野川と中央構造線：徳島河川国道事務所 https://www.skr.mlit.go.jp/tokushima/yoshinoriver/doc/gen-an/section1.pdf
+- 地震の前の東西の縮み・地震のあとの伸び：国土地理院 https://www.gsi.go.jp/cais/chikakuhendo40012.html ／電子基準点「牡鹿」の動き：国土地理院 https://www.gsi.go.jp/chibankansi/chikakukansi_tohoku2.html
+- 断層帯（横手盆地東縁・北上低地西縁・山形盆地・新庄盆地）：地震調査研究推進本部 活断層の長期評価 https://www.jishin.go.jp/regional_seismicity/rs_katsudanso/f015_yokote/ ／https://www.jishin.go.jp/regional_seismicity/rs_katsudanso/f017_shinjo/
+- 陸羽地震（千屋断層 東側が最大約3.5m隆起）：秋田地方気象台 https://www.data.jma.go.jp/akita/data/saigai/saigai_rikuu.html
+- ポップアップ構造：佐藤比呂志ほか（日本地球惑星科学連合 1999） https://www2.jpgu.org/meeting/1999/pdf/sk/sk-008.pdf
+- 岩手・宮城内陸地震：地震調査委員会 2008年6月26日 https://www.jishin.go.jp/main/chousa/08jun_iwate_miyagi2/index.htm ／荒砥沢の地すべり：国土地理院 https://www.gsi.go.jp/common/000268288.pdf
+- 中国山地のでき方：科学研究費助成事業 研究成果報告（1988年、矢野孝雄ほか） https://kaken.nii.ac.jp/ja/report/KAKENHI-PROJECT-63540610/635406101988jisseki
+- 中央構造線（総延長約1000km・世界最大級）：産業技術総合研究所 2025年3月21日 https://www.aist.go.jp/aist_j/press_release/pr2025/pr20250321/pr20250321.html ／中央構造線断層帯（約444km・右横ずれ主体）：地震調査研究推進本部 https://www.jishin.go.jp/regional_seismicity/rs_katsudanso/rs_chuokozosen/
+- 地層の帯（大陸側ほど古く太平洋側ほど新しい）：産業技術総合研究所 地質調査総合センター https://www.gsj.jp/geology/geology-japan/geology-japan/index.html ／四万十帯の時代：産業技術総合研究所 2018年10月29日 https://www.aist.go.jp/aist_j/press_release/pr2018/pr20181029/pr20181029.html
+- 三波川帯の尾根・人工衛星の画像で見える中央構造線：垣見俊弘「地質ニュース」 https://www.gsj.jp/data/chishitsunews/75_01_02.pdf
+- 高知県沖の南海付加体：森田澄人・倉本真一・池原研「地質ニュース」637号（2007年） https://www.gsj.jp/data/chishitsunews/07_09_14.pdf
+- 西日本の内陸の東西圧縮・近畿三角帯の形：石橋克彦「地質ニュース」490号（1995年） https://www.gsj.jp/data/chishitsunews/95_06_03.pdf
+- 近畿の横ずれ断層と近畿三角帯：地震調査研究推進本部 近畿地域の活断層の長期評価（2026年8月28日） https://www.jishin.go.jp/main/chousa/26aug_chi_kinki/kinki_gaiyo.pdf
+- 野島断層：地震調査研究推進本部 六甲・淡路島断層帯（2026年8月28日） https://jishin.go.jp/main/chousa/katsudansou_pdf/20260828_rokko_awajishima.pdf ／山崎断層帯：https://www.jishin.go.jp/regional_seismicity/rs_katsudanso/rs_kat_yamasaki_nagisen/
+- 生駒断層帯：https://www.jishin.go.jp/main/chousa/katsudansou_pdf/20260828_ikoma.pdf ／上町断層帯：https://www.jishin.go.jp/main/chousa/katsudansou_pdf/20260828_uemachi.pdf
+- フィリピン海プレートと南海トラフ：地震調査研究推進本部 https://www.jishin.go.jp/regional_seismicity/rs_kaiko/k_nankai/
+
+写真
+- 早池峰山：Qwert1234 CC BY-SA 4.0
+- 横手盆地：掬茶 CC BY-SA 3.0
+- 北上川と盛岡：Yuichi Shiraishi CC BY-SA 4.0
+- 電子基準点（秋田県能代市）：掬茶 CC BY-SA 4.0
+- 牡鹿半島（おしか御番所公園）：ToshiJapon CC BY-SA 4.0
+- 大仙市から見た真昼山地：掬茶 CC BY-SA 4.0
+- 千屋断層のあたり（空から）：国土地理院（地理院タイル）
+- 真昼山地：掬茶 CC BY-SA 4.0
+- 荒砥沢の地すべり：Peka CC BY 4.0
+- 吉備高原：Tatushin CC BY-SA 3.0
+- 吉野川：Twilight2640 CC BY-SA 4.0
+- 人工衛星から見た四国：国土地理院（地理院タイル 全国ランドサットモザイク画像）データソース：Landsat8画像（GSI,TSIC,GEO Grid/AIST）, Landsat8画像（courtesy of the U.S. Geological Survey）, 海底地形（GEBCO）
+- 三波川帯の岩（大歩危）：lienyuan lee CC BY 3.0
+- 野島断層：明芳 松岡 CC BY-SA 4.0
+- 中央構造線の露頭（長野県大鹿村）：KAMUI CC BY-SA 3.0
+- 鈴鹿山脈：工務店 CC BY 3.0
+- 琵琶湖：Benlisquare CC BY-SA 4.0
+- そのほかの写真（宇宙から見た日本列島・岩手山・石鎚山・剣山・四万十帯の地層（室戸岬）・讃岐山脈（竜王山）・生駒山地（大阪から）・日本アルプス（鹿島槍ヶ岳））：Pixabay・パブリックドメイン・CC0
+ライセンス：CC BY 3.0 https://creativecommons.org/licenses/by/3.0/deed.ja ／CC BY 4.0 https://creativecommons.org/licenses/by/4.0/deed.ja ／CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/deed.ja ／CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.ja
+
+【音楽・効果音】
+BGM「Earth」 作曲：gooset（OpenTracks） https://opentracks.com/bgm/detail/13883
+効果音：効果音ラボ https://soundeffect-lab.info/
+音声はAI音声を使用しています
+
+#山脈 #活断層 #地形探偵</media:description>
+   <media:community>
+    <media:starRating count="46" average="5.00" min="1" max="5"/>
+    <media:statistics views="12468"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Q-XpHxen5Kc</id>
+  <yt:videoId>Q-XpHxen5Kc</yt:videoId>
+  <yt:channelId>UCH8T27ITWFDcCx8kd4NJvXQ</yt:channelId>
+  <title>なぜヒグマは本州にいないのか？北海道と本州を分けた津軽海峡のなぞを標高データで追う</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Q-XpHxen5Kc"/>
+  <author>
+   <name>地形探偵【標高データで解く日本のなぞ】</name>
+   <uri>https://www.youtube.com/channel/UCH8T27ITWFDcCx8kd4NJvXQ</uri>
+  </author>
+  <published>2026-11-12T04:34:07+00:00</published>
+  <updated>2026-11-18T08:19:01+00:00</updated>
+  <media:group>
+   <media:title>なぜヒグマは本州にいないのか？北海道と本州を分けた津軽海峡のなぞを標高データで追う</media:title>
+   <media:content url="https://www.youtube.com/v/Q-XpHxen5Kc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Q-XpHxen5Kc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>北海道には約1万2千頭のヒグマがいるのに、海をひとつはさんだ本州には1頭もいません。標高データと海の深さのデータで津軽海峡と宗谷海峡を立体にして、海面を下げると何が起きるのか、北海道のヒグマが3回やってきた道すじ、本州の地面の下から見つかったヒグマの化石、そして本州のヒグマがなぜ消えたのかまでを、最新の研究とあわせてたどります。
+
+0:00 はじめに
+0:53 1. 海を1本はさんで、動物が入れかわる
+3:02 2. 海の水を下げてみる
+5:41 3. 北海道のヒグマは、3回やってきた
+8:34 4. 本州の地面の下にいたヒグマ
+10:48 5. 海峡を渡ったヒグマ
+13:46 6. 本州のヒグマは、なぜ消えたのか
+16:33 7. 津軽海峡は、今も分けている
+
+陸の標高：国土地理院 標高タイル https://maps.gsi.go.jp/development/ichiran.html ／海の深さ：GMRT（Global Multi-Resolution Topography） https://www.gmrt.org/
+海面を下げた姿・海峡の幅・つながる深さ（津軽 約136m・宗谷 約58m）は、これらのデータから計算しました。
+
+海面の変化・ヒグマが渡った道すじ・系統の分かれ方などの図は、資料をもとに説明のために描いた図です。実際の範囲や形とは異なる場合があります。
+氷河期の北海道や本州・明治の函館などの様子の絵は、説明のために作った絵です。
+
+参考資料
+- 本州のヒグマ化石（3万2500年前・1万9300年前、2回の渡来、北海道の個体より大きい、道南に近い、津軽海峡を渡った可能性）：山梨大学ほか 2021年8月4日 https://www.yamanashi.ac.jp/32678 ／論文 Royal Society Open Science 8 https://pmc.ncbi.nlm.nih.gov/articles/PMC8334828/
+- 北海道のヒグマの3つの系統・3回の渡来：日本哺乳類学会 2025年 公開シンポジウム資料 https://mammalogy.jp/conf/2025/common/doc/public_symposium.pdf
+- ブラキストン線：日本哺乳類学会 2019年 https://mammalogy.jp/conf/2019/common/doc/award_lecture.pdf ／函館市 https://www.city.hakodate.hokkaido.jp/docs/2021033100077/file_contents/2021033100077_hk_docs_2021033100077_files_2020-004.pdf
+- 北海道だけにすむ動物・氷期の陸橋：観光庁 多言語解説 https://www.mlit.go.jp/tagengo-db/common/001777354.pdf ／ https://www.mlit.go.jp/tagengo-db/common/001556666.pdf
+- 最終氷期の海面：地震調査研究推進本部 資料（産業技術総合研究所、2024年） https://jishin.go.jp/main/suihon/material_umikatsu/uk30/uk30-s1-4.pdf ／国立環境研究所 https://www.nies.go.jp/whatsnew/2005/20050418/zu4.pdf
+- 海峡の地形：地質ニュース「海峡形成史」 https://www.gsj.jp/data/chishitsunews/76_10_02.pdf ／海上保安庁 水路部技報16 https://www1.kaiho.mlit.go.jp/kenkyu/report/tbh16/tbh16-05.pdf ／宗谷岬からサハリンまで約43km：JR北海道 https://www.jrhokkaido.co.jp/soyasen/wakkanai.html
+- マンモス：札幌市博物館活動センター https://www.city.sapporo.jp/museum/ouchimuseum/20210521.html ／ナウマンゾウ：北海道博物館 https://www.hm.pref.hokkaido.lg.jp/wp-content/uploads/2025/01/JPN-prologue-1.pdf
+- 青函トンネル：JR北海道 https://www.jrhokkaido.co.jp/network/seikan/02.html
+- 北海道のヒグマの推定数：北海道 広報 2026年6月号 https://www.pref.hokkaido.lg.jp/ss/tkk/koho/sikakukouhouR806.html
+- クマによる人身被害（速報値）：環境省 https://www.env.go.jp/nature/choju/effort/effort12/injury-qe.pdf
+- ツキノワグマ：Wu ら 2015 PLoS ONE https://pmc.ncbi.nlm.nih.gov/articles/PMC4583410/
+
+写真
+- 北海道のヒグマ：pen_ash（Pixabay） https://pixabay.com/photos/hokkaido-brown-bear-brown-bear-bear-9605651/
+- 青森県の竜飛崎：皓月旗 CC BY-SA 4.0 https://commons.wikimedia.org/wiki/File:Cape_Tappi,_Aomori,_Japan_27-Aug-2016.jpg
+- 湖を走るヒグマ（ロシア カムチャツカ）：Natalia_Kollegova（Pixabay） https://pixabay.com/ja/photos/%E3%83%92%E3%82%B0%E3%83%9E-%E6%8D%95%E9%A3%9F%E8%80%85-%E9%87%8E%E7%8D%A3-%E5%8B%95%E7%89%A9-2514850/
+- キタキツネ：MIKI Yoshihito CC BY 2.0 https://commons.wikimedia.org/wiki/File:Ezo_red_fox,_Japan;_February_2021_(03).jpg
+- ナキウサギ（北海道 ニペソツ山）：alpsdake パブリックドメイン https://commons.wikimedia.org/wiki/File:Pika_in_Nipesotsuyama.jpg
+- ナキウサギ（ロシア）：Анна Васильченко CC BY 4.0 https://commons.wikimedia.org/wiki/File:Ochotona_hyperborea_228375251.jpg
+- シマフクロウ：Julie Edgley CC BY-SA 4.0 https://commons.wikimedia.org/wiki/File:Blakiston%27s_fish_owl.jpg
+- ツキノワグマ：EliseWongCreations（Pixabay） https://pixabay.com/ja/photos/%E3%81%8F%E3%81%BE-%E9%BB%92%E3%81%84%E3%81%8F%E3%81%BE-%E3%82%A2%E3%82%B8%E3%82%A2%E4%BA%BA-%E5%8B%95%E7%89%A9-4658775/
+- ツキノワグマ（天王寺動物園）：Jin Kemoole CC BY 2.0 https://commons.wikimedia.org/wiki/File:Asian_black_bear,_Tenn%C5%8Dji_Zoo_(32878881490).jpg
+- ニホンカモシカ：yoshitaka2（Pixabay） https://pixabay.com/ja/photos/%E3%83%8B%E3%83%9B%E3%83%B3%E3%82%AB%E3%83%A2%E3%82%B7%E3%82%AB-%E9%9B%AA-%E5%86%AC-9127450/
+- ニホンジカ：pen_ash（Pixabay） https://pixabay.com/ja/photos/%E3%83%8B%E3%83%9B%E3%83%B3%E3%82%B8%E3%82%AB-%E9%B9%BF-%E9%87%8E%E7%94%9F%E5%8B%95%E7%89%A9-7835119/
+- キタサンショウウオ（ロシア）：Svyatoslav Knyazev CC BY 4.0 https://commons.wikimedia.org/wiki/File:Salamandrella_keyserlingii.jpg
+- 釧路湿原：Hajime NAKANO CC BY 2.0 https://commons.wikimedia.org/wiki/File:Kottaro_observatory_%E3%82%B3%E3%83%83%E3%82%BF%E3%83%AD%E5%B1%95%E6%9C%9B%E5%8F%B0_(%E9%87%A7%E8%B7%AF%E6%B9%BF%E5%8E%9F)_-_1229401466.jpg
+- 忠類ナウマン象記念館：Him56 CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:Churui_naumanzou_museum.jpg
+- ナウマンゾウの下あごの化石：Momotarou2012 CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:Elephas_Naumanni_Mandible_Fossil.jpg
+- 青函トンネルの入り口：Bmazerolles CC BY-SA 4.0 https://commons.wikimedia.org/wiki/File:Seikan_Tunnel_entrance_-_dual-gauge_track.jpg
+
+【音楽・効果音】
+BGM「Earth」 作曲：gooset（OpenTracks） https://opentracks.com/bgm/detail/13883
+効果音：効果音ラボ https://soundeffect-lab.info/
+
+#ヒグマ #津軽海峡 #地形探偵</media:description>
+   <media:community>
+    <media:starRating count="94" average="5.00" min="1" max="5"/>
+    <media:statistics views="145741"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:3glr1wJmtwU</id>
+  <yt:videoId>3glr1wJmtwU</yt:videoId>
+  <yt:channelId>UCH8T27ITWFDcCx8kd4NJvXQ</yt:channelId>
+  <title>なぜ日本海側にだけ大雪が降るのか？山を1本こえると雪が消えるなぞを標高データで追う</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=3glr1wJmtwU"/>
+  <author>
+   <name>地形探偵【標高データで解く日本のなぞ】</name>
+   <uri>https://www.youtube.com/channel/UCH8T27ITWFDcCx8kd4NJvXQ</uri>
+  </author>
+  <published>2026-11-10T05:54:35+00:00</published>
+  <updated>2026-11-18T08:56:55+00:00</updated>
+  <media:group>
+   <media:title>なぜ日本海側にだけ大雪が降るのか？山を1本こえると雪が消えるなぞを標高データで追う</media:title>
+   <media:content url="https://www.youtube.com/v/3glr1wJmtwU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/3glr1wJmtwU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>新潟県の湯沢町は、冬に積もる雪の深さが平年で208センチ。ところが、山を1本こえて約60キロ南の群馬県前橋市は、たったの11センチです。標高データで新潟から東京までを立体にして、気象庁の雪の平年値をのせ、雪の材料はどこから来るのか、山が雪をしぼり取るしくみ、山をこえた風が乾くわけ、山の低い所から雪がもれる場所、海沿いの町に大雪が降る日、そして雪国のトンネルまでをたどります。
+
+0:00 はじめに
+0:55 1. 山を1本越えると、雪が消える
+4:17 2. 雪の材料は、日本海にある
+7:27 3. 山が雪を絞り取る
+9:56 4. 山を越えた風は、乾いている
+12:05 5. 山の低い所から、雪がもれる
+14:03 6. 海沿いの町に、大雪が降る日
+16:58 7. 雪国のトンネル
+18:55 まとめ
+
+陸の標高：国土地理院 標高タイル https://maps.gsi.go.jp/development/ichiran.html
+雪の深さ（年の最深積雪の平年値 1991〜2020年）：気象庁 過去の気象データ検索 https://www.data.jma.go.jp/stats/etrn/
+地図の雪の色は、気象庁の観測点の平年値をもとに、標高にあわせて広げて描きました。
+
+雪雲・風の流れ・山の断面などの図は、資料をもとに説明のために描いた図です。実際の範囲や形とは異なる場合があります。
+
+参考資料
+- 冬型・日本海で熱と水蒸気をもらう・海と空気の温度差・風の強さと雪の降り方：新潟地方気象台 https://www.jma-net.go.jp/niigata/menu/bousai/met_character.html
+- 山雪・里雪：気象庁 予報用語 https://www.jma.go.jp/jma/kishou/know/yougo_hp/kousui.html ／新潟地方気象台 https://www.jma-net.go.jp/niigata/menu/bousai/snow.html
+- 対馬暖流（黒潮の約10分の1）：気象庁 https://www.data.jma.go.jp/gmd/kaiyou/data/db/maizuru/knowledge/tsushima_current.html ／https://www.jma-net.go.jp/jsmarine/japansea.html
+- 2025年2月の大雪：新潟地方気象台 https://www.data.jma.go.jp/niigata/menu/saigai_NI/shosai/075_2025_shosai.pdf
+- 2025〜26年冬の大雪・青森の積雪：気象庁 報道発表 https://www.jma.go.jp/jma/press/2603/03b/kentoukai20260303.pdf ／https://www.data.jma.go.jp/stats/etrn/view/daily_s1.php?prec_no=31&amp;block_no=47575&amp;year=2026&amp;month=2&amp;day=&amp;view=
+- 敦賀の短時間の大雪：福井地方気象台 https://www.data.jma.go.jp/fukui/shosai/PDF_news/sokuhou/20260130kishosokuhou.pdf
+- JPCZ（日本海寒帯気団収束帯）：気象庁 予報用語 https://www.jma.go.jp/jma/kishou/know/yougo_hp/haichi3.html ／気象研究所 https://www.mri-jma.go.jp/Topics/R08/080423/080423_press.html
+- 氷期の対馬暖流と水温：金沢大学 https://kanazawa-u.ac.jp/wp/wp-content/uploads/2024/12/20241205.pdf
+- 豪雪地帯：国土交通省 https://www.mlit.go.jp/kokudoseisaku/chisei/content/001881217.pdf
+- 若狭湾から伊勢湾への雪雲：名古屋地方気象台 https://www.data.jma.go.jp/nagoya/shosai/chara/tokusei_yukigumo.html ／https://www.data.jma.go.jp/nagoya/shosai/news/sokuhou/S_nagoya_20221223.pdf
+- からっ風・群馬の地形：気象庁 https://www.jma.go.jp/jma/kids/kids/faq/a3_35.html ／https://www.data.jma.go.jp/tokyo/shosai/chiiki/kikouhenka/html/kantokoushin/gunma/gunma.pdf
+- 奥羽山脈と雪：気象庁 https://www.data.jma.go.jp/cpd/j_climate/tohoku/winter.html
+- 清水トンネルと川端康成『雪国』：政府広報オンライン https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202401/202401_06_jp.html
+- 山の高さ：国土地理院
+
+写真
+- 人工衛星から見た冬の日本海（2021年12月24日）：NASA GSFC MODIS パブリックドメイン https://commons.wikimedia.org/wiki/File:Cloud_Streets_over_the_Sea_of_Japan_(MODIS_2021-12-24).jpg
+- 大陸から日本へ並ぶ雲の筋（2018年2月5日）：NASA MODIS パブリックドメイン https://commons.wikimedia.org/wiki/File:20180205_Sea_of_Japan_cold_wave_turbulences_by_Aqua.jpg
+- 冬の群馬の平野：inunami CC BY 2.0 https://commons.wikimedia.org/wiki/File:Gunma_20180304084516_(41880894210).jpg
+- 雪の関ヶ原駅：inunami CC BY 2.0 https://commons.wikimedia.org/wiki/File:Sekigahara_20210101154838_(51346959133).jpg
+- 雪の白川郷：pen_ash（Pixabay） https://pixabay.com/photos/shirakawa-go-traditional-japan-gifu-3968395/
+- 雪の越後湯沢駅：Tacky-d CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:Etigoyuzawa_station.JPG
+- 屋根の雪下ろし：CC0 https://commons.wikimedia.org/wiki/File:%E9%9B%AA%E4%B8%8B%E3%82%8D%E3%81%97_(15728567804).jpg
+
+【音楽・効果音】
+BGM「Earth」 作曲：gooset（OpenTracks） https://opentracks.com/bgm/detail/13883
+効果音：効果音ラボ https://soundeffect-lab.info/
+音声はAI音声を使用しています
+
+#大雪 #日本海側 #地形探偵</media:description>
+   <media:community>
+    <media:starRating count="344" average="5.00" min="1" max="5"/>
+    <media:statistics views="207384"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Gg2CedkVfeM</id>
+  <yt:videoId>Gg2CedkVfeM</yt:videoId>
+  <yt:channelId>UCH8T27ITWFDcCx8kd4NJvXQ</yt:channelId>
+  <title>なぜ箱根は山に囲まれているのか？横浜まで届いた巨大噴火と芦ノ湖のなぞを標高データで追う</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Gg2CedkVfeM"/>
+  <author>
+   <name>地形探偵【標高データで解く日本のなぞ】</name>
+   <uri>https://www.youtube.com/channel/UCH8T27ITWFDcCx8kd4NJvXQ</uri>
+  </author>
+  <published>2026-11-05T03:27:36+00:00</published>
+  <updated>2026-11-08T20:49:59+00:00</updated>
+  <media:group>
+   <media:title>なぜ箱根は山に囲まれているのか？横浜まで届いた巨大噴火と芦ノ湖のなぞを標高データで追う</media:title>
+   <media:content url="https://www.youtube.com/v/Gg2CedkVfeM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/Gg2CedkVfeM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>箱根は、まわりをぐるりと山に囲まれた大きなくぼみ（カルデラ）です。標高データで箱根を立体にして、輪の形がどうやってできたのか、約6万6千年前に横浜まで届いた大噴火、約3000年前の山崩れで生まれた芦ノ湖、湖の水が静岡県へ流れる深良用水、そして温泉が多い理由と今の箱根山の活動までを、最新の資料とあわせてたどります。
+
+0:00 はじめに
+1:03 1. 立体にすると見える輪
+3:57 2. 大きな山が吹き飛んだのではなかった
+6:22 3. 6万6千年前、横浜まで届いた
+9:00 4. 芦ノ湖は山崩れで生まれた
+11:33 5. 湖の水は、なぜ静岡へ流れるのか
+14:45 6. なぜ箱根には温泉が多いのか
+16:34 7. 今の箱根と、これから
+
+陸の標高：国土地理院 標高タイル https://maps.gsi.go.jp/development/ichiran.html ／海の深さ：AWS Terrain Tiles（Mapzen、ETOPO1・GEBCO ほか）
+距離・高さ・断面は、国土地理院の標高タイルから計算しました。
+
+火砕流や軽石の広がり・地下の断面・カルデラができる流れの図は、資料をもとに説明のために描いた図です。実際の範囲や形とは異なる場合があります。
+大昔（約100万年前・約6万6千年前・約3000年前）や江戸時代の様子の絵は、説明のために作った絵です。
+
+参考資料
+- 最大の噴火（約6万6千年前）・軽石流の広がり・東京の軽石層・小田原周辺の軽石層・1968年の立証：神奈川県立生命の星・地球博物館 自然科学のとびら https://nh.kanagawa-museum.jp/assets/icp/contents/1599805343904/simple/tobira59_2kasama.pdf
+- 約65万年前の溶岩・カルデラができた時期（約23〜13万年前）・二子山：同 博物館 https://nh.kanagawa-museum.jp/assets/icp/contents/1599804259525/simple/tobira66_2kasama.pdf
+- 地下約10kmの膨らむ力のもと：同 博物館 https://nh.kanagawa-museum.jp/assets/icp/contents/1599803865462/simple/tobira70_5yukutake.pdf
+- 早川の谷：同 博物館 https://nh.kanagawa-museum.jp/assets/icp/contents/1600234107045/simple/nhr24_001_005imanaga.pdf
+- 噴出量・山崩れの年代：産業技術総合研究所 https://www.gsj.jp/data/openfile/no0613/39Hakone.pdf
+- 強羅の潜在カルデラ：日本地球惑星科学連合 2008 https://www2.jpgu.org/meeting/2008/program/pdf/V231/V231-P004.pdf
+- カルデラの大きさ・神山・噴火の歴史：気象庁 箱根山 https://www.data.jma.go.jp/vois/data/tokyo/315_Hakoneyama/315_index.html ／ https://www.data.jma.go.jp/vois/data/tokyo/315_Hakoneyama/315_history.html
+- 水蒸気噴火・想定火口域・ハザードマップ（令和6年3月改定）：気象庁 2025年3月28日 https://www.jma.go.jp/jma/press/2503/26c/hakone_kaisetsu_20250328.pdf
+- 今の活動（2026年8〜9月）：気象庁 月間火山概況 https://www.data.jma.go.jp/vois/data/report/monthly_v-act_doc/tokyo/26m09/315_26m09.pdf
+- 伊豆の衝突・箱根の火山の誕生：箱根ジオパーク https://www.hakone-geopark.jp/hakonegeopark/about/
+- 芦ノ湖の面積・水深・周囲・深良用水の水の量：箱根ジオパーク https://www.hakone-geopark.jp/area-guide/hakone1/007ashinoko.html
+- 大涌谷の造成温泉：箱根ジオパーク https://www.hakone-geopark.jp/area-guide/hakone1/001oowakudani.html
+- 深良用水：農林水産省 https://www.maff.go.jp/j/nousin/sekkei/museum/m_kakuti/13_fukara/index.html ／裾野市 https://www.city.susono.shizuoka.jp/soshiki/12/4/8/1/18338.html
+- 金時山・明神ヶ岳の標高：神奈川県警察 山岳図 https://www.police.pref.kanagawa.jp/assets/entry/pdf/g0005_14.pdf
+- 富士山の標高：国土地理院 https://www.gsi.go.jp/KOKUJYOHO/MOUNTAIN/1003zan20260331.csv
+- 箱根登山鉄道 80パーミル：箱根登山鉄道 https://www.hakone-tozan.co.jp/fun/railway.php
+- 箱根駅伝5区：Number Web https://number.bunshun.jp/articles/-/860148
+- 箱根町の入込観光客（令和7年）：神奈川県 https://www.pref.kanagawa.jp/docs/b6m/cnt/f80022/r7irikomi.html
+- 源泉数・湧出量・泉質（2016年3月末）：神奈川県温泉地学研究所 https://www.onken.odawara.kanagawa.jp/hotspring/onsen_kouza/20200519-01.html
+
+写真
+- 二子山：Σ64 CC BY 3.0 https://commons.wikimedia.org/wiki/File:Mt.Futago_from_Mt.Taikan_01.jpg
+- 神山：Σ64 CC BY 3.0 https://commons.wikimedia.org/wiki/File:Mt.Kami_03.jpg
+- 箱根の山：Batholith パブリックドメイン https://commons.wikimedia.org/wiki/File:Hakone_Volcano_20120122.jpg
+- 芦ノ湖と箱根の山々：Batholith パブリックドメイン https://commons.wikimedia.org/wiki/File:Lake_Ashi_and_Hakone_volcano_20101204.jpg
+- 芦ノ湖と富士山：Charlie fong CC BY-SA 4.0 https://commons.wikimedia.org/wiki/File:Lake_Ashi_%26_Mt_Fuji_%26_Hakone_Shrine.jpg
+- 大涌谷と冠ヶ岳：そらみみ CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:Owakudani_Valley_and_Mount_Kammurigatake_near_Owakudani_Station_2.JPG
+- 大涌谷：pen_ash（Pixabay） https://pixabay.com/ja/photos/%E7%A1%AB%E9%BB%84-%E3%82%A2%E3%82%AF%E3%83%86%E3%82%A3%E3%83%96-%E3%83%99%E3%83%B3%E3%83%88-%E7%81%AB%E5%B1%B1-3984364/
+- 強羅：663highland CC BY-SA 4.0 https://commons.wikimedia.org/wiki/File:211126_Gora_Park_Hakone_Japan01s3.jpg
+- 仙石原のすすき草原：663highland CC BY-SA 4.0 https://commons.wikimedia.org/wiki/File:230910_Sengokuhara_Hakone_Japan01s3.jpg
+- 城ヶ島：Aspere CC0 https://commons.wikimedia.org/wiki/File:250429_Jogashima_Island_108.jpg
+- 湖尻水門：Mografas CC BY 4.0 https://commons.wikimedia.org/wiki/File:Hakone_Kojiri_sluice_gate.jpg
+- 深良用水：Indiana jo CC BY-SA 4.0 https://commons.wikimedia.org/wiki/File:%E6%B7%B1%E8%89%AF%E7%94%A8%E6%B0%B43.JPG
+- 箱根関所と芦ノ湖：Alvinz CC0 https://commons.wikimedia.org/wiki/File:Hakone_Sekisho_%26_Lake_Ashinoko_July_2018.jpg
+- 早川橋梁を走る箱根登山鉄道：Cassiopeia sweet パブリックドメイン https://commons.wikimedia.org/wiki/File:Hakone-Tozan-Hayakawa-Bridge.jpg
+- 80パーミルの標識：Cassiopeia sweet CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:Hakone-Tozan-80permillage-sign.jpg
+- 箱根湯本の温泉旅館：HarpazoChannel（Pixabay） https://pixabay.com/ja/photos/%E5%AE%BF-%E6%97%A5%E6%9C%AC-%E7%AE%B1%E6%A0%B9-%E6%97%85%E9%A4%A8-6825153/
+
+【音楽・効果音】
+BGM「Earth」 作曲：gooset（OpenTracks） https://opentracks.com/bgm/detail/13883
+効果音：効果音ラボ https://soundeffect-lab.info/
+
+ナレーションにはAI音声を使用しております
+
+#箱根 #芦ノ湖 #地形探偵</media:description>
+   <media:community>
+    <media:starRating count="395" average="5.00" min="1" max="5"/>
+    <media:statistics views="248428"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:teOXCtC5SWE</id>
+  <yt:videoId>teOXCtC5SWE</yt:videoId>
+  <yt:channelId>UCH8T27ITWFDcCx8kd4NJvXQ</yt:channelId>
+  <title>なぜ日本の真ん中だけ山が高いのか？3000m以上の23地点が中部地方に集まる理由を標高データで追う</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=teOXCtC5SWE"/>
+  <author>
+   <name>地形探偵【標高データで解く日本のなぞ】</name>
+   <uri>https://www.youtube.com/channel/UCH8T27ITWFDcCx8kd4NJvXQ</uri>
+  </author>
+  <published>2026-11-02T10:22:08+00:00</published>
+  <updated>2026-11-08T21:14:24+00:00</updated>
+  <media:group>
+   <media:title>なぜ日本の真ん中だけ山が高いのか？3000m以上の23地点が中部地方に集まる理由を標高データで追う</media:title>
+   <media:content url="https://www.youtube.com/v/teOXCtC5SWE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/teOXCtC5SWE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>日本で標高3000mをこえる23地点は、すべて中部地方にあります。標高データで本州を立体にして、北アルプス・中央アルプス・南アルプスがそれぞれちがう理由で高くなったこと、そしてなぜ中部だけが高くなったのかを、最新の研究とあわせてたどります。
+
+0:00 はじめに
+0:59 1. 高い山は、本当に真ん中だけなのか
+3:22 2. 世界で一番若い花崗岩
+5:52 3. 断層が見つからない山
+9:19 4. 南アルプスは伊豆とぶつかった
+12:15 5. なぜ中部だけが高くなったのか
+14:41 6. 高くなるほど削られる
+17:13 7. 高くなったから残ったもの、そして今
+
+陸の標高：国土地理院 標高タイル／海の深さ：AWS Terrain Tiles（Mapzen、ETOPO1・GEBCO ほか）／世界の地図：NASA Visible Earth（Blue Marble）
+
+プレートの動き・断層の線・地下の断面・削られる量の広がりの図は、資料をもとに説明のために描いた図です。実際の位置や形とは異なる場合があります。
+氷河7つの場所と、岩を集めた地点の位置は、おおよその位置です。
+
+参考資料
+- 3000m以上23地点・各山の標高：国土地理院 日本の主な山岳標高（2026年3月31日版） https://www.gsi.go.jp/kihonjohochousa/kihonjohochousa41139.html
+- 各地の最高地点：国土地理院 都道府県の最高地点（令和7年4月1日） https://www.gsi.go.jp/KOKUJYOHO/MOUNTAIN/todofuken.pdf
+- 黒部の花崗岩・約80万年前・地下6〜9km・年1cm近く・最も速いグループ・断層が見つかっていない・火山の熱：京都大学 2026年8月19日 https://www.kyoto-u.ac.jp/ja/research-news/2026-08-19-4 ／PDF https://www.kyoto-u.ac.jp/sites/default/files/2026-08/web-2608-Tagami-934c12a969330acc5a77cf23e4a56059.pdf
+- 別の説明（川の基準面の低下）：King・末岡ら 2022年 学会要旨
+- 南アルプス：環境省 https://www.env.go.jp/content/900493587.pdf ／国土交通省 https://www.mlit.go.jp/tagengo-db/common/001927666.pdf
+- 中央アルプス：末岡ほか 2010 https://www2.jpgu.org/meeting/2010_disc2/program/PDF/S-SS017/SSS017-14.pdf ／地震本部 伊那谷断層帯 https://www.jishin.go.jp/regional_seismicity/rs_katsudanso/f051_inadani/
+- 本州が東西に強く押され始めた約300万年前：産業技術総合研究所 2017 https://www.aist.go.jp/aist_j/press_release/pr2017/pr20170629/pr20170629.html
+- 削られる速さ 年3〜5mm：日本原子力研究開発機構 技報 https://rdreview.jaea.go.jp/gihou/pdf/9880.pdf
+- 黒部川：黒部河川事務所 https://www.hrr.mlit.go.jp/kurobe/haisa34/pdf/shosoku.pdf
+- 畑薙第一ダム：大井川流砂系総合土砂管理計画 https://www.cbr.mlit.go.jp/shizukawa/river/dosyakanri/pdf/ooigawa_keikaku.pdf
+- 氷河7つ：地学雑誌134巻2号 https://www.jstage.jst.go.jp/article/jgeography/134/2/134_134.207/_pdf
+- 年4mm・前穂高岳・1965年より前の測量：国土地理院 研究報告 https://www.gsi.go.jp/common/000057258.pdf
+- 焼岳・大正池：長野地方気象台 https://www.data.jma.go.jp/nagano/shosai/kazan/1915yakedake.html
+- 活火山111：気象庁 https://www.jma.go.jp/jma/kishou/know/kazan/katsukazan_toha/katsukazan_toha.html ／御嶽山：気象庁 https://ds.data.jma.go.jp/svd/vois/data/tokyo/312_Ontakesan/312_index.html
+- 飛騨山脈の2段階の隆起：第四紀研究42(3) 2003 https://www.jstage.jst.go.jp/article/jaqua1957/42/3/42_3_141/_article/-char/ja/
+
+写真
+- 黒部峡谷 十字峡：Yasu CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:Jujikyo_in_Kurobe_Gorge.jpg
+- 花崗岩：Scarlett016 CC BY-SA 4.0 https://commons.wikimedia.org/wiki/File:Lilesville_Granite_close-up.jpg
+- 焼岳と大正池：Tatata CC BY 2.0 https://commons.wikimedia.org/wiki/File:JP-20_Kamikochi_Yakedake_and_Taishoike.jpg
+- 北岳：Kanenori（Pixabay） https://pixabay.com/ja/photos/%E5%B1%B1%E5%B2%B3-%E5%8C%97%E5%B2%B3-%E6%97%A5%E6%9C%AC%E7%AC%AC%E4%BA%8C%E3%81%AE%E9%AB%98%E5%B3%B0-2288825/
+- 黒部川：先従隗始 CC0 https://commons.wikimedia.org/wiki/File:Kurobe_Riv._20200819.jpg
+- 畑薙第一ダム：Qurren CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:Hatanagi_I_Dam_2007-11-14.jpg
+- 剱岳の氷河：Alpsdake CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:Mount_Tsurugi_Glacier.jpg
+
+【音楽・効果音】
+BGM「Earth」 作曲：gooset（OpenTracks） https://opentracks.com/bgm/detail/13883
+効果音：効果音ラボ https://soundeffect-lab.info/
+
+#日本アルプス #北アルプス #地形探偵</media:description>
+   <media:community>
+    <media:starRating count="3193" average="5.00" min="1" max="5"/>
+    <media:statistics views="2028324"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-dGioD_JjQ8</id>
+  <yt:videoId>-dGioD_JjQ8</yt:videoId>
+  <yt:channelId>UCH8T27ITWFDcCx8kd4NJvXQ</yt:channelId>
+  <title>7300年前、南九州から縄文人の村はなぜ消えたのか？鹿児島の南の海に残る巨大な穴・鬼界カルデラを標高データで追う</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-dGioD_JjQ8"/>
+  <author>
+   <name>地形探偵【標高データで解く日本のなぞ】</name>
+   <uri>https://www.youtube.com/channel/UCH8T27ITWFDcCx8kd4NJvXQ</uri>
+  </author>
+  <published>2026-11-01T01:49:38+00:00</published>
+  <updated>2026-11-08T20:35:32+00:00</updated>
+  <media:group>
+   <media:title>7300年前、南九州から縄文人の村はなぜ消えたのか？鹿児島の南の海に残る巨大な穴・鬼界カルデラを標高データで追う</media:title>
+   <media:content url="https://www.youtube.com/v/-dGioD_JjQ8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-dGioD_JjQ8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>7300年前、南九州から縄文人の村はなぜ消えたのか？鹿児島の南の海に残る巨大な穴・鬼界カルデラを標高データで追う
+
+【概要欄】
+約7300年前、鹿児島の南の海で起きた巨大噴火。標高と海の深さのデータで海の底の穴を立体にして、南九州から縄文人の村が消えた理由と、最新の研究で分かってきた続きをたどります。
+
+0:00 はじめに
+1:06 1. 海の底に残る巨大な穴
+4:34 2. 7300年前、この海で何が起きたのか
+8:34 3. 縄文人の村はなぜ消えたのか
+12:27 4. 全滅ではなかった
+15:02 5. 鬼界カルデラは、今どうなっているのか
+17:48 おわりに
+
+海の深さ：GMRT／陸の標高：国土地理院
+
+火砕流の広がり・地層の断面・火山灰が届いた範囲の地図は、資料をもとに説明のために描いたイメージです。実際の範囲や形とは異なる場合があります。
+7300年前の村の様子の絵は、説明のために作った絵です。
+
+参考資料
+- カルデラの大きさ 東西約23km×南北約16km、硫黄岳704m、薩摩硫黄島が海上に出たのは約6000年前以降：気象庁 薩摩硫黄島 https://www.data.jma.go.jp/vois/data/fukuoka/508_Satsuma-Iojima/508_index.html
+- 二重のカルデラ・内側の底 約600m・溶岩ドーム 直径約10km 高さ約600m：Tatsumi et al. 2018 Scientific Reports https://pmc.ncbi.nlm.nih.gov/articles/PMC5807397/ ／神戸大 2018 https://www.kobe-u.ac.jp/en/news/article/2018_02_09_01
+- 約7300年前：桒畑2013 第四紀研究 https://www.jstage.jst.go.jp/article/jaqua/52/4/52_111/_pdf
+- 火砕流が海の上を40km・海底4500km²以上・海底の噴出物71km³以上・完新世で最大：神戸大 2024年2月22日 https://www.kobe-u.ac.jp/ja/news/article/20240222-21789/
+- 活動は少なくとも4万3千年前から・1万6千年前から9000年かけてマグマだまりが育つ：神戸大 2024年8月22日 https://www.kobe-u.ac.jp/ja/news/article/20240822-65898/
+- 屋久島北西部の火砕流 2〜3m以上：山根 JpGU2016 https://www2.jpgu.org/meeting/2016/session/PDF/S-VC48/SVC48-P15.pdf
+- 九州本土の南の端からカルデラまで約40km・種子島で2〜3世紀遺跡なし・森が戻るまで600〜900年・火山灰が今も30cm以上残る地域：科研費21K00988 研究成果報告書 https://kaken.nii.ac.jp/ja/file/KAKENHI-PROJECT-21K00988/21K00988seika.pdf
+- 上野原遺跡 竪穴住居跡52棟・国史跡：文化庁 https://online.bunka.go.jp/heritages/detail/203386 ／約1万600年前：上野原縄文の森 https://www.jomon-no-mori.jp/jomon-no-mori/adventure/adventure-1/
+- 土器は噴火をまたいで続く・種子島に人が戻るのは7100〜6900年前・海辺の貝やカニへ・人の少ない状態が少なくとも5500年前ごろまで：Uchiyama et al. 2023 Antiquity https://www.cambridge.org/core/product/identifier/S0003598X23000315/type/journal_article
+- 溶岩ドームは3900年前以降・成分がちがう・深さ2.5〜6km 幅12km以上のマグマだまり・予測は難しい：神戸大 2026年3月27日 https://www.kobe-u.ac.jp/ja/news/article/20260327-67665/
+- 噴火警戒レベル2・10月28日の噴火 噴煙900m：気象庁 https://www.data.jma.go.jp/vois/data/report/activity_info/508.html ／二酸化硫黄 1日1000トン前後：気象庁 火山活動解説資料 令和8年8月
+- 三島村 361人：令和7年国勢調査 確定値（鹿児島県） https://www.pref.kagoshima.jp/ac09/tokei/bunya/kokutyo/r7kokutyo/kihonsyuukei.html
+- 日本列島で今後100年に巨大カルデラ噴火 約1%：神戸大 巽・鈴木 2014 https://www.kobe-u.ac.jp/documents/info/public-relations/press-release/20141008-2.pdf
+
+写真（ウィキメディア・コモンズ）
+- 薩摩硫黄島 硫黄岳：名古屋太郎 CC BY-SA 3.0 https://commons.wikimedia.org/wiki/File:2015_Satsuma-Iojima_Iodake.jpg
+- 硫黄岳の火口：海上保安庁 https://commons.wikimedia.org/wiki/File:Iodake_Satsuma-Iojima_20031020.jpg
+- 屋久島の海岸：Ajari CC BY 2.0 https://commons.wikimedia.org/wiki/File:Yakushima_Kaigan.jpg
+- 三方五湖：Asturio Cantabrio CC BY-SA 4.0 https://commons.wikimedia.org/wiki/File:Mikata_Five_Lakes_ac.jpg
+- 上野原遺跡（竪穴住居の復元・地層）：Michael Gunther CC BY-SA 4.0 https://commons.wikimedia.org/wiki/File:Uenohara_Jomon_Village_a120.jpg https://commons.wikimedia.org/wiki/File:Uenohara_Jomon_Village_a123.jpg
+
+【音楽・効果音】
+BGM「Earth」 作曲：gooset（OpenTracks） https://opentracks.com/bgm/detail/13883
+効果音：効果音ラボ https://soundeffect-lab.info/
+
+#鬼界カルデラ #縄文時代 #地形探偵</media:description>
+   <media:community>
+    <media:starRating count="72" average="5.00" min="1" max="5"/>
+    <media:statistics views="22830"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:BcPPiBNJN1M</id>
+  <yt:videoId>BcPPiBNJN1M</yt:videoId>
+  <yt:channelId>UCH8T27ITWFDcCx8kd4NJvXQ</yt:channelId>
+  <title>瀬戸内海の水を抜いたら、本州から四国まで歩けるのか？平均38mの浅い海を標高データで追う</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=BcPPiBNJN1M"/>
+  <author>
+   <name>地形探偵【標高データで解く日本のなぞ】</name>
+   <uri>https://www.youtube.com/channel/UCH8T27ITWFDcCx8kd4NJvXQ</uri>
+  </author>
+  <published>2026-10-30T02:49:17+00:00</published>
+  <updated>2026-11-08T20:53:43+00:00</updated>
+  <media:group>
+   <media:title>瀬戸内海の水を抜いたら、本州から四国まで歩けるのか？平均38mの浅い海を標高データで追う</media:title>
+   <media:content url="https://www.youtube.com/v/BcPPiBNJN1M?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/BcPPiBNJN1M/hqdefault.jpg" width="480" height="360"/>
+   <media:description>瀬戸内海の平均の深さは、たった38m。標高と海の深さのデータで瀬戸内海を立体にして、水を少しずつ抜いていきます。
+データの上で最初につながるのは来島海峡。でも、そこには160mをこえる深い溝がかくれていました。本当に歩いて渡れるのは、瀬戸大橋のあたり、およそ20〜30m。
+40m下げると海の3分の2が陸に。なぜ瀬戸内海はこんなに浅いのか、そして約2万年前の氷河期、人やナウマンゾウが本当にここを歩いていた話までたどります。
+
+※何m下げたらつながるか・陸になる割合・歩く道の長さは、海の深さのデータ（約200mのマス目）で計算した目安です。せまい海峡の深い溝は、データでは浅く出ることがあります。
+※氷河期の平原・縄文時代・化石が網にかかる絵、しくみの図はイメージです。9千年前の海のようすは、資料の説明をもとにしています。
+
+【参考資料】
+環境省 せとうちネット「瀬戸内海の概況」 https://www.env.go.jp/water/heisa/heisa_net/setouchiNet/seto/g2/g2cat01/index.html
+環境省 せとうちネット 年表 https://www.env.go.jp/water/heisa/heisa_net/setouchiNet/seto/g1/g1chapter1/rekishibunka.html
+瀬戸内海環境保全協会「瀬戸内海の成立と地形」 https://www.seto.or.jp/wp-content/uploads/2023/05/web-text-01.pdf
+海上保安庁「水路」173号（来島海峡） https://www.jha.or.jp/jp/shop/products/suiro/pdf/suiro173.pdf
+海上保安庁 海洋情報部 研究報告 第28号 https://www1.kaiho.mlit.go.jp/kenkyu/report/rhr28/rhr28-04.pdf
+観光庁 多言語解説文データベース「鳴門海峡の潮流とその速度」 https://www.mlit.go.jp/tagengo-db/R1-02511.html
+国土地理院 全国都道府県市区町村別面積調 https://www.gsi.go.jp/kihonjohochousa/kihonjohochousa61016.html
+愛媛県（石鎚山） https://www.pref.ehime.jp/uploaded/attachment/152653.pdf
+広島県立歴史博物館「通史展示室」 https://www.pref.hiroshima.lg.jp/site/rekishih/tushi.html
+海洋政策研究所 Ocean Newsletter 第60号 https://www.spf.org/opri/newsletter/60_3.html
+産業技術総合研究所 地質標本館（ナウマンゾウ） https://www.gsj.jp/Muse/story/src/story_001.pdf
+大平・井内（2017）日本地球惑星科学連合大会「備讃瀬戸の海域沖積層層序について」 https://www2.jpgu.org/meeting/2017/PDF2017/H-QR05_P.pdf
+
+【地図・データ・写真】
+地形（陸）：国土地理院 標高タイル https://maps.gsi.go.jp/development/ichiran.html
+海の深さ：GMRT（Global Multi-Resolution Topography） https://www.gmrt.org/
+写真：瀬戸大橋と島々（鷲羽山から） itou365／Pixabay https://pixabay.com/photos/seto-ohashi-bridge-kurashiki-67015/
+
+【音楽・効果音】
+BGM「Earth」 作曲：gooset（OpenTracks） https://opentracks.com/bgm/detail/13883
+効果音：効果音ラボ https://soundeffect-lab.info/</media:description>
+   <media:community>
+    <media:starRating count="174" average="5.00" min="1" max="5"/>
+    <media:statistics views="80181"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:pr_-XLJV0X0</id>
+  <yt:videoId>pr_-XLJV0X0</yt:videoId>
+  <yt:channelId>UCH8T27ITWFDcCx8kd4NJvXQ</yt:channelId>
+  <title>1792年、なぜ長崎の山は一夜で崩れたのか？海に島を残し、熊本まで津波を届けた“島原大変”を標高データで追う</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=pr_-XLJV0X0"/>
+  <author>
+   <name>地形探偵【標高データで解く日本のなぞ】</name>
+   <uri>https://www.youtube.com/channel/UCH8T27ITWFDcCx8kd4NJvXQ</uri>
+  </author>
+  <published>2026-10-28T08:53:11+00:00</published>
+  <updated>2026-11-08T22:25:39+00:00</updated>
+  <media:group>
+   <media:title>1792年、なぜ長崎の山は一夜で崩れたのか？海に島を残し、熊本まで津波を届けた“島原大変”を標高データで追う</media:title>
+   <media:content url="https://www.youtube.com/v/pr_-XLJV0X0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/pr_-XLJV0X0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>1792年5月21日の夜8時すぎ、長崎県島原の町の裏にそびえる眉山が崩れ、3億立方メートルをこえる土砂が町をのみこんで有明海へ流れこみました。
+土砂が起こした津波は、約20km先の熊本（肥後）の海岸までおそい、亡くなった人は島原と熊本を合わせて約1万5千人。日本の歴史で最大の火山災害とされる「島原大変、肥後迷惑」です。
+標高と海の深さのデータで島原を立体にしながら、海に並ぶ九十九島、えぐれた眉山、浅い有明海を測り、なぜ噴火していない山が一夜で崩れたのかを追います。
+
+※崩れた原因は、今も研究が続いていて1つに決まっていません。動画では「考えられている」「とされる」と言っているところがあります。
+※崩れる様子・津波の想像図・地下の水の図・当時の町の絵はイメージです。津波が広がる地図は、海の深さのデータから計算した目安で、記録ではありません。
+
+【参考資料】
+雲仙岳災害記念館 島原大変肥後迷惑 https://udmh.jp/study/shimabara/
+島原市 島原半島ジオパーク https://www.city.shimabara.lg.jp/geopark/page2241.html
+気象庁 雲仙岳 有史以降の火山活動 https://ds.data.jma.go.jp/svd/vois/data/fukuoka/504_Unzendake/504_history.html
+内閣府 防災 https://www.bousai.go.jp/kazan/expert/pdf/160624katsudo.pdf
+国土交通省 https://www.mlit.go.jp/tagengo-db/common/001540975.docx
+いさぼうネット 歴史的大規模土砂災害 https://isabou.net/knowhow/colum-rekishi/colum07.asp
+国土地理院の資料（災害履歴） https://saigairireki.qscpua2.com/cgi-bin/pdf/G08.pdf
+日本の地形千景 眉山と九十九島 https://www.web-gis.jp/GM1000/LandMap/LandMap_18_019.html
+日本火山学会 講演予稿（2019） https://www.jstage.jst.go.jp/article/vsj/2019/0/2019_87/_pdf/-char/ja
+日本火山学会 講演予稿（2020） https://www.jstage.jst.go.jp/article/vsj/2020/0/2020_25/_pdf/-char/en
+熊本日日新聞 https://www.kumanichi.com/articles/1843025
+
+【地図・データ】
+地形（陸）：国土地理院 標高タイル（5m・10m） https://maps.gsi.go.jp/development/ichiran.html
+海の深さ：AWS Terrain Tiles（Mapzen。ETOPO1・GEBCO ほかのデータから作成） https://registry.opendata.aws/terrain-tiles/
+
+【音楽・効果音】
+BGM「Earth」 作曲：gooset（OpenTracks） https://opentracks.com/bgm/detail/13883
+効果音：効果音ラボ https://soundeffect-lab.info/</media:description>
+   <media:community>
+    <media:starRating count="175" average="5.00" min="1" max="5"/>
+    <media:statistics views="112238"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Zf62kNhO3n4</id>
+  <yt:videoId>Zf62kNhO3n4</yt:videoId>
+  <yt:channelId>UCH8T27ITWFDcCx8kd4NJvXQ</yt:channelId>
+  <title>伊豆半島だけ、なぜ本州と違うプレートに乗っているのか？約100万年前の衝突を標高データで追う</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Zf62kNhO3n4"/>
+  <author>
+   <name>地形探偵【標高データで解く日本のなぞ】</name>
+   <uri>https://www.youtube.com/channel/UCH8T27ITWFDcCx8kd4NJvXQ</uri>
+  </author>
+  <published>2026-10-27T02:59:11+00:00</published>
+  <updated>2026-11-08T20:04:23+00:00</updated>
+  <media:group>
+   <media:title>伊豆半島だけ、なぜ本州と違うプレートに乗っているのか？約100万年前の衝突を標高データで追う</media:title>
+   <media:content url="https://www.youtube.com/v/Zf62kNhO3n4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Zf62kNhO3n4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>伊豆半島は、本州の陸地でただ1か所、海側のフィリピン海プレートに乗っています。
+約2000万年前に南の海の底で生まれた海底火山が、プレートに乗って北へ旅をし、約100万年前に本州にぶつかり始めた――。
+標高と海の深さのデータで地形を立体にしながら、駿河湾・相模湾の深い溝、丹沢・足柄の山、箱根と富士山まで、伊豆が残した&quot;ぶつかった跡&quot;をたどります。
+
+※年代や距離には資料によって幅があります。動画では「とされる」「考えられている」と言っているところがあります。
+※海の底の火山・プレートのもぐりこみ・断面の地下などの図はイメージです。プレートの境目はおおよその位置です。
+
+【参考資料】
+日本ジオパークネットワーク 伊豆半島 https://geopark.jp/geopark/izu_hantou/
+伊豆半島ジオパーク https://izugeopark.org/intro/intro2/
+伊豆半島ジオパーク 堂ヶ島 https://izugeopark.org/geosites/dogashima/
+伊豆半島ジオパーク https://izugeopark.org/category-a03/category-b01/
+内閣府 地域再生 伊豆市資料 https://www.chisou.go.jp/tiiki/tiikisaisei/portal/pdf/dai44/b-9_izushi.pdf
+環境省 https://www.env.go.jp/park/content/000098844.pdf
+産業技術総合研究所 地質ニュース https://www.gsj.jp/data/chishitsunews/99_11_03.pdf
+筑波大学 https://www.geol.tsukuba.ac.jp/seminar/2013_16_1.pdf
+山梨県富士山科学研究所 https://www.mfri.pref.yamanashi.jp/fujikazan/original/P59-68.pdf
+箱根ジオパーク https://hakone-geopark.jp/area-guide/minamiashigara/hamagurizawa.html
+地震調査研究推進本部 https://www.jishin.go.jp/main/chousakenkyuu/fujikawa_juten/h30/h30Fujikawa_6.pdf
+地震調査研究推進本部 https://jishin.go.jp/main/chousa/15apr_chi_kanto/ka_13.pdf
+地震調査研究推進本部 https://www.jishin.go.jp/main/chousakenkyuu/kannawa_juten/h21/chap4.pdf
+地震調査研究推進本部 用語 https://www.jishin.go.jp/main/yogo/e.htm
+地震調査研究推進本部 静岡県 https://www.jishin.go.jp/regional_seismicity/rs_chubu/p22_shizuoka
+静岡県 文化財 https://www.pref.shizuoka.jp/kankosports/bunkageijutsu/bunkazai/1002825/1041003/1041884/1004957/1020755.html
+静岡県 https://www.pref.shizuoka.jp/machizukuri/kowan/1040846/1025741.html
+産業技術総合研究所 海洋地質図 https://www.gsj.jp/data/MARN/PDF/GSJ_MAP_MARN_003_1976_D.pdf
+神奈川県 箱根山 https://www.pref.kanagawa.jp/documents/8861/hakoneyamahinankeikaku.pdf
+内閣府 防災 https://www.bousai.go.jp/kohou/kouhoubousai/h24/70/volcano.html
+気象庁 富士山 https://www.data.jma.go.jp/vois/data/tokyo/STOCK/souran/main/55_Fujisan.pdf
+気象庁 伊豆東部火山群 https://www.data.jma.go.jp/vois/data/tokyo/316_Izu-TobuVG/316_history.html
+海洋研究開発機構 https://www.jamstec.go.jp/j/about/press_release/2006/20060525/img_1_2.pdf
+海上保安庁 https://www1.kaiho.mlit.go.jp/kenkyu/happyo/2008/h20o05.pdf
+笹川平和財団 https://www.spf.org/islandstudies/jp/info_library/ogasawara-02-geo--02_geo0021.html
+日本地球惑星科学連合 2004 https://www2.jpgu.org/meeting/2004/pdf/t054/t054-005.pdf
+
+【地図・データ】
+地形（陸）：国土地理院 標高タイル https://maps.gsi.go.jp/development/ichiran.html
+海の深さ：AWS Terrain Tiles（Mapzen。ETOPO1・GEBCO ほかのデータから作成）https://registry.opendata.aws/terrain-tiles/
+日本の外の陸地：Natural Earth https://www.naturalearthdata.com/
+
+【音楽・効果音】
+BGM「Earth」 作曲：gooset（OpenTracks） https://opentracks.com/bgm/detail/13883
+効果音：効果音ラボ https://soundeffect-lab.info/</media:description>
+   <media:community>
+    <media:starRating count="695" average="5.00" min="1" max="5"/>
+    <media:statistics views="366296"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
