@@ -1,0 +1,26 @@
+name: suke-thumbs
+# すけのネタ選び用：.github/suke-thumbs.txt の動画のサムネを取り、公開鍵で暗号化して置く（他人の画像を平文で公開しない）。
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['.github/suke-thumbs.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  thumbs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          mkdir -p t
+          while read v; do [ -z "$v" ] && continue
+            curl -sfL "https://i.ytimg.com/vi/$v/maxresdefault.jpg" -o "t/$v.jpg" || curl -sfL "https://i.ytimg.com/vi/$v/hqdefault.jpg" -o "t/$v.jpg" || true
+          done < .github/suke-thumbs.txt
+          tar cf t.tar t
+          openssl rand -hex 32 > k.txt
+          openssl enc -aes-256-cbc -pbkdf2 -salt -in t.tar -out suke-thumbs.tar.enc -pass file:k.txt
+          openssl pkeyutl -encrypt -pubin -inkey .github/suke-thumbs.pub.pem -in k.txt -out suke-thumbs.k.enc
+          mkdir -p .cache && mv suke-thumbs.tar.enc suke-thumbs.k.enc .cache/ && rm -rf t t.tar k.txt
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git add .cache && git commit -m "suke thumbs (encrypted)" && git push
