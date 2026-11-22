@@ -1,0 +1,45 @@
+name: peek-chizu
+# 分析用：.github/peek-chizu.txt の動画サムネを「#見出し」ごとに一覧画像にし、.github/peek-chizu.pub で暗号化して置く（他人の画像を平文で載せない）
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['.github/peek-chizu.txt']
+permissions:
+  contents: write
+jobs:
+  peek:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q pillow
+      - run: |
+          mkdir -p analysis/raw/_peek_chizu /tmp/sheets
+          python3 - <<'PY'
+          import urllib.request, io
+          from PIL import Image
+          groups={}; cur='all'
+          for l in open('.github/peek-chizu.txt'):
+              l=l.strip()
+              if not l: continue
+              if l.startswith('#'): cur=l[1:]; continue
+              groups.setdefault(cur,[]).append(l)
+          for g,ids in groups.items():
+              ims=[]
+              for v in ids:
+                  for q in ['maxresdefault','hqdefault']:
+                      try:
+                          ims.append(Image.open(io.BytesIO(urllib.request.urlopen(f'https://i.ytimg.com/vi/{v}/{q}.jpg').read())).convert('RGB')); break
+                      except Exception: pass
+              W,H=640,360; cols=2; rows=(len(ims)+cols-1)//cols
+              sheet=Image.new('RGB',(W*cols,H*rows),'white')
+              for i,im in enumerate(ims): sheet.paste(im.resize((W,H)),((i%cols)*W,(i//cols)*H))
+              sheet.save(f'/tmp/sheets/{g}.jpg','JPEG',quality=85)
+          PY
+          for f in /tmp/sheets/*.jpg; do
+            n=$(basename "$f" .jpg)
+            openssl rand -hex 32 > /tmp/k
+            openssl enc -aes-256-cbc -pbkdf2 -salt -in "$f" -out "analysis/raw/_peek_chizu/$n.enc" -pass file:/tmp/k
+            openssl pkeyutl -encrypt -pubin -inkey .github/peek-chizu.pub -in /tmp/k -out "analysis/raw/_peek_chizu/$n.key"
+          done
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git add analysis/raw/_peek_chizu && git commit -m "Peek chizu thumbnails (encrypted)" && git push
