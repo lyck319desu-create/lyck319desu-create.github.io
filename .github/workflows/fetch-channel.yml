@@ -4,7 +4,7 @@ name: fetch-channel
 on:
   push:
     branches: ['claude/**']
-    paths: ['.github/fetch-targets.txt', '.github/fetch-details.txt', '.github/fetch-search.txt']
+    paths: ['.github/fetch-targets.txt', '.github/fetch-details.txt', '.github/fetch-search.txt', '.github/fetch-thumbs.txt']
   workflow_dispatch:
 permissions:
   contents: write
@@ -110,6 +110,15 @@ jobs:
               known[cid]={'name':html.unescape(t[1]) if t else None,'created':m[1] if m else None,'recent':vids}
           json.dump(known,open(out,'w'),ensure_ascii=False,indent=1)
           PY
+      - name: thumbs-by-id
+        # .github/fetch-thumbs.txt の動画IDごとにサムネを thumbs/byid/ へ（成果物だけ・リポジトリには載せない）
+        run: |
+          [ -f .github/fetch-thumbs.txt ] || exit 0
+          mkdir -p thumbs/byid
+          while read -r vid; do
+            case "$vid" in ""|"#"*) continue;; esac
+            curl -sf -o "thumbs/byid/$vid.jpg" "https://i.ytimg.com/vi/$vid/maxresdefault.jpg" || curl -sf -o "thumbs/byid/$vid.jpg" "https://i.ytimg.com/vi/$vid/hqdefault.jpg" || true
+          done < .github/fetch-thumbs.txt
       - name: thumb-notes
         # サムネは載せずに、文字（OCR）と主な色と明るさの配置だけを analysis/raw/<handle>/thumbs_notes.json に残す
         run: |
