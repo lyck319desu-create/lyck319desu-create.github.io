@@ -82,7 +82,7 @@ jobs:
           import json,sys
           try: d=json.load(open(sys.argv[1])) or {}
           except Exception: d={}
-          rows=[{k:e.get(k) for k in ['id','title','view_count','duration','channel','channel_id','uploader_id']} for e in d.get('entries') or [] if e]
+          rows=[{k:e.get(k) for k in ['id','title','view_count','duration','channel','channel_id','uploader_id','timestamp','release_timestamp','upload_date','channel_follower_count']} for e in d.get('entries') or [] if e]
           json.dump({'query':sys.argv[3],'entries':rows},open(sys.argv[2],'w'),ensure_ascii=False,indent=1)
           PY
             rm -f "analysis/raw/search/$name.full.json"
