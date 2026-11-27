@@ -1,0 +1,54 @@
+name: peek-video
+# 分析用：.github/peek-video.txt の動画を低画質で取り、字幕・場面の切り替わり・音の大きさ・一定間隔のコマを1つにまとめ、.github/peek-video.pub で暗号化して置く（他人の映像・字幕を平文で載せない）
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['.github/peek-video.txt']
+permissions:
+  contents: write
+jobs:
+  peek:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with: { deno-version: v2.x }
+      - run: |
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+          pip install -q -U "yt-dlp[default]" pillow
+      - run: |
+          mkdir -p analysis/raw/_peek_video
+          while read -r name vid; do
+            [ -z "$name" ] && continue
+            d=/tmp/pv/$name; mkdir -p $d
+            yt-dlp --skip-download -J "https://www.youtube.com/watch?v=$vid" > $d/info.full.json 2> $d/err.txt || true
+            python3 -c "import json,sys;d=json.load(open('$d/info.full.json'));json.dump({k:d.get(k) for k in ['id','title','description','chapters','duration','view_count','like_count','comment_count','upload_date','channel','channel_follower_count','tags']},open('$d/info.json','w'),ensure_ascii=False,indent=1)" || true
+            rm -f $d/info.full.json
+            yt-dlp --skip-download --write-auto-subs --write-subs --sub-langs 'ja.*,ja,en' --sub-format vtt -o "$d/sub.%(ext)s" "https://www.youtube.com/watch?v=$vid" 2>> $d/err.txt || true
+            yt-dlp -f "bv*[height<=360]+ba/b[height<=360]/worst" --merge-output-format mp4 -o "$d/v.mp4" "https://www.youtube.com/watch?v=$vid" 2>> $d/err.txt || true
+            if [ -f $d/v.mp4 ]; then
+              ffmpeg -hide_banner -i $d/v.mp4 -vf "select='gt(scene,0.25)',showinfo" -f null - 2>&1 | grep -o 'pts_time:[0-9.]*' | cut -d: -f2 > $d/scenes.txt || true
+              ffmpeg -hide_banner -i $d/v.mp4 -af ebur128 -f null - 2>&1 | tail -12 > $d/loud.txt || true
+              ffmpeg -hide_banner -i $d/v.mp4 -af silencedetect=n=-35dB:d=0.4 -f null - 2>&1 | grep -E 'silence_(start|end)' > $d/silence.txt || true
+              mkdir -p $d/f; ffmpeg -hide_banner -loglevel error -i $d/v.mp4 -vf "fps=1/5,scale=320:-1" $d/f/%05d.jpg
+              python3 - $d <<'PY'
+          import sys,os,glob
+          from PIL import Image, ImageDraw
+          d=sys.argv[1]; fs=sorted(glob.glob(d+'/f/*.jpg'))
+          per=48
+          for k in range(0,len(fs),per):
+              ims=[Image.open(f) for f in fs[k:k+per]]; w,h=ims[0].size; cols=6; rows=(len(ims)+cols-1)//cols
+              sh=Image.new('RGB',(w*cols,(h+16)*rows),'white'); dr=ImageDraw.Draw(sh)
+              for i,im in enumerate(ims):
+                  x=(i%cols)*w; y=(i//cols)*(h+16); sh.paste(im,(x,y+16)); t=(k+i)*5; dr.text((x+4,y+2),f'{t//60}:{t%60:02d}',fill='black')
+              sh.save(f'{d}/sheet_{k//per:02d}.jpg',quality=80)
+          PY
+              rm -rf $d/f $d/v.mp4
+            fi
+            tar -C /tmp/pv -czf /tmp/$name.tgz $name
+            openssl rand -hex 32 > /tmp/k
+            openssl enc -aes-256-cbc -pbkdf2 -salt -in /tmp/$name.tgz -out analysis/raw/_peek_video/$name.enc -pass file:/tmp/k
+            openssl pkeyutl -encrypt -pubin -inkey .github/peek-video.pub -in /tmp/k -out analysis/raw/_peek_video/$name.key
+          done < .github/peek-video.txt
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git add analysis/raw/_peek_video && git commit -m "Peek video (encrypted)" && git push
