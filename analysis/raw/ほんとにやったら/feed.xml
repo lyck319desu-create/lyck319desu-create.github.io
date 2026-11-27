@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCNFT05XvM6TOqfHYMys4xgg"/>
+ <id>yt:channel:NFT05XvM6TOqfHYMys4xgg</id>
+ <yt:channelId>NFT05XvM6TOqfHYMys4xgg</yt:channelId>
+ <title>ほんとにやったら</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg"/>
+ <author>
+  <name>ほんとにやったら</name>
+  <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+ </author>
+ <published>2026-11-06T05:29:54+00:00</published>
+ <entry>
+  <id>yt:video:cH7h3cu4Cdg</id>
+  <yt:videoId>cH7h3cu4Cdg</yt:videoId>
+  <yt:channelId>UCNFT05XvM6TOqfHYMys4xgg</yt:channelId>
+  <title>ビー玉サイズの太陽を、1,570万℃まで熱くしてみた</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=cH7h3cu4Cdg"/>
+  <author>
+   <name>ほんとにやったら</name>
+   <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+  </author>
+  <published>2026-11-27T09:00:34+00:00</published>
+  <updated>2026-11-27T09:00:35+00:00</updated>
+  <media:group>
+   <media:title>ビー玉サイズの太陽を、1,570万℃まで熱くしてみた</media:title>
+   <media:content url="https://www.youtube.com/v/cH7h3cu4Cdg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/cH7h3cu4Cdg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>土曜日の夜7時、家の前。
+直径1cmのビー玉を、太陽の表面と同じ5,500℃にしてみました。
+冬の通りが昼のように明るくなり、となりの猫と犬は日なたぼっこ。
+そこから10倍ずつ熱くして、太陽の中心と同じ1,570万℃まで。
+家の前、渋谷の交差点、富士山の頂上、宇宙、太平洋から見届けました。
+出す熱・明るさ・燃え出す距離は、すべて計算した値です。
+
+▼ もくじ
+0:00 家の前
+0:19 ビー玉の太陽（5,500℃）
+2:11 準備
+2:30 5.5万℃
+3:32 55万℃
+4:07 渋谷の交差点
+4:38 富士山の頂上（550万℃）
+5:29 宇宙から
+5:47 1,570万℃・太陽の中心
+6:17 太平洋
+6:45 ビー玉の前へ
+7:21 元に戻す
+
+▼ 計算の前提
+・ビー玉：直径1cm。決めた温度のまま光り続ける玉（黒体）としました。出す熱は 表面積×σ×温度⁴（シュテファン＝ボルツマンの法則）
+・太陽の表面：5,772K（約5,500℃）。本物の表面のガスはとても薄く、ビー玉1個分では光も熱もほとんど出ないので、「表面と同じ温度・同じ光り方の玉」としました
+・5,500℃：約20kW（電気ストーブ20台分）。1.07m離れると、空の太陽と同じ大きさ・同じ明るさに見えます。10m先で約1,500ルクス、100m先で約15ルクス、1km先で約0.15ルクス（満月の夜くらい）
+・5.5万℃：約1.7億W。いちばん強い光は紫外線で、空気がすぐそばで吸いこみます。木が燃え出す距離は約14m（火の玉が熱の35%を光として出すとした目安）
+・55万℃：約1.6兆W。広島の原爆1発分を約38秒ごと。木が燃え出す距離は約1.3km、5km先の渋谷で真夏の日差しの約2倍
+・550万℃：約1.6×10^16W（人類のエネルギー使用の約860倍）。史上最大の水爆（ツァーリ・ボンバ）1発分を約13秒ごと。木が燃え出す距離は約135km
+・1,570万℃（太陽の中心）：約1.1×10^18W。地球が太陽から受ける光の約6倍。地球の空気全体が1日に約18℃温まる計算で、約4.3日で恐竜を滅ぼした隕石（チクシュルーブ）と同じエネルギーになります
+・太陽の中心：密度は約150g/cm³（ビー玉1個で78g）、圧力は約2,600億気圧。核融合で出る熱は約276W/m³で、ビー玉1個分では約0.00015W。同じ大きさなら人の体の方が5倍ほど多く熱を出しています
+・熱い空気の柱の高さは、立ちのぼる煙の式（Morton, Taylor &amp; Turner 1956）の目安です。100kmをこえる所は式の外です
+・遠くの熱の強さは、火の玉の光が距離の2乗で弱まるとした目安です。空気による吸収・地球の丸みは大まかにしか入れていません
+
+▼ ことわり
+・ビー玉を出す・太陽にする・温度を保つ・熱くする・場所の移動・元に戻すは、カキ君の力（方位磁針）の演出です。本当は、手を離した瞬間にビー玉はふくらんで消えます（中心と同じビー玉なら、ためている熱はTNT火薬約5トン分）
+・カキ君は無敵としています（5.5万℃から先）。となりの猫は鈴、となりの犬は首輪で、自分で無敵になっています。となりのおばあさんは無敵ではありません（体が強いだけです）
+・渋谷の人たちが外にいるのは演出です。550万℃から先の関東などの様子は描いていません。最後は時間ごと元に戻しました
+・時間は、早送りの所があります。火の玉・光の柱・空気の噴き上がりの形と広がり方は、大まかな想像として描いています
+
+▼ 出典
+・IAU 2015 Resolution B3：太陽の名目値（表面の温度 5,772K）
+・Kopp &amp; Lean（2011）Geophysical Research Letters：太陽定数 1,361W/m²
+・標準太陽モデル（NASA Sun Fact Sheet ほか）：太陽の中心の温度・密度・圧力・核融合の熱
+・Glasstone &amp; Dolan（1977）The Effects of Nuclear Weapons：火の玉の大きさ・熱として出る割合
+・Morton, Taylor &amp; Turner（1956）Proceedings of the Royal Society A：立ちのぼる煙の高さ
+・Babrauskas（2003）Ignition Handbook：木が燃え出す熱の強さ
+・Energy Institute Statistical Review of World Energy 2024：人類のエネルギー使用
+・地球の地図：NASA Blue Marble・Black Marble
+
+#思考実験 #もしも #太陽</media:description>
+   <media:community>
+    <media:starRating count="1" average="5.00" min="1" max="5"/>
+    <media:statistics views="8"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:x3qWKJbTUGY</id>
+  <yt:videoId>x3qWKJbTUGY</yt:videoId>
+  <yt:channelId>UCNFT05XvM6TOqfHYMys4xgg</yt:channelId>
+  <title>83億人が一瞬で消えたら、1万年後どうなる？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=x3qWKJbTUGY"/>
+  <author>
+   <name>ほんとにやったら</name>
+   <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+  </author>
+  <published>2026-11-25T09:00:10+00:00</published>
+  <updated>2026-11-26T08:41:49+00:00</updated>
+  <media:group>
+   <media:title>83億人が一瞬で消えたら、1万年後どうなる？</media:title>
+   <media:content url="https://www.youtube.com/v/x3qWKJbTUGY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/x3qWKJbTUGY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>土曜日の夕方5時、家の前で、世界中の人を一瞬で消してみました。
+渋谷のスクランブル交差点を渡っていた人も、世界中の約83億人も、同じ瞬間に消えます。
+残ったのは、主人公ひとりと、動物と植物だけ。
+その夜、町の明かりが消え、東京の空に天の川が現れます。
+そこから時間を早送りして、10年後の渋谷、100年後の森になった家の前、200年後の東京タワー、そして1万年後の地球まで見に行きます。
+
+■ ことわり
+・2026年11月28日（土）17時に、世界中の人（約83億人）が一瞬で消えたとしています。動物・植物・建物・機械はそのまま残ります。
+・年数は、人がいなくなった世界を考えた本・番組や、ふだん人が手入れしている物の寿命からの目安です。場所や天気で大きく変わり、見方も分かれます。
+・発電所は、燃料を運ぶ人や故障に応える人がいないと、数時間〜2日ほどで次々に止まると見られています。この動画では、夜中の2時ごろに関東の明かりが消えるとしました。原子力発電所は、外からの電気が切れると自動で止まる仕組みが働きます（その後の冷却は扱っていません）。
+・電車は運転士がいないと自動で止まる仕組みが働き、車は多くがその場でゆっくり止まったとしています。
+・宇宙ステーションは、ふだんはエンジンで高さを戻しています。戻さないと、太陽の活動しだいで1〜2年で大気に入ります（NASA）。この動画では1年半後としました。
+・山の動物が人のいない町に入ってくるのは、福島の避難区域で、イノシシなどが町の中で多く見られた調査があります。シカが渋谷を渡る・クマが森を歩くのは、そこから考えた演出です。
+・関東の低い土地は、人の手が入らないと、草→先に生える木→シイ・カシなどの常緑の森（照葉樹林）へ移っていきます。明治神宮の森は1915〜1920年に人が植え、約100年で自然の森のようになりました。
+・東京タワーは約5年ごとに全面を塗り替えてきました。鉄の塔や高層ビルは、手入れなしで100〜300年ほどで崩れるという見立てがあり、この動画では200年後に倒れるとしました。
+・富士山は過去5,600年に180回以上噴火しています（平均31年に1回）。1000年後の噴火は、その中の1回として描きました。
+・クフ王のピラミッドは紀元前2560年ごろにできました。2026年の1万年後には、できてから約1万4,600年です。
+・アポロの足あとは、風も雨もない月では、小さな隕石の粒で少しずつならされるだけで、何百万年も残ると考えられています。旗の色は、強い太陽の光ですでにあせていると見られています。
+・人が出した二酸化炭素は、1万年後も2〜3割が空気に残ると考えられています。
+・テレビ・ラジオの電波は光の速さで広がるので、1万年後には1万光年先にあります。光の球は、電波を見えるようにした演出です。
+・主人公は無敵、という設定です。1万年のあいだ年をとらず、宇宙や月で平気なのはそのためです。となりの猫の鈴と犬の首輪（鳴る・光ると無敵になる。猫と犬はとなりの家で一緒に暮らしています）と、おばあさんの力持ちも演出です。最後に時間を巻き戻すのも演出です。
+
+■ 出典・データ
+・United Nations (2024). World Population Prospects 2024.
+・Weisman, A. (2007). The World Without Us.（アラン・ワイズマン『人類が消えた世界』）
+・History Channel (2008). Life After People.
+・NASA. International Space Station Transition Plan / FAQ（補正しない場合の軌道の寿命）
+・Lyons, P. E. et al. (2020). Rewilding of Fukushima's human evacuation zone. Frontiers in Ecology and the Environment 18(3).
+・明治神宮「鎮座百年記念 第二次境内総合調査」
+・大澤悟・本橋健司「東京タワーの塗装の維持保全」日本建築学会技術報告集
+・山梨県富士山科学研究所（富士山の噴火の歴史）
+・Archer, D. et al. (2009). Atmospheric lifetime of fossil fuel carbon dioxide. Annual Review of Earth and Planetary Sciences 37.
+・地球の地図：NASA Blue Marble・Black Marble／月の地図：NASA
+
+#思考実験 #もしも #人類滅亡</media:description>
+   <media:community>
+    <media:starRating count="162" average="5.00" min="1" max="5"/>
+    <media:statistics views="21485"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Rg2mzZRghDE</id>
+  <yt:videoId>Rg2mzZRghDE</yt:videoId>
+  <yt:channelId>UCNFT05XvM6TOqfHYMys4xgg</yt:channelId>
+  <title>地球の水を全部集めたら、どれくらいの玉になる？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Rg2mzZRghDE"/>
+  <author>
+   <name>ほんとにやったら</name>
+   <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+  </author>
+  <published>2026-11-23T09:00:23+00:00</published>
+  <updated>2026-11-23T09:00:23+00:00</updated>
+  <media:group>
+   <media:title>地球の水を全部集めたら、どれくらいの玉になる？</media:title>
+   <media:content url="https://www.youtube.com/v/Rg2mzZRghDE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Rg2mzZRghDE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>家の前の水たまりから始めて、地球の水を全部、宇宙の1か所に集めてみました。
+川も、雲も、地面の下の水も、海も、南極の氷も。全部集めると、どれくらいの玉になるでしょう。
+
+海の底の形は、本物の地形のデータから作りました。海がなくなると、空気が海の跡へ流れこみ、家の前の気圧や気温まで変わります。
+
+■ 目次
+0:00 家の前（朝7時）
+1:46 東京湾（9時）
+2:53 沖の海の崖（9時半〜10時半）
+3:57 マリアナ海溝の底（12時）
+4:40 宇宙へ
+5:34 水の玉
+7:21 家の前（夕方〜夜）
+8:14 水を戻す
+
+■ ことわり
+・水を集める・運ぶ・戻すのは、すべて演出です。地球の水を本当に宇宙へ上げるには、とてつもないエネルギーがいります。
+・海面が1秒に1mずつ下がる、水の流れが秒速10km、という速さは、この動画で決めた値です。
+・生き物の体の中の水は残しました。海の生き物は水と一緒に運び、真水でも生きられるようにしました。
+・宇宙の真空では、水の玉の表面は沸いて凍るはずですが、液体のまま浮かべました。
+・気圧と気温は、空気が海の跡へ流れこみ、膨らむ・縮むことだけで変わるとした目安です（日差しや地面との熱のやりとりは入れていません）。
+・マリアナ海溝の底の最後の海水は、谷底の細長い水たまりとして描きました（地形は細かい所を省いています）。
+・主人公は無敵、という設定です（海溝の底の熱い空気・宇宙・玉の中の水圧・水のない寒い夜）。
+・玉の重さによる地球や月の動きへの影響、海がなくなったことによる地球の回り方の変化は考えていません。
+・サムネイルの水の玉は、見やすいように実際の見かけより大きく描いています。
+
+■ 主な数字
+・地球の水：13億8,598万km³（生き物の体の中の1,120km³は残した）→ 直径1,383kmの玉
+・海：13億3,800万km³（96.5%）／氷河・氷床：2,406万km³／地下水：2,340万km³／湖：17.6万km³／空気の中：1.29万km³／川：2,120km³
+・玉の置き場所：静止軌道（地上3万5,786km）、東経139.7°の赤道の上。東京から見ると真南、高さ48.6°、月の4.1倍の大きさに見える
+・家の前の気圧：朝の72%（富士山の五合目くらい）、空気が膨らんで冷えると −17℃（目安）
+・マリアナ海溝の底：2.2気圧、空気が押し縮められて約100℃（目安）
+・玉の表面の重力：地球の2%　中心の水圧：660気圧
+
+■ 出典・データ
+・USGS「How Much Water is There on Earth?」（Shiklomanov, I. A. 1993, Water in Crisis の表）
+・海の底と陸の地形：AWS Terrain Tiles（Mapzen terrarium）
+・地球の地図：NASA Blue Marble
+・海の平均の深さ：Charette, M. A., Smith, W. H. F. (2010). The volume of Earth's ocean. Oceanography 23(2).
+・炊いたご飯の水分：日本食品標準成分表
+
+#もしも #思考実験 #地球の水 #ほんとにやったら</media:description>
+   <media:community>
+    <media:starRating count="183" average="5.00" min="1" max="5"/>
+    <media:statistics views="27706"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:w3Vz7Bde6SM</id>
+  <yt:videoId>w3Vz7Bde6SM</yt:videoId>
+  <yt:channelId>UCNFT05XvM6TOqfHYMys4xgg</yt:channelId>
+  <title>1歩ごとに体が2倍になったら、100歩でどこまで行ける？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=w3Vz7Bde6SM"/>
+  <author>
+   <name>ほんとにやったら</name>
+   <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+  </author>
+  <published>2026-11-21T09:00:07+00:00</published>
+  <updated>2026-11-25T04:23:56+00:00</updated>
+  <media:group>
+   <media:title>1歩ごとに体が2倍になったら、100歩でどこまで行ける？</media:title>
+   <media:content url="https://www.youtube.com/v/w3Vz7Bde6SM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/w3Vz7Bde6SM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>日曜日の夕方、家の前の通り。
+沈んだばかりの夕日を追いかけて、100歩あるきます。
+ただし、1歩ごとに体が2倍になります。
+
+3歩目で体重33トン。
+11歩目で、沈んだはずの夕日がまた見えます。
+18歩目で、宇宙ステーションが目の前を通ります。
+2倍をくり返すと、100歩でどこまで行けるのか。
+身長・歩はば・体重は、すべて計算した値です。
+
+▼ もくじ
+0:00 夕日を追いかけて
+0:11 町の中（1〜7歩目）
+1:12 東京の空（8〜12歩目）
+2:14 空の上へ（13〜17歩目）
+2:59 地球の上（18〜23歩目）
+3:56 月と太陽（24〜37歩目）
+5:01 太陽系の外へ（38〜45歩目）
+5:38 星のあいだ（46〜69歩目）
+6:38 銀河の外へ
+7:38 家の前
+
+▼ ことわり
+・歩いている本人は「無敵」で、骨・息・熱・自分の重さ（ブラックホールになること）で困らないとしています（演出です）。
+・足を動かす神経の合図が一瞬で届くこと、地球より大きくなってから何もない所を歩けること、足が光より速く動けることは、ありえないことを起こしています（演出です）。
+・1歩にかかる時間は約1秒としました。画面では早送りやスローにして見せています。
+・自分の重さで、まわりの地球・月・太陽が引き寄せられることは描いていません。
+・旅客機・宇宙ステーションは、画面で分かるように大きく描いています。
+・太陽・月・惑星・ボイジャー1号・星・銀河の向きと距離は、2026年11月8日の値を使いましたが、見せやすいように少しずらした物もあります。銀河の並びや宇宙の大きな構造は、見せるために作った模様です。
+・最後は一瞬で家の前に戻っています（演出です）。
+
+▼ 計算に使った値と出典
+・出発の身長 1.70m（日本の成人男性の平均 約1.71m）、体重 65kg。n歩目の身長＝1.70m×2のn乗、歩はばは身長の約0.415倍
+・重さは身長の3乗、骨の太さ（断面積）は2乗で増える（二乗三乗の法則。ガリレオ『新科学対話』）
+・神経の合図の速さ：運動神経の太い線維で秒速70〜120m（生理学の教科書の値）。ここでは約100m/s
+・夕日がまた見える高さ：家の西の山なみの標高（AWS Terrain Tiles）と、地球の丸み・大気の屈折から計算
+・高さ50kmの気圧：約0.8hPa（米国標準大気 1976）。地上の約1000分の1
+・宇宙の入口：高さ100km（カーマン・ライン、国際航空連盟）
+・国際宇宙ステーション：高さ約410km、秒速約7.7km（NASA）
+・ボイジャー1号：1977年打ち上げ、秒速約17km。2026年11月に地球から約259億km（NASA）
+・天の川銀河：直径約10万光年。アンドロメダ銀河：約250万光年
+・見える宇宙（観測可能な宇宙）の半径：約465億光年
+・太陽・月・惑星の位置：PyEphem で計算
+・地図：NASA Blue Marble Next Generation、NASA Black Marble（夜の明かり）、NASA GIBS
+・地球の地図：Solar System Scope（CC BY 4.0）
+・標高：AWS Terrain Tiles（Mapzen ほか）
+・月の地図：NASA LRO（LROC）
+
+#思考実験 #もしも #2倍</media:description>
+   <media:community>
+    <media:starRating count="244" average="5.00" min="1" max="5"/>
+    <media:statistics views="30017"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:PbaHqaBNGEg</id>
+  <yt:videoId>PbaHqaBNGEg</yt:videoId>
+  <yt:channelId>UCNFT05XvM6TOqfHYMys4xgg</yt:channelId>
+  <title>【１㎝～1000㎞】もしも10倍ずつ大きくなる隕石が家の前に落ちたら？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=PbaHqaBNGEg"/>
+  <author>
+   <name>ほんとにやったら</name>
+   <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+  </author>
+  <published>2026-11-19T09:00:10+00:00</published>
+  <updated>2026-11-22T21:28:39+00:00</updated>
+  <media:group>
+   <media:title>【１㎝～1000㎞】もしも10倍ずつ大きくなる隕石が家の前に落ちたら？</media:title>
+   <media:content url="https://www.youtube.com/v/PbaHqaBNGEg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/PbaHqaBNGEg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>土曜日の夜9時、家の前。
+指先ほどの1cmの隕石から始めて、1つ落ちるたびに10倍の大きさにしていきます。
+流れ星、火球、空中での爆発、そしてクレーター。
+大きさが変わると、何がどう変わるのか。爆風・熱・揺れは、すべて計算した値です。
+
+▼ もくじ
+0:00 オープニング
+0:10 家の前
+0:39 1cm
+1:11 10cm
+1:51 1m
+2:28 10m
+3:07 100m
+4:39 1km
+5:21 10km
+6:21 100km
+7:00 1,000km
+7:46 巻き戻し
+
+▼ 計算の前提
+・隕石：全部ふつうの石の隕石（密度 3,000kg/m³）。大気に入る速さ 秒速17km、角度45°（どちらも、いちばん起きやすい値）
+・場所：東京23区の西の住宅街。東京駅まで12km、横浜30km、富士山90km、大阪400km、札幌830km とした
+・1m以上：空気の中で割れて広がる・クレーター・爆風・熱・地震・飛び散る土を、Collins ほか（2005）の式で計算
+・1cm・10cm：燃えて減りながら落ちる1つの石として計算（割れることは入れていないので、燃え残りの大きさは目安）
+
+▼ 出典
+・Collins, Melosh &amp; Marcus（2005）Meteoritics &amp; Planetary Science：Earth Impact Effects Program（EIEP）
+・Ceplecha ほか（1998）Space Science Reviews：流星が燃えて減る式
+・国立科学博物館（2020）：習志野隕石（船橋市のアパートの屋根瓦）
+・Jenniskens ほか（2009）Nature：2008 TC3（スーダン・アルマハタ・シッタ隕石）
+・Popova ほか（2013）Science：チェリャビンスクの隕石
+・Glasstone &amp; Dolan（1977）：木造の家がこわれる爆風の強さ
+・Sleep &amp; Zahnle（1998）JGR Planets：岩の蒸気の雲・海の蒸発
+・Marchi ほか（2014）Nature：生まれたばかりの地球に当たった大きな天体
+・Love &amp; Brownlee（1993）Science：地球に降る宇宙のちり
+
+▼ ことわり
+・隕石の大きさ・クレーター・爆風・熱は、Collins ほか（2005）の式などで出した目安です。
+・隕石は全部、家の前に落ちるようにしています。本当は、狙った場所に落ちることはありません。隕石と隕石のあいだの時間も縮めています。
+・主人公は「無敵」で、空にも浮けるとしています（演出です）。最後の巻き戻しも演出です。
+・となりの猫・カラス・郵便ポストは演出です。
+
+#ほんとにやったら #隕石 #流れ星</media:description>
+   <media:community>
+    <media:starRating count="219" average="5.00" min="1" max="5"/>
+    <media:statistics views="28589"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:IK8lZUt8Y7Q</id>
+  <yt:videoId>IK8lZUt8Y7Q</yt:videoId>
+  <yt:channelId>UCNFT05XvM6TOqfHYMys4xgg</yt:channelId>
+  <title>どこでもドアを、マリアナ海溝の底につないでみた</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=IK8lZUt8Y7Q"/>
+  <author>
+   <name>ほんとにやったら</name>
+   <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+  </author>
+  <published>2026-11-17T09:22:27+00:00</published>
+  <updated>2026-11-24T22:24:29+00:00</updated>
+  <media:group>
+   <media:title>どこでもドアを、マリアナ海溝の底につないでみた</media:title>
+   <media:content url="https://www.youtube.com/v/IK8lZUt8Y7Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/IK8lZUt8Y7Q/hqdefault.jpg" width="480" height="360"/>
+   <media:description>家の前の通りにドアを立てて、マリアナ海溝のいちばん深い所（深さ1万920m）につないでみました。
+開けるのは、正午から10分だけ。
+1,112気圧の海の水が、1気圧の町へ飛び出したら、何が起きるのか。
+最初の1秒はスローで、そのあとは夕方まで、家の前から追いかけました。
+
+0:00 家の前
+0:33 ドアを開ける（最初の1秒・スロー）
+2:10 冷たい霧と虹
+2:55 川になる通り
+3:33 ドアの向こう
+4:41 町に落ちた生き物
+5:12 ドアを押す力
+5:37 水につかる町
+6:22 海の側はどれだけ減った？
+6:52 ドアを閉める
+7:24 夕方
+
+■ ことわり
+- 水の速さ・量・温度は、海水の式（TEOS-10）とベルヌーイの式で出した目安です。空気の抵抗や町の形は簡単にしています。
+- 本当は、1万8,000トン分の水圧で扉は開きません。主人公の力で開くことにしています（演出です）。
+- 主人公は「無敵」で、水の勢いや冷たさで傷つかないとしています（演出です）。
+- 最初の1秒は時間をゆっくりにして見せています。水の流れ方・車の飛び方・町の壊れ方・生き物の位置は、見せやすくしています。
+- ドアは「どこでもドア」の仕組みだけを借りた、このチャンネルの自前のデザインです。
+
+■ 主な数字と出典
+- チャレンジャー海淵の深さ：1万920〜1万935m（Greenaway ほか 2021 など）
+- 水圧・密度・温度：TEOS-10（gsw）で計算
+- 水の速さ：ベルヌーイの式から秒速463m（音速の1.35倍）、流れる量は1秒に464トン
+- コンクリートをはつるウォータージェット：1,000〜2,500気圧ほど
+- カイコウオオソコエビ（Hirondellea gigas）：JAMSTEC の調査
+- 計算の詳しい値は、動画の補足の字幕にのせています
+
+#思考実験 #もしも #どこでもドア #マリアナ海溝</media:description>
+   <media:community>
+    <media:starRating count="1615" average="5.00" min="1" max="5"/>
+    <media:statistics views="590796"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:RdW5uEVabWI</id>
+  <yt:videoId>RdW5uEVabWI</yt:videoId>
+  <yt:channelId>UCNFT05XvM6TOqfHYMys4xgg</yt:channelId>
+  <title>もしもマリアナ海溝に飛び込んだら、何時間で底に着く？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=RdW5uEVabWI"/>
+  <author>
+   <name>ほんとにやったら</name>
+   <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+  </author>
+  <published>2026-11-15T09:00:27+00:00</published>
+  <updated>2026-11-24T13:11:27+00:00</updated>
+  <media:group>
+   <media:title>もしもマリアナ海溝に飛び込んだら、何時間で底に着く？</media:title>
+   <media:content url="https://www.youtube.com/v/RdW5uEVabWI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/RdW5uEVabWI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>腰に漬物石を結んで、海のいちばん深い所まで、まっすぐ沈んでみました。
+深さは1万920m。エベレストを沈めても、まだ2,000m余ります。
+光が消え、水圧が増えていくなかで、何に出会い、底まで何時間かかるのか。
+水圧・水温・沈む速さは、すべて計算した値です。
+
+▼ もくじ
+0:00 家の前
+0:33 海の上
+1:05 日の光の届く海
+2:08 たそがれの海
+3:27 真っ暗な海
+5:01 海溝の中
+6:02 海の底
+7:47 家へ
+
+▼ 計算の前提
+・場所：マリアナ海溝のチャレンジャー海淵（北緯11.37°・東経142.59°）。深さは1万920mとした（測り方で1万920〜1万935m）
+・水圧・水の密度・水温：海水の式 TEOS-10 で計算。海の底は1,112気圧。1cm²に約1.1トン。水温は約4,000mの1.5℃がいちばん低く、底は水が押し縮められて2.5℃
+・沈む速さ：体60kg（肺の空気で少し浮く）に漬物石15kgをつるし、足から沈むとした。海面で秒速1.06m、底では水が重くなって秒速0.74m（かかった時間は動画の中で）
+・光：赤い光は深さ10mで3%、20mで0.1%しか残らない。日の光が届くのは約1,000mまで
+
+▼ 出典
+・Greenaway ほか（2021）チャレンジャー海淵の深さ
+・Martini &amp; Haddock（2017）Scientific Reports：深い海の生き物の約76%が光る
+・Charette &amp; Smith（2010）Oceanography：海の平均の深さ 3,682m
+・Yancey ほか（2014）PNAS：魚がすめる深さの限界（約8,200m）
+・西オーストラリア大学・東京海洋大学（2022）：いちばん深い魚の記録 8,336m（伊豆・小笠原海溝）
+・Chiba ほか（2018）Marine Policy：深さ1万898mのレジ袋
+・トリエステ（1960年）：降りるのに4時間47分、約9,000mで窓にひび、底に約20分
+・Kubodera &amp; Mori（2005）、国立科学博物館・NHK（2012）：小笠原沖のダイオウイカ。Nilsson ほか（2012）Current Biology：目の直径 約27cm
+・Jamieson &amp; Vecchione（2020）Marine Biology：ジュウモンジダコのなかま 6,957m
+・Kobayashi ほか（2019）PLOS ONE：カイコウオオソコエビのアルミニウムの膜
+・Glud ほか（2013）Nature Geoscience：海溝の底の泥の細菌
+・ギネス世界記録：スキューバの深さ 332.35m（2014年）
+
+▼ ことわり
+・水圧・水温・沈む速さは、海水の式（TEOS-10）と、簡単な体のモデルで出した目安です。
+・主人公は「無敵」で、水圧や冷たさでつぶれず、息もでき、体の密度も変わらないとしています（演出です）。
+・生き物は、見せるために主人公のそばを通るように描いています。光や色は見せやすくしています。
+・発泡スチロールのカップの縮み方は目安です。
+・懐中電灯を消したときに光る粒は、見せるために多めにしています。
+
+#ほんとにやったら #マリアナ海溝 #深海</media:description>
+   <media:community>
+    <media:starRating count="514" average="5.00" min="1" max="5"/>
+    <media:statistics views="116490"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vvjiEjUgqnI</id>
+  <yt:videoId>vvjiEjUgqnI</yt:videoId>
+  <yt:channelId>UCNFT05XvM6TOqfHYMys4xgg</yt:channelId>
+  <title>もしもブラックホールを作ったら、地球は何分もつ？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vvjiEjUgqnI"/>
+  <author>
+   <name>ほんとにやったら</name>
+   <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+  </author>
+  <published>2026-11-12T09:00:02+00:00</published>
+  <updated>2026-11-19T07:56:45+00:00</updated>
+  <media:group>
+   <media:title>もしもブラックホールを作ったら、地球は何分もつ？</media:title>
+   <media:content url="https://www.youtube.com/v/vvjiEjUgqnI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/vvjiEjUgqnI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>日曜日の朝、家の前でビー玉を1つ投げて、地球と同じ重さにしてみました。
+ビー玉は、そのままブラックホールになります。
+町・東京・日本・地球がどうなるのかを、できた瞬間から1年後まで、計算した数字で追いかけました。
+
+▼ もくじ
+0:00 家の前
+0:27 100万分の1秒
+1:24 1000分の1秒
+2:07 1秒
+2:36 1分
+3:11 地球がつぶれる
+3:51 1日
+4:14 5日
+4:42 1年
+5:19 巻き戻し
+
+▼ 計算の前提
+・地球の重さ：5.972×10²⁴kg。この重さでブラックホールになる大きさ（シュワルツシルト半径）は8.87mm、直径1.77cm。ビー玉（直径約1.7cm）はこれより小さいので、そのままブラックホールになる
+・黒い玉は、家の前の道の上1mに、地面に対して止まった状態でできるとした（家は北緯35.68°・東経139.70°）
+・1m離れた所で引く力：地表の重力の約4.1×10¹³倍（40兆倍）。地表の重力と同じになるのは6,371km先（地球の半径）
+・物が落ちる時間：黒い玉だけに引かれ、止まった所からまっすぐ落ちるとした計算。東京タワー（4.7km）0.018秒、富士山（95km）1.6秒、大阪（400km）14秒
+・地球の中の密度：PREM（Dziewonski &amp; Anderson 1981）。地球全体の動きは、地球を4,000個のつぶに分け、たがいの引力だけで動かした計算
+・恐竜をほろぼした隕石の衝突エネルギー：約4.2×10²³J（TNT火薬100兆トン）
+・ホーキング温度：0.02K。宇宙の背景の温度（宇宙マイクロ波背景放射）2.725Kより冷たいので蒸発しない
+・飲みこむ速さ：エディントン限界（電子による散乱、光に変わる割合10%）
+・月がこわれる距離：ロッシュ限界（液体の月）約2万3,000km
+
+▼ ことわり
+・地面や建物が黒い玉へ落ちる時間は、支える力を無視した単純な計算です。地球全体がつぶれるところも、圧力を考えない計算です。
+・光る玉の大きさ・明るさ、黒い玉が飲みこむ速さは、研究者によって見方が分かれます。目安としての計算です。
+・ビー玉を地球と同じ重さにするところと、主人公が「無敵」で黒い玉に引かれないところは演出です。時間を止めたり、ゆっくり動かしたり、最後に巻き戻したりして見せています。
+・家や町、月の通り道の図の大きさは、見せやすいように描いています。
+・サムネの「ふちが光る黒い玉」は、ブラックホールを1枚で見せるための絵です。動画の中では、吸いこまれた物が光って、黒い玉はほとんど光に包まれて見えます。
+
+#思考実験 #もしも #ブラックホール</media:description>
+   <media:community>
+    <media:starRating count="1238" average="5.00" min="1" max="5"/>
+    <media:statistics views="253936"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:9XtHSu9lON8</id>
+  <yt:videoId>9XtHSu9lON8</yt:videoId>
+  <yt:channelId>UCNFT05XvM6TOqfHYMys4xgg</yt:channelId>
+  <title>**もしも地球の水を一か所に集めたら？ #shorts**</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/9XtHSu9lON8"/>
+  <author>
+   <name>ほんとにやったら</name>
+   <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+  </author>
+  <published>2026-11-11T03:59:27+00:00</published>
+  <updated>2026-11-21T12:34:14+00:00</updated>
+  <media:group>
+   <media:title>**もしも地球の水を一か所に集めたら？ #shorts**</media:title>
+   <media:content url="https://www.youtube.com/v/9XtHSu9lON8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/9XtHSu9lON8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>地球の海・氷・地下水・雲の水を、全部一か所に集めたら。
+家の前の水たまりから始めて、宇宙に浮かぶ水の玉ができるまでを、計算した数字で追いかけました。
+
+▼ 計算の前提
+・地球の水：13億8,600万km³（USGS「How Much Water is There on Earth?」、Shiklomanov 1993 の表）。そのうち海が97%
+・川・湖・沼・地下水など、町の近くの水：地球の水の約1.7%
+・空気の中の水（水蒸気・雲）だけを集めると：直径29kmの玉
+・地球の水を全部集めた玉：直径1,383km（地球の直径の9分の1、体積は782分の1）。札幌〜福岡の直線距離（1,420km）とほぼ同じ
+・海水の3.5%は塩。水だけを取ると塩が海の底に残り、均すと厚さ約60m
+・玉の置き場所：静止衛星の高さ（地上3万5,793km）、赤道の上・東経139.7°。東京から見ると、真南の高さ48.6°に、月の約4倍の大きさで見える
+
+▼ ことわり
+・宇宙の真空では、水の玉の表面は沸いて凍るはずです。動画では凍らせず、液体のまま浮かべました。
+・生き物の体の中の水（1,120km³）は残しました。
+・水を運ぶ流れや、かかる時間は描写のためのものです。地球の水を宇宙へ上げるには、とてつもないエネルギーがいります。
+・海の水がなくなったときの重さの変化（地球の形や月の動きへの影響など）は省いています。
+・海の底の形は、海岸からの距離をもとにした簡単な形で、本物の海底地形ではありません。
+・サムネの「町の上に集まる水の玉」は、集めるようすを1枚で見せるための絵です。
+
+#思考実験 #もしも #地球</media:description>
+   <media:community>
+    <media:starRating count="70" average="5.00" min="1" max="5"/>
+    <media:statistics views="4238"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:RgO_PiplrtY</id>
+  <yt:videoId>RgO_PiplrtY</yt:videoId>
+  <yt:channelId>UCNFT05XvM6TOqfHYMys4xgg</yt:channelId>
+  <title>家の前の穴に飛び込んだら、地球の反対側まで何分？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=RgO_PiplrtY"/>
+  <author>
+   <name>ほんとにやったら</name>
+   <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+  </author>
+  <published>2026-11-10T09:00:16+00:00</published>
+  <updated>2026-11-20T00:26:28+00:00</updated>
+  <media:group>
+   <media:title>家の前の穴に飛び込んだら、地球の反対側まで何分？</media:title>
+   <media:content url="https://www.youtube.com/v/RgO_PiplrtY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/RgO_PiplrtY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>家の前に、地球の中心を通って反対側まで続く穴があったら。
+昼の12時に飛び込むと、何分で、どこに出るのか。
+地殻・マントル・核を通り抜けるまでを、地球の本当の中身の数字で確かめました。
+
+▼ もくじ
+0:00 家の前
+1:16 地殻
+2:35 マントル
+3:49 核
+5:09 上り
+6:16 着いた所
+
+▼ ことわり
+・地球の中の熱（約6,000℃）と圧力（約360万気圧）に負けない穴、真空にできる穴は、今の技術ではつくれません。そういう穴があるとして描いています。落ちる本人も「無敵」としています（演出です）。
+・地球の自転で体が壁に寄る力は、壁の磁石のレールが受け止めるとしました。
+・地球の中の地殻の厚さは場所で変わりますが、計算は標準モデル（PREM）のまま、陸の地殻としています。
+・断面の図や家・穴の大きさは、見せやすいように描いています。深さ・速さ・時刻は計算した値です。
+
+▼ 計算に使った値と出典
+・地球の中の密度：PREM（Dziewonski &amp; Anderson 1981）。半径ごとの重さから重力を出し、0.01秒きざみで落ちる体の動きを計算
+・同じ計算の論文：Klotz, &quot;The gravity tunnel in a non-uniform Earth&quot;, American Journal of Physics 83, 231 (2015)
+・地下鉄の駅でいちばん深いホーム：都営大江戸線 六本木駅 42.3m
+・ムポネン金鉱山（南アフリカ）約4km、コラ超深度掘削坑（ロシア）12,262m（1989年）
+・内核の境目の温度 約5,700℃（Anzellini ほか、Science 340, 464, 2013）
+・中心の圧力 364ギガパスカル（PREM）
+・太平洋プレートの沈み込み 年に約8cm（国土地理院・地震調査研究推進本部）
+・地球の陸地と海岸線の形：Natural Earth
+
+#思考実験 #もしも #地球の反対</media:description>
+   <media:community>
+    <media:starRating count="4958" average="5.00" min="1" max="5"/>
+    <media:statistics views="2145847"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Mnh4gyEcgdY</id>
+  <yt:videoId>Mnh4gyEcgdY</yt:videoId>
+  <yt:channelId>UCNFT05XvM6TOqfHYMys4xgg</yt:channelId>
+  <title>もしも紙を折り続けたら、何回で月に届く？</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Mnh4gyEcgdY"/>
+  <author>
+   <name>ほんとにやったら</name>
+   <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+  </author>
+  <published>2026-11-08T09:00:05+00:00</published>
+  <updated>2026-11-19T08:11:17+00:00</updated>
+  <media:group>
+   <media:title>もしも紙を折り続けたら、何回で月に届く？</media:title>
+   <media:content url="https://www.youtube.com/v/Mnh4gyEcgdY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Mnh4gyEcgdY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>厚さ0.1mmのコピー用紙は、1回折るごとに厚さが2倍になります。
+では、何回折れば月まで届くのか。
+夜7時、机の上の1枚から、部屋・夜の街・雲の上・宇宙を通って、本当の数字で確かめました。
+
+▼ もくじ
+0:00 机の上
+1:13 部屋
+2:01 夜の街
+2:57 雲の上
+3:56 宇宙
+5:03 月へ
+5:36 おわり
+
+▼ ことわり
+・手で折れるのは7回ほどなので、8回目からは「紙はいくらでも大きく、何回でも折れる」としています。本当に1枚の紙で月まで届くほど折るには、長さ約11万光年の紙が要ります（ギャリバンさんの式で計算）。
+・束の重さで机や家がつぶれること、束が倒れること、地球の自転や月の動きは考えていません。主人公は寒さや空気の薄さ、宇宙の真空に困らないとしています。
+・東京タワー・スカイツリー・富士山・宇宙ステーション・月の位置は、見せやすいように並べています。高さや距離は本当の値です。束と月は実際より太く・大きく描き、宇宙ステーションの動きはゆっくりにしています。
+
+▼ 計算に使った値と出典
+・コピー用紙の厚さ：約0.1mm（A4、坪量64〜68g/㎡）
+・紙を折った記録：12回（2002年、ブリトニー・ギャリバンさん。長さ1219mの紙。ギネス世界記録）
+・1円玉の厚さ：1.5mm（造幣局）
+・東京タワー333m、東京スカイツリー634m、富士山3776m
+・宇宙との境目（カーマン・ライン）100km、国際宇宙ステーション 約400km、静止軌道 約3万5786km
+・地球の半径 約6371km、地球から月まで 約38万4400km（平均）
+・高さ13kmの気温と空気：国際標準大気
+・地球の陸地の形：Natural Earth
+
+#思考実験 #もしも #紙を折る</media:description>
+   <media:community>
+    <media:starRating count="369" average="5.00" min="1" max="5"/>
+    <media:statistics views="54550"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:l1dUzth1mdg</id>
+  <yt:videoId>l1dUzth1mdg</yt:videoId>
+  <yt:channelId>UCNFT05XvM6TOqfHYMys4xgg</yt:channelId>
+  <title>もしも斬るたびに重さが2倍になる刀があったら？ #shorts</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/l1dUzth1mdg"/>
+  <author>
+   <name>ほんとにやったら</name>
+   <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+  </author>
+  <published>2026-11-07T15:08:50+00:00</published>
+  <updated>2026-11-20T02:58:11+00:00</updated>
+  <media:group>
+   <media:title>もしも斬るたびに重さが2倍になる刀があったら？ #shorts</media:title>
+   <media:content url="https://www.youtube.com/v/l1dUzth1mdg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/l1dUzth1mdg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>斬るたびに、斬った物の重さが2倍になる刀。
+10kgの斬られ役を斬り続けると、何回目に何が起きるのかを計算しました。
+
+元ネタ：『BLEACH』吉良イヅルの斬魄刀「侘助」（刀の見た目と斬られ役はこのチャンネルのオリジナルです）
+
+【計算の前提】
+・「重さが2倍」は、大きさを変えずに質量が2倍になるとしました。斬られ役ははじめ10kg、頭の直径50cm。
+・20回目：約1万トン（東京タワー約4,000トンの約2.6本ぶん）
+・34回目：1億7000万トン。1m先の引力が地球の重力（9.8m/s²）を超える
+・79回目：地球の質量（5.97×10²⁴kg）を超える
+・84回目：シュヴァルツシルト半径（28.7cm）が頭の半径を超え、ブラックホールになる
+
+【ことわり】
+・10回目からは本当は地面を突き破って沈んでいきますが、動画では地面が抜けないことにしました。
+・8回目には斬られ役の密度がいちばん重い金属（オスミウム）を超え、本当は自分の重さでつぶれます。
+・34回目より前から、主人公には潮汐力がかかり、本当は無事ではいられません。
+・39回目から79回目のあいだに町や地面も引き寄せられますが、動画では省いています。</media:description>
+   <media:community>
+    <media:starRating count="60" average="5.00" min="1" max="5"/>
+    <media:statistics views="3904"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:a8AOmepyIIo</id>
+  <yt:videoId>a8AOmepyIIo</yt:videoId>
+  <yt:channelId>UCNFT05XvM6TOqfHYMys4xgg</yt:channelId>
+  <title>もしもバイバインを、ほんとにやったら</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=a8AOmepyIIo"/>
+  <author>
+   <name>ほんとにやったら</name>
+   <uri>https://www.youtube.com/channel/UCNFT05XvM6TOqfHYMys4xgg</uri>
+  </author>
+  <published>2026-11-06T09:00:08+00:00</published>
+  <updated>2026-11-20T00:25:59+00:00</updated>
+  <media:group>
+   <media:title>もしもバイバインを、ほんとにやったら</media:title>
+   <media:content url="https://www.youtube.com/v/a8AOmepyIIo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/a8AOmepyIIo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>5分ごとに数が2倍になる薬を、栗まんじゅうにかけて、1個だけ食べ残したら。
+午後3時のおやつから、宇宙が埋まるまでを計算どおりに追いかけました。
+
+▼ もくじ
+0:00 はじめ
+0:13 おやつの時間
+1:17 部屋があふれる
+2:05 東京の山
+3:12 地球をのみこむ
+4:15 太陽系
+5:12 星のあいだ
+5:48 宇宙を埋める
+6:25 おわり
+
+▼ ことわり
+・栗まんじゅうは、押しつぶされても増え続け、ブラックホールにもならないとしています。広がる速さが光を超えることも、気にしないことにしています。
+・主人公は、強い重力や空気の薄さに困らず、いつもまんじゅうの表面に乗っていられるとしています。
+・東京タワー・スカイツリー・富士山、宇宙での物の位置（月・太陽・惑星・ボイジャー1号・銀河）は、見せやすいように並べ替えています。距離や高さは本当の値です。国際宇宙ステーションや惑星は、実際より大きく描いています。
+・山は、斜面の角度35°の円すいとして高さを出しています。食べた分は、数から引いていません。
+
+▼ 計算に使った値と出典
+・栗まんじゅう1個：約5cm×4.5cm×3cm、約40g（市販品の表示から）
+・住宅の床が支える目安：1㎡あたり約180kg（建築基準法施行令 第85条）
+・ボイジャー1号の位置：NASA JPL の値から（2026年11月の概算）
+・見える宇宙の半径：約465億光年
+・無量大数：10の68乗（『塵劫記』の数え方）
+・地球の陸地の形：Natural Earth
+
+#ほんとにやったら #思考実験 #バイバイン</media:description>
+   <media:community>
+    <media:starRating count="867" average="5.00" min="1" max="5"/>
+    <media:statistics views="191317"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
